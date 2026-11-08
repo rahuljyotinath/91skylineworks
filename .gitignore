@@ -1,4 +1,5 @@
 node_modules/
+worker/node_modules/
 backend/uploads/
 backend/.env
 dist/
@@ -6,12 +7,13 @@ release/
 .DS_Store
 deploy/php/config.php
 deploy/.deploy.env
+deploy/.cloudflare.env
+deploy/cloudflare-d1-seed.sql
+deploy/.cloudflare-d1-insert.sql
 deploy/.release-manifest.json
 deploy/.ftp-manifest.json
 deploy/files-to-upload.txt
 upload-ftp.sh
 rahul-pic.jpeg
 release.zip
-deploy/ftp-upload.log
-deploy/ftp-upload.log
 deploy/ftp-upload.log

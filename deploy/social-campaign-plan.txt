@@ -1,0 +1,138 @@
+91SkylineWorks Social Campaign — "Building Doctor Guwahati"
+==========================================================
+Organic-only · 90 days · 2–3 hrs/week · copy/paste playbooks in deploy/
+
+Campaign window: 15 Sep 2026 – 14 Mar 2027 (26 weeks: post-monsoon repair → dry-season works → pre-monsoon rush)
+UTM campaign: bdg-q4 (weeks 1–12) · bdg-h1 (weeks 13–26)
+
+Positioning
+-----------
+Tagline: Building Doctor Guwahati
+Hook: Diagnose before you quote
+Proof: NIT engineers · flood test · written diagnosis pack · 48h site visit in Guwahati
+Enemies: single-coat acrylic painters · verbal "all fixed" · plaster over cracks
+Case studies: https://91skylineworks.com/portfolio (6 live)
+Review target: 13 → 30 on Google Maps
+
+Social handles (link in every bio)
+----------------------------------
+Instagram: https://www.instagram.com/91skylineworks
+Facebook:  https://www.facebook.com/91skylineworks
+LinkedIn:  https://www.linkedin.com/company/91skylineworks
+YouTube:   cross-post Reels as Shorts (same file, no extra edit)
+
+Primary CTA (every post)
+------------------------
+WhatsApp: +91 60038 79490
+Book inspection: https://91skylineworks.com/contact#inspection-form
+
+UTM pattern (append to inspection link)
+---------------------------------------
+Instagram Reels:  ?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Facebook Reels:   ?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+LinkedIn:         ?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-q4
+WhatsApp Status:  ?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+YouTube Shorts:   ?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Bio link (Instagram / Facebook): use Instagram UTM on contact page
+
+Channel roles
+-------------
+Instagram + Facebook Reels — reach homeowners 30–55 in Guwahati
+WhatsApp Status + RWA groups — highest conversion, no algorithm
+GBP weekly post (Thu) — reuse same Reel still + caption (see gbp-action-pack.txt)
+LinkedIn (Tue) — builders, architects, society committees, OEM credibility
+YouTube Shorts — cross-post Reels only
+
+90-day arc
+----------
+Month 1 (Sep) — Leak season aftermath
+  Terrace stains, ceiling damp, what your painter hid, flood test proof
+
+Month 2 (Oct) — Cracks and tremors
+  Cosmetic vs structural, NDT, Zone V, column jacketing
+
+Month 3 (Nov–Dec) — Before you buy / before next monsoon
+  Resale flat screening, RWA 3-year plan, warranty, society expansion joints
+
+Extension — Months 4–6 (Weeks 13–26, 2026-12-08 → 2027-03-14, UTM campaign bdg-h1)
+Month 4 (Dec) — Dry-season works window + society AGMs
+  Basement/rising damp, why society jobs fail in 2 years, jacketing, 2026 recap, 2027 calendar
+Month 5 (Jan) — Old building, honest test
+  20+ year checks, rust = corrosion, carbonation, Mumbai audit mandate, Bhuj 26 Jan, soft storey, retrofit options
+Month 6 (Feb–Mar) — Beat the pre-monsoon rush
+  6-week countdown, drains, joints replace/reseal, cool roof, rainwater, quote checklist, warranty, monsoon-ready 7
+
+Content pillars (rotate — see social-content-calendar.csv)
+------------------------------------------------------------
+1. Diagnosis reveals — water entering where painter didn't look
+2. Before/after — flood test → dry ceiling
+3. Myth vs fact — acrylic paint is not waterproofing
+4. Engineer explains (15–30s) — PU vs epoxy, UPV, CFRP
+5. Homeowner checklist — 5 signs terrace will leak again
+6. Social proof — review screenshot, case study link
+7. Local hooks — Beltola, Zoo Road, Six Mile, GS Road, Chandmari, Dispur
+
+On-screen hooks (first 2 seconds)
+---------------------------------
+Your painter called this waterproofing
+This ceiling stain is not a paint problem
+Crack after tremor — cosmetic or structural?
+Flood test before we quote. Every time.
+Buying a resale flat in Beltola? Test this first.
+Standing water on terrace = leak waiting to happen
+We map cracks before we inject — not guess
+
+Weekly routine (2–3 hrs total)
+------------------------------
+Sunday (30 min) — open social-posts-ready.txt Week N block; confirm assets from calendar
+Monday site visit (20 min) — batch shoot per social-shoot-checklist.txt
+Mon/Wed/Fri (15 min each) — paste Reel sections (IG + FB + YT Shorts); 1–2 Stories from STORIES block
+Tuesday (10 min) — paste LinkedIn section from social-posts-ready.txt
+Thursday (10 min) — paste GBP Update section (Wed Reel still as image)
+Saturday (10 min) — paste WhatsApp Status + 1 RWA group message
+Every closed job — review ask from gbp-action-pack.txt
+
+Lead tracking
+-------------
+First reply to every DM/WhatsApp inquiry: "Which platform did you see us on?"
+Log in deploy/competitive-scoreboard.csv (social_inquiries row)
+Ask: flat or society? area? active leak or preventive? timeline?
+
+Related deploy files
+--------------------
+gtm-master-plan.txt           — start here; full GTM status, rhythm, KPIs, file index
+social-posts-ready.txt        — copy/paste posts per week (Reels, LinkedIn, GBP, WhatsApp, Stories)
+social-content-calendar.csv — 26-week schedule
+social-captions.txt           — R01–R78 Reels, LI01–LI26 LinkedIn, WA01–WA26 WhatsApp (source refs)
+social-assets/week-NN/        — ready graphics per week: rNN-* Reel covers (9:16), liNN-* LinkedIn (1:1), gbp-weekNN-* GBP (4:3); weeks 1–4 also story-* cards
+social-shoot-checklist.txt    — 20-min site shot list
+social-dm-scripts.txt         — inquiry → booking, RWA pitch
+gbp-action-pack.txt           — GBP Thu workflow + NAP
+rwa-monsoon-plan.txt          — attach to RWA group broadcasts (weeks 8, 12)
+competitive-scoreboard.csv    — monthly KPI rows
+
+Monthly KPI targets
+-------------------
+Reels published:           12/month (3/week)
+Instagram followers:         +50/month (baseline: count in Meta dashboard)
+Facebook followers:          +30/month
+LinkedIn followers:          +20/month
+WhatsApp inquiries (social): 8+/month
+Inspection bookings (social): 4+/month
+Google reviews:              +3/month toward 30 total
+Site sessions from social:   track in GA4 / Clarity (docs/gtm-setup.md)
+
+Progress tracker (check off monthly)
+------------------------------------
+[ ] Week 1 calendar posts published
+[ ] Bio links updated with UTM contact URL
+[ ] First batch shoot completed on active job site
+[ ] RWA group list built (min 5 Guwahati society groups)
+[ ] Scoreboard social rows updated
+[ ] 12 Reels published in month 1
+[ ] 3+ reviews mentioning social/WhatsApp source
+
+Not in scope (organic campaign)
+-------------------------------
+Paid Meta/Google ads · influencer fees · agency · site code changes

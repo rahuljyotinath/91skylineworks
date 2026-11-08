@@ -9,10 +9,10 @@ Senapati Road, Sahar Sarania 2nd part, Silpukhuri, Guwahati 781003
 +91 60038 79490
 https://91skylineworks.com
 
-Categories
-----------
-Primary: Waterproofing contractor
-Secondary: Structural engineer, Construction company
+Categories (saved 2026-09-13 — select from autocomplete dropdown, do not free-type)
+------------------------------------------------------------------------------------
+Primary: Waterproofing Company
+Secondary: Structural engineer, General Contractor
 
 Services (title + short description for GBP)
 --------------------------------------------
@@ -39,14 +39,17 @@ guwahatiportal.com — local directory if available
 
 Progress tracker (check off in GBP dashboard)
 ---------------------------------------------
-[ ] Primary category set to Waterproofing contractor
-[ ] 7 services added with descriptions
-[ ] 20+ photos uploaded
+[x] Primary category set to Waterproofing Company (2026-09-13)
+[x] Secondary: Structural engineer, General Contractor (2026-09-13)
+[x] Hours Mon–Sat 9–6, Sun closed (2026-09-13)
+[x] 7 services added with descriptions (2026-09-13)
+[x] 20+ photos uploaded (2026-09 — confirm count in dashboard)
 [ ] 15+ reviews in 2026 (current baseline ~13)
-[ ] JustDial listing updated
-[ ] Sulekha listing updated
-[ ] IndiaMART listing updated
-[ ] First weekly post scheduled (monsoon tip + free inspection CTA)
+[x] JustDial listing updated (verify NAP manually — listing exists ~24 reviews)
+[x] Sulekha listing updated
+[x] IndiaMART listing updated
+[x] First weekly post live (monsoon tip + free inspection CTA, 2026-09-13)
+[ ] Thu posts from social-posts-ready.txt (ongoing Sep–Dec)
 
 Competitor benchmarks (Maps — update monthly in deploy/competitive-scoreboard.csv)
 --------------------------------------------------------------------------------
@@ -62,7 +65,21 @@ Week 2: Column crack after tremor? Cosmetic vs structural — we classify before
 Week 3: Society expansion joints — treat before monsoon, not after parking floods
 Week 4: Before you buy a Beltola resale flat — NDT screening + written report
 
+Social campaign (Sep–Dec 2026) — reuse Reel assets on GBP
+---------------------------------------------------------
+Primary playbook: deploy/social-campaign-plan.txt
+12-week calendar: deploy/social-content-calendar.csv (Thu row = GBP post)
+Ready posts: deploy/social-posts-ready.txt (Thu GBP Update block per week — paste as-is)
+Captions: deploy/social-captions.txt (source refs R## / LI## / WA##)
+Shoot on site: deploy/social-shoot-checklist.txt (20 min batch → Reel + GBP still)
+DM replies: deploy/social-dm-scripts.txt
+
+GBP Thursday workflow:
+1. Publish Wed Reel on IG/FB (Mon/Wed/Fri schedule)
+2. Thu GBP post = paste THU block from social-posts-ready.txt Week N + Wed Reel thumbnail
+3. Log inquiries in competitive-scoreboard.csv (social_inquiries row)
+
 Search Console: see deploy/search-console-checklist.txt
-Scoreboard: update deploy/competitive-scoreboard.csv monthly
+Scoreboard: update deploy/competitive-scoreboard.csv monthly (incl. social rows)
 OEM applicator: see deploy/oem-applicator-guide.txt
-RWA one-pager: deploy/rwa-monsoon-plan.txt (share with housing societies)
+RWA one-pager: deploy/rwa-monsoon-plan.txt (share with housing societies + WA08/WA12)

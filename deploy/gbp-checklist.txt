@@ -7,9 +7,9 @@ NAP (must match website exactly)
 - Address: Senapati Road, Sahar Sarania 2nd part, Silpukhuri, Guwahati 781003
 - Phone: +91 60038 79490
 
-Categories
-- Primary: Waterproofing contractor
-- Secondary: Structural engineer, Construction company
+Categories (saved 2026-09-13)
+- Primary: Waterproofing Company
+- Secondary: Structural engineer, General Contractor
 
 Services (add each with description)
 - Terrace waterproofing Guwahati
@@ -50,10 +50,16 @@ Site verification (2026-09-07 — node deploy/verify-gtm.mjs)
 - GBP copy-paste pack: deploy/gbp-action-pack.txt
 - Interactive setup: bash deploy/gtm-setup-wizard.sh
 
-Remaining manual (GBP dashboard)
-- [ ] Primary category → Waterproofing contractor
-- [ ] 7 services with descriptions (copy from gbp-action-pack.txt)
-- [ ] 20+ photos uploaded
+Completed (GBP dashboard — 2026-09-13)
+- [x] Primary category → Waterproofing Company
+- [x] Secondary → Structural engineer, General Contractor
+- [x] Hours Mon–Sat 9–6, Sun closed
+- [x] 7 services with descriptions (gbp-action-pack.txt)
+- [x] 20+ photos uploaded (confirm count in dashboard)
+- [x] Citations: JustDial, Sulekha, IndiaMART
+- [x] First weekly GBP post live
+
+Remaining ongoing
 - [ ] Review asks on every closed job (WhatsApp template in action pack)
-- [ ] Citations: JustDial, Sulekha, IndiaMART
-- [ ] First weekly GBP post scheduled
+- [ ] JustDial NAP verify manually (vendor login — bot-blocked in automation)
+- [ ] Thu GBP posts from social-posts-ready.txt (Sep–Dec)

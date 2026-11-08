@@ -3,8 +3,13 @@
  */
 
 const USGS_BASE = 'https://earthquake.usgs.gov';
-const NE_DAYS = 30;
-export const MIN_EARTHQUAKE_LIST = 5;
+const NE_DAYS = 90;
+const NE_BBOX = {
+  minLat: 22.0,
+  maxLat: 29.8,
+  minLon: 88.0,
+  maxLon: 97.8,
+};
 
 export function buildUsgsNeUrl() {
   const end = new Date().toISOString();
@@ -13,18 +18,26 @@ export function buildUsgsNeUrl() {
     format: 'geojson',
     starttime: start,
     endtime: end,
-    minlatitude: '22.0',
-    maxlatitude: '29.8',
-    minlongitude: '88.0',
-    maxlongitude: '97.8',
+    minlatitude: String(NE_BBOX.minLat),
+    maxlatitude: String(NE_BBOX.maxLat),
+    minlongitude: String(NE_BBOX.minLon),
+    maxlongitude: String(NE_BBOX.maxLon),
     minmagnitude: '2.5',
     orderby: 'time',
   });
   return `${USGS_BASE}/fdsnws/event/1/query?${params.toString()}`;
 }
 
-function buildUsgsGlobalUrl() {
-  return `${USGS_BASE}/earthquakes/feed/v1.0/summary/all_day.geojson`;
+function isInNeBbox(event) {
+  const lat = event?.lat;
+  const lon = event?.lon;
+  if (lat == null || lon == null) return false;
+  return (
+    lat >= NE_BBOX.minLat &&
+    lat <= NE_BBOX.maxLat &&
+    lon >= NE_BBOX.minLon &&
+    lon <= NE_BBOX.maxLon
+  );
 }
 
 function normalizeFeature(feature) {
@@ -45,19 +58,6 @@ function normalizeFeature(feature) {
     lon,
     url: props.url || null,
   };
-}
-
-export function mergeEventsToMinimum(primary, supplemental, minCount) {
-  const seen = new Set(primary.map((e) => e.id));
-  const merged = [...primary];
-  for (const event of supplemental) {
-    if (merged.length >= minCount) break;
-    if (!seen.has(event.id)) {
-      merged.push(event);
-      seen.add(event.id);
-    }
-  }
-  return merged.sort((a, b) => (b.time || 0) - (a.time || 0));
 }
 
 async function fetchUsgsEvents(url) {
@@ -92,21 +92,13 @@ export function formatEventTime(ms) {
   });
 }
 
-export async function fetchNeEarthquakes({ limit = 20, minCount = MIN_EARTHQUAKE_LIST } = {}) {
-  let events = await fetchUsgsEvents(buildUsgsNeUrl());
-
-  if (minCount > 0 && events.length < minCount) {
-    try {
-      const globalEvents = await fetchUsgsEvents(buildUsgsGlobalUrl());
-      events = mergeEventsToMinimum(events, globalEvents, minCount);
-    } catch {
-      // keep regional events only
-    }
-  }
+export async function fetchNeEarthquakes({ limit = 20 } = {}) {
+  const events = (await fetchUsgsEvents(buildUsgsNeUrl())).filter(isInNeBbox);
 
   return {
     events: events.slice(0, limit),
     fetchedAt: Date.now(),
     source: 'USGS',
+    backfilled: false,
   };
 }

@@ -179,14 +179,6 @@
   background: var(--bg-2);
 }
 
-.earthquake-list-note {
-  font-size: 0.72rem;
-  color: var(--muted);
-  padding: 0.5rem 1rem;
-  border-bottom: 1px solid var(--line-solid);
-  line-height: 1.4;
-}
-
 .earthquake-list-body {
   overflow-y: auto;
   flex: 1;

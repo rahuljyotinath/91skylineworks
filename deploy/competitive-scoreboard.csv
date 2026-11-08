@@ -1,7 +1,7 @@
 month,metric,91SkylineWorks,SCS,SS_WaterProofing,Avicon,target,notes
 2026-09,google_reviews,13,32,19,unknown,30,Verified on Google Maps 2026-09-07
-2026-09,gbp_photos,unknown,unknown,unknown,unknown,20,Count in GBP dashboard after upload
-2026-09,gbp_category,Civil_engineering_company,unknown,unknown,unknown,Waterproofing_contractor,Change via gtm-setup-wizard.sh stage 1
+2026-09,gbp_photos,uploaded_2026-09,unknown,unknown,unknown,20,Uploaded 2026-09 — confirm count in GBP dashboard
+2026-09,gbp_category,Waterproofing_Company,unknown,unknown,unknown,done,Saved 2026-09-13: Primary Waterproofing Company + Structural engineer + General Contractor
 2026-09,inspection_bookings,0,unknown,unknown,unknown,track,WhatsApp + form leads
 2026-09,case_studies_live,6,0,0,0,6,Verified via verify-gtm.mjs
 2026-09,site_verification,17/17_pass,unknown,unknown,unknown,17/17,node deploy/verify-gtm.mjs
@@ -9,3 +9,28 @@ month,metric,91SkylineWorks,SCS,SS_WaterProofing,Avicon,target,notes
 2026-09,gsc_waterproofing_guwahati,no_data_yet,unknown,unknown,unknown,monitor,Submit sitemap via gtm-setup-wizard.sh
 2026-09,gsc_building_cracks_guwahati,no_data_yet,unknown,unknown,unknown,monitor,Search Console Performance tab
 2026-09,gsc_retrofitting_guwahati,no_data_yet,unknown,unknown,unknown,monitor,Search Console Performance tab
+2026-09,reels_published,0,unknown,unknown,unknown,12,Count IG+FB Reels from social-content-calendar.csv
+2026-09,instagram_followers,baseline,unknown,unknown,unknown,+50/mo,Meta Business Suite insights
+2026-09,facebook_followers,1400,unknown,unknown,unknown,+30/mo,Meta Business Suite insights
+2026-09,linkedin_followers,baseline,unknown,unknown,unknown,+20/mo,LinkedIn company page
+2026-09,social_inquiries,0,unknown,unknown,unknown,8,WhatsApp/DM — ask platform on first reply
+2026-09,social_inspection_bookings,0,unknown,unknown,unknown,4,Booked from social UTM or self-reported
+2026-09,site_sessions_social,0,unknown,unknown,unknown,monitor,GA4 / Clarity referral traffic
+2026-10,reels_published,0,unknown,unknown,unknown,12,Month 2 — cracks and tremors arc
+2026-10,social_inquiries,0,unknown,unknown,unknown,8,Update monthly
+2026-10,social_inspection_bookings,0,unknown,unknown,unknown,4,Update monthly
+2026-11,reels_published,0,unknown,unknown,unknown,12,Month 3 — resale and RWA arc
+2026-11,social_inquiries,0,unknown,unknown,unknown,8,Update monthly
+2026-11,social_inspection_bookings,0,unknown,unknown,unknown,4,Update monthly
+2026-12,reels_published,0,unknown,unknown,unknown,12,Campaign close — recap R35/R36
+2026-12,social_inquiries,0,unknown,unknown,unknown,8,Update monthly
+2026-12,social_inspection_bookings,0,unknown,unknown,unknown,4,Update monthly
+2027-01,reels_published,0,unknown,unknown,unknown,12,Month 5 — old-building NDT + retrofit arc
+2027-01,social_inquiries,0,unknown,unknown,unknown,8,Update monthly
+2027-01,social_inspection_bookings,0,unknown,unknown,unknown,4,Update monthly
+2027-02,reels_published,0,unknown,unknown,unknown,12,Month 6 — pre-monsoon rush arc
+2027-02,social_inquiries,0,unknown,unknown,unknown,10,Pre-monsoon demand peak
+2027-02,social_inspection_bookings,0,unknown,unknown,unknown,6,Pre-monsoon demand peak
+2027-03,reels_published,0,unknown,unknown,unknown,6,Campaign close week 26 (2027-03-09)
+2027-03,social_inquiries,0,unknown,unknown,unknown,10,Final pre-monsoon push
+2027-03,social_inspection_bookings,0,unknown,unknown,unknown,6,Final pre-monsoon push

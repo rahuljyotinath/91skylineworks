@@ -20,9 +20,9 @@
     "subhead": "Contractors sell solutions. We find the root cause first — like a doctor for your building.",
     "points": [
       { "title": "Inspection first", "body": "Every project starts with a site visit and diagnosis — not an instant quote over WhatsApp." },
-      { "title": "Evidence-based repair", "body": "NDT, moisture mapping, and crack mapping before we recommend PU injection, waterproofing, or retrofitting." },
-      { "title": "Ageing RCC needs monitoring", "body": "Concrete strength and steel protection degrade over decades — especially in Guwahati monsoon. Periodic NDT catches hidden loss before emergency repair." },
-      { "title": "Long-term fix", "body": "We fix the cause, not the symptom. No paint-over-leak patches that fail next monsoon." }
+      { "title": "Test, then repair", "body": "We map cracks and moisture, and if needed run a building strength test (NDT), before we recommend stopping water or strengthening columns." },
+      { "title": "Old concrete needs checking", "body": "Concrete and the steel inside it weaken over decades — especially in Guwahati monsoon. A strength test every few years catches hidden loss before an emergency." },
+      { "title": "Long-term fix", "body": "We fix the cause, not the stain. No paint-over-leak patches that fail next monsoon. We work on concrete homes and flats — not tin sheet roofs." }
     ],
     "ctaLabel": "Book free inspection",
     "ctaHref": "/contact"
@@ -30,7 +30,7 @@
   "hero": {
     "eyebrow": "Building doctor · Guwahati",
     "headline": "Your building has a problem. We find out why.",
-    "subheadline": "Water leaking? Cracks spreading? Damp walls every monsoon? Don't guess — get a proper diagnosis from Guwahati's building rehabilitation specialists.",
+    "subheadline": "Water leaking through a concrete terrace? Cracks in a column? Damp walls every monsoon? Don't guess — get a proper diagnosis. We work on RCC homes and flats in Guwahati, not tin sheet roofs.",
     "primaryCta": { "label": "Book free inspection", "href": "/contact#inspection-form" },
     "secondaryCta": { "label": "What's wrong with my building?", "href": "/problems" }
   },

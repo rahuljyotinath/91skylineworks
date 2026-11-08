@@ -14,6 +14,19 @@ release/      Generated upload folder (gitignored)
 
 ---
 
+## Cloudflare (target production)
+
+MilesWeb PHP hosting is being replaced by **Workers + D1 + R2** + **Email Routing** + **Resend**.
+
+1. Dashboard: `bash deploy/cloudflare-setup-wizard.sh`
+2. Checklist: [deploy/CLOUDFLARE-CUTOVER.md](deploy/CLOUDFLARE-CUTOVER.md)
+3. Deploy: `npm run cf:cutover`
+4. Verify: `npm run cf:verify`
+
+**Form mail while still on MilesWeb:** add `resend_api_key` to server `api/config.php` (see `npm run cf:resend-php` after wizard saves Resend key).
+
+---
+
 ## MilesWeb Shared Hosting (Production)
 
 Build on your Mac, upload static files + PHP to `public_html/`. No Node.js on server.

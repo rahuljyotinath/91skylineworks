@@ -9,11 +9,22 @@ const NE_BBOX = {
   maxLon: 97.8,
 };
 
-const NE_DAYS = 30;
-const MAX_MIN = 20;
+const NE_DAYS = 90;
 
 const cache = new Map();
 const TTL_MS = 5 * 60 * 1000;
+
+function isInNeBbox(event) {
+  const lat = event?.lat;
+  const lon = event?.lon;
+  if (lat == null || lon == null) return false;
+  return (
+    lat >= NE_BBOX.minLat &&
+    lat <= NE_BBOX.maxLat &&
+    lon >= NE_BBOX.minLon &&
+    lon <= NE_BBOX.maxLon
+  );
+}
 
 function buildUsgsUrl(scope) {
   const base = "https://earthquake.usgs.gov";
@@ -65,19 +76,6 @@ function normalizeFeature(feature) {
   };
 }
 
-function mergeEventsToMinimum(primary, supplemental, minCount) {
-  const seen = new Set(primary.map((e) => e.id));
-  const merged = [...primary];
-  for (const event of supplemental) {
-    if (merged.length >= minCount) break;
-    if (!seen.has(event.id)) {
-      merged.push(event);
-      seen.add(event.id);
-    }
-  }
-  return merged.sort((a, b) => (b.time || 0) - (a.time || 0));
-}
-
 async function fetchScopeEvents(scope) {
   const cached = cache.get(scope);
   if (cached && Date.now() - cached.fetchedAt < TTL_MS) {
@@ -97,41 +95,25 @@ async function fetchScopeEvents(scope) {
   }
 
   const data = await response.json();
-  const events = (data.features || [])
+  let events = (data.features || [])
     .map(normalizeFeature)
     .filter(Boolean)
     .sort((a, b) => (b.time || 0) - (a.time || 0));
+
+  if (scope === "ne") {
+    events = events.filter(isInNeBbox);
+  }
 
   const payload = {
     events,
     fetchedAt: Date.now(),
     source: "USGS",
     scope,
+    backfilled: false,
   };
 
   cache.set(scope, payload);
   return payload;
-}
-
-async function applyMinBackfill(payload, min) {
-  if (min <= 0 || payload.scope !== "ne" || payload.events.length >= min) {
-    return { ...payload, backfilled: false };
-  }
-
-  const before = payload.events.length;
-  let globalPayload;
-  try {
-    globalPayload = await fetchScopeEvents("global");
-  } catch {
-    return { ...payload, backfilled: false };
-  }
-
-  const events = mergeEventsToMinimum(payload.events, globalPayload.events, min);
-  return {
-    ...payload,
-    events,
-    backfilled: events.length > before,
-  };
 }
 
 router.get("/", async (req, res) => {
@@ -141,12 +123,9 @@ router.get("/", async (req, res) => {
     return res.status(400).json({ error: "Invalid scope" });
   }
 
-  const min = Math.min(Math.max(parseInt(req.query.min, 10) || 0, 0), MAX_MIN);
-
   try {
     const payload = await fetchScopeEvents(scope);
-    const result = await applyMinBackfill(payload, min);
-    res.json(result);
+    res.json(payload);
   } catch (err) {
     res.status(502).json({ error: err.message });
   }

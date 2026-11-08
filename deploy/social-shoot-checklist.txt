@@ -1,0 +1,85 @@
+Social shoot checklist — 20 min on site
+========================================
+Use on every active job. One shoot feeds Mon/Wed/Fri Reels + Stories + Sat WhatsApp.
+
+Before you leave office
+-----------------------
+[ ] Phone charged (>50%)
+[ ] Lens clean
+[ ] Vertical video mode (9:16)
+[ ] Location services on (optional geo-tag)
+[ ] Client consent line ready (below)
+
+Client consent (say before filming)
+-----------------------------------
+"Hi, we're documenting our work for training and marketing — no names or flat numbers unless you're okay. Is that fine?"
+
+If society/RWA: get committee approval for common-area shots only.
+
+Phone settings
+--------------
+Video: 1080p minimum, 30fps, rear camera
+Photo: HDR on, no flash unless dark basement
+Stabilize: both hands or lean on wall — no shaky walk-and-talk
+Audio (talking-head clips): face camera, reduce wind noise, re-record voiceover indoors if needed
+
+20-minute shot list (check off on site)
+--------------------------------------
+A. Establishing (2 min)
+[ ] Building exterior / society gate (no flat numbers in frame)
+[ ] Team arriving with kit (hard hats if on site)
+
+B. Problem / diagnosis (5 min)
+[ ] Before: stain, crack, ponding water, failed paint peel
+[ ] Close-up: leak path, pipe collar, expansion joint gap
+[ ] Engineer pointing / mapping crack with chalk or marker
+[ ] Wide: terrace with standing water OR damp ceiling below
+
+C. Process (5 min)
+[ ] Flood test water pour (15 sec clip)
+[ ] Membrane roll / injection gun / UPV hammer in action
+[ ] Detail: parapet upturn, drain clearance, joint sealant
+
+D. After / proof (3 min)
+[ ] Dry ceiling / dry terrace after work
+[ ] Side-by-side before/after still (same angle)
+[ ] Written diagnosis pack or warranty doc (blur client name)
+
+E. Talking head (3 min) — founder or site engineer
+[ ] 15–30 sec: "Here's what we found…" (one sentence hook)
+[ ] 15–30 sec: myth-bust or checklist tip
+[ ] Optional: client testimonial (with consent, no surname)
+
+F. Stories extras (2 min)
+[ ] Poll sticker prep: shoot 2 options (e.g. leak yes/no terrace)
+[ ] "Send us your ceiling photo" CTA card (handwritten sign ok)
+
+Minimum deliverables per shoot
+------------------------------
+3 vertical video clips (15–45 sec each)
+5 still photos (before, after, detail, team, wide)
+1 before/after pair (same framing)
+
+File naming (before upload)
+---------------------------
+YYYY-MM-DD_location_clip1.mp4
+Example: 2026-09-15_beltola_flood-test.mp4
+
+Do NOT publish
+--------------
+Client flat numbers, Aadhaar, full phone numbers on documents
+Unsafe work without PPE
+Competitor logos or negative naming (say "single-coat contractor" not brand names)
+
+After shoot (5 min at home)
+---------------------------
+[ ] Pick best 3 clips for week (see social-content-calendar.csv)
+[ ] Trim to <60 sec for Reels
+[ ] Add on-screen hook text in CapCut / Instagram editor (first 2 sec)
+[ ] Queue captions from social-captions.txt (R## refs)
+
+Related files
+-------------
+social-content-calendar.csv — which clip maps to which post
+social-captions.txt — copy/paste text
+social-campaign-plan.txt — weekly routine

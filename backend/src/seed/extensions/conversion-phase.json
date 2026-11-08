@@ -105,8 +105,23 @@
     "headline": "Common questions before you call",
     "items": [
       {
+        "q": "Do you waterproof tin or GI sheet roofs?",
+        "a": "No. We waterproof concrete — RCC terrace slabs, bathrooms, basements, and podiums. Tin, GI, CGI, and asbestos sheet roofs are a different trade. If your leak is on a pucca concrete terrace or through a bathroom slab, we can help.",
+        "link": { "href": "/services/waterproofing", "label": "What we waterproof →" }
+      },
+      {
+        "q": "What is retrofitting — and do I need it?",
+        "a": "Retrofitting means making the columns and beams you already have stronger so they survive the next tremor. Guwahati is Zone V. Call us if a crack runs through a column, comes back after paint, or appeared after a tremor — not for a hairline crack in plaster between rooms.",
+        "link": { "href": "/services/retrofitting", "label": "When to strengthen →" }
+      },
+      {
+        "q": "Why test a building before buying or repairing?",
+        "a": "Paint hides hollow or weak concrete. A building strength test is an X-ray for columns without breaking them open (NDT). Get it before you sign a resale deal, and before you spend on strengthening — so the repair matches the actual weakness. It is not a substitute for repair.",
+        "link": { "href": "/services/ndt", "label": "Building strength test →" }
+      },
+      {
         "q": "How much does waterproofing cost?",
-        "a": "Depends on area size, leak severity, and whether terrace, bathroom, or basement. A typical Guwahati flat terrace starts around ₹80–150 per sq ft for proper membrane work — but we quote after inspection, not over the phone. Free site visit first.",
+        "a": "Depends on area, leak severity, and whether it is a concrete terrace, bathroom, or basement. A typical Guwahati RCC terrace starts around ₹80–150 per sq ft for proper membrane work — we quote after inspection, not over the phone. Free site visit first. Not for tin roofs.",
         "link": { "href": "/services/waterproofing", "label": "Waterproofing services →" }
       },
       {
@@ -116,7 +131,7 @@
       },
       {
         "q": "Do you work during monsoon season?",
-        "a": "Yes — monsoon is when most Guwahati homeowners notice leaks. Emergency leak-stopping (PU injection, temporary sealing) can be done during rain. Full terrace waterproofing is usually scheduled between showers or in dry windows so the membrane bonds properly.",
+        "a": "Yes — monsoon is when most Guwahati homeowners notice leaks. Emergency leak-stopping (PU injection) can be done during rain. Full concrete-terrace waterproofing is usually scheduled between showers so the membrane bonds properly.",
         "link": { "href": "/problems/terrace-roof-leakage", "label": "Terrace leak guide →" }
       }
     ]

@@ -1,0 +1,2760 @@
+Ready-to-publish social posts — copy/paste per platform
+================================================================
+Campaign: Building Doctor Guwahati · Sep–Dec 2026
+WhatsApp: +91 60038 79490
+Inspection base: https://91skylineworks.com/contact#inspection-form
+
+How to use
+----------
+1. Open the WEEK block for current week (see social-content-calendar.csv)
+2. Paste each section into the platform named (IG/FB/YT share Reel file; links differ)
+3. Thu GBP: paste THU block at GBP Updates URL below each Thu section
+4. Stories: post 1–2 slides daily Mon–Sun from STORIES block
+5. After CTA replies → deploy/social-dm-scripts.txt
+
+Related: social-content-calendar.csv · social-captions.txt · social-shoot-checklist.txt
+
+Ready graphics (Month 1, Weeks 1–4): deploy/social-assets/week-0N/
+  Naming: r##-*  9:16 Reel cover (Mon/Wed/Fri) · story-*  9:16 Story card ·
+          gbp-week#-*  4:3 Thu GBP image · li##-*  1:1 Tue LinkedIn image
+  week-01  r01 painter / r02 flood test / r03 beltola stat · story poll+myth+cta · gbp terrace leak · li01 acrylic diagram
+  week-02  r04 standing water / r05 pipe collar / r06 chandmari stat · story poll+myth · gbp 5 signs · li02 PU vs epoxy
+  week-03  r07 bathroom membrane / r08 slope / r09 zoo road stat · story poll+3 slots cta · gbp acrylic failed · li03 diagnosis pack
+  week-04  r10 parapet upturn / r11 gs road stat / r12 leak path 20 min · story poll+society cta · gbp expansion joints · li04 six case studies
+  Story poll cards: empty lower half — drop the IG poll sticker there. CTA cards: add link sticker under the amber button.
+Video: no generated video — shoot per social-shoot-checklist.txt, or build a photo Reel
+(hook card → 3 project stills from frontend/public/images/projects/{slug}/ → stat card, 3s each).
+Note: background scenes on hook/GBP cards are illustrative renders, not our sites — do not caption them as our work.
+
+
+========================================================================
+WEEK 1 · starts 2026-09-15
+========================================================================
+
+MON · 2026-09-15 · Reels (IG + FB + YT Shorts) · R01
+On-screen: Your painter called this waterproofing
+Caption:
+That ceiling stain? Often not where the painter patched. We trace the leak path first — pipe collars, slope pockets, failed acrylic — before quoting.
+
+Diagnose before you quote. Free site inspection in Guwahati — 48h visit.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: terrace stain + probe point
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-09-16 · LinkedIn · LI01
+Post:
+Single-coat acrylic is not a waterproofing system — especially on Guwahati terraces with slope and parapet issues.
+
+At 91Skylineworks we issue a written diagnosis pack before quoting: leak path mapping, drain condition, joint status, then membrane or injection scope.
+
+Free site inspection · Guwahati · 48h scheduling
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-q4
+
+#Construction #Waterproofing #Guwahati #StructuralEngineering
+
+----------------------------------------
+
+WED · 2026-09-17 · Reels (IG + FB + YT Shorts) · R02
+On-screen: Flood test before we quote. Every time.
+Caption:
+We flood-test terraces before handover — not acrylic over ponding water. Standing water finds every weak point. If it leaks in test, we fix before you pay for cosmetic work.
+
+NIT engineers · written diagnosis pack · Guwahati
+
+Book inspection | WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch: flood test pour + dry ceiling
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-09-18 · GBP Update · (from R02)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Terrace leak after first rain? We flood-test every terrace job before handover — not acrylic over ponding water. Standing water finds every weak point.
+
+Free site inspection in Guwahati · 48h visit · NIT engineers · written diagnosis pack.
+
+Call 60038 79490 or book online at 91skylineworks.com
+
+Chars: 294 (limit 1500)
+Asset: Wed Reel thumbnail / still (R02)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-09-19 · Reels (IG + FB + YT Shorts) · R03
+On-screen: Beltola — zero leak complaints post-monsoon 2024
+Caption:
+48-unit society, Beltola. Three monsoons of ceiling stains. Previous single-coat failed. We corrected slope, double-coat membrane, parapet detail, flood test.
+
+Full case study: https://91skylineworks.com/portfolio/beltola-residential-tower
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: beltola hero still
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-09-20 · WhatsApp Status · WA01
+Status text:
+Ceiling stain after rain? 📸 Send us a photo.
+Free inspection Guwahati · 48h visit
+60038 79490 | 91skylineworks.com/contact
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll sticker: "Leak after first rain?" → Yes / Not yet
+2. B-roll: terrace stain close-up · text overlay "DM us your ceiling photo"
+3. Quiz: "Acrylic paint = waterproofing?" → False · swipe up for diagnosis
+4. CTA slide: Free inspection · 48h · WhatsApp 60038 79490 · link sticker to contact form
+5. Preview: Fri Beltola case study still · "Zero leak complaints post-monsoon"
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 2 · starts 2026-09-22
+========================================================================
+
+MON · 2026-09-22 · Reels (IG + FB + YT Shorts) · R04
+On-screen: Standing water = leak waiting to happen
+Caption:
+If water sits on your terrace after rain, membrane or slope has failed. Painting over it hides the problem until the flat below gets damp again.
+
+Free inspection · we map drains and slope · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: ponding water on terrace
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-09-23 · LinkedIn · LI02
+Post:
+PU injection stops active water ingress. Epoxy injection restores strength in dry cracks. CFRP when section capacity is deficient.
+
+Using the wrong method wastes budget and fails again next monsoon. We classify first — NDT when structural doubt exists.
+
+Case studies: https://91skylineworks.com/portfolio
+
+#Construction #StructuralEngineering #Guwahati
+
+----------------------------------------
+
+WED · 2026-09-24 · Reels (IG + FB + YT Shorts) · R05
+On-screen: Leak was here — not where stain shows
+Caption:
+Inter-floor seepage often enters at pipe penetrations and slab joints — not the middle of the ceiling. We map first, inject or membrane second.
+
+Chandmari-style jobs: mapping before PU injection.
+
+Book inspection
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: pipe penetration close-up
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-09-25 · GBP Update · (from R05)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+5 signs your terrace will leak again: standing water after rain, stains near pipe collars, failed acrylic peel, blocked drains, no parapet upturn.
+
+We map the leak path before quoting — not where the stain shows on the ceiling below.
+
+Free inspection Guwahati · 48h visit · Call 60038 79490
+
+Chars: 290 (limit 1500)
+Asset: Wed Reel thumbnail / still (R05)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-09-26 · Reels (IG + FB + YT Shorts) · R06
+On-screen: 12 flats — dry ceilings through monsoon
+Caption:
+Chandmari apartment complex: active slab joint leaks, 12 flats affected. Crack mapping → PU injection → expansion joint reseal → bathroom membrane at worst units.
+
+Case study: https://91skylineworks.com/portfolio/chandmari-apartment-complex
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: chandmari before/after
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-09-27 · WhatsApp Status · WA02
+Status text:
+⭐ Another 5-star review — thank you [client first name]!
+Terrace waterproofing · [Area]
+You helped a neighbour find us 🙏
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Water sits on terrace after rain?" → Yes / No
+2. B-roll: ponding water on terrace · "Standing water = leak waiting"
+3. Myth slide: "Stain location = leak location" → FALSE · pipe collars matter
+4. CTA: Map drains + slope · free inspection · 60038 79490
+5. Preview: Chandmari 12 flats dry · case study Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 3 · starts 2026-09-29
+========================================================================
+
+MON · 2026-09-29 · Reels (IG + FB + YT Shorts) · R07
+On-screen: Bathroom leak? Membrane BEFORE tiles
+Caption:
+Seepage into the flat below usually means no waterproof membrane under tiles — or failed joint at bath trap. We treat before retiling, not after another stain.
+
+Free inspection Guwahati · 48h visit
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: bathroom before tiles
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-09-30 · LinkedIn · LI03
+Post:
+"We'll quote after visit" is not enough for housing committees.
+
+Our diagnosis pack gives RWAs: photo log, priority list (active leak vs preventive), phased scope options, warranty terms per wing.
+
+Society walk-throughs — Guwahati — +91 60038 79490
+
+#PropertyManagement #Guwahati #Waterproofing
+
+----------------------------------------
+
+WED · 2026-10-01 · Reels (IG + FB + YT Shorts) · R08
+On-screen: Why slope matters more than paint
+Caption:
+Terrace waterproofing fails when water pools away from drains. Screed correction + membrane + parapet upturn — that's system work, not one-coat acrylic.
+
+Engineers from NIT Silchar · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: screed / drain direction
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-10-02 · GBP Update · (from R08)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Single-coat acrylic failed again? Terrace waterproofing needs slope correction, membrane system, and parapet detail — not paint over ponding water.
+
+Engineers from NIT Silchar · diagnosis pack before quote · Guwahati.
+
+Book free 48h visit · 60038 79490
+
+Chars: 252 (limit 1500)
+Asset: Wed Reel thumbnail / still (R08)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-10-03 · Reels (IG + FB + YT Shorts) · R09
+On-screen: Zoo Road hotel — guest leak complaints stopped
+Caption:
+Top-floor guest rooms, leak every monsoon, bad reviews. Phased terrace PU by wing, drain redesign, night work on occupied floors. Zero leak tickets post-monsoon.
+
+Portfolio: https://91skylineworks.com/portfolio/zoo-road-hotel-terrace
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: zoo road
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-10-04 · WhatsApp Status · WA03
+Status text:
+This week: 3 free inspection slots left (Guwahati)
+Terrace · bathroom · cracks
+Reply BOOK + your area
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Bathroom seepage to flat below?" → Yes / Checking
+2. B-roll: membrane before tiles · "Treat before retiling"
+3. Question sticker: "What failed on your terrace?" · open replies
+4. CTA: 3 free inspection slots this week · Reply BOOK + area
+5. Preview: Zoo Road hotel · zero guest leak tickets
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 4 · starts 2026-10-06
+========================================================================
+
+MON · 2026-10-06 · Reels (IG + FB + YT Shorts) · R10
+On-screen: Detail painters skip: parapet upturn
+Caption:
+Water travels sideways under parapet walls. Upturn membrane + penetration seals — standard in our spec, often skipped in cheap quotes.
+
+Diagnosis pack before quote · Guwahati
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: parapet membrane detail
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-10-07 · LinkedIn · LI04
+Post:
+Six project case studies now live — terrace, seepage, columns, parking, hotel, retrofit.
+
+Each documents challenge → engineer solution → measurable outcome (dry ceilings, structural clearance, zero guest complaints).
+
+Portfolio: https://91skylineworks.com/portfolio
+
+#Construction #CaseStudy #Guwahati
+
+----------------------------------------
+
+WED · 2026-10-08 · Reels (IG + FB + YT Shorts) · R11
+On-screen: GS Road — dry parking through monsoon
+Caption:
+Stilt parking flooding from podium expansion joints. Flood test → joint sealant → podium coating. Society scheduled 3-year joint maintenance.
+
+Case study: https://91skylineworks.com/portfolio/gs-road-commercial-block
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: gs road
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-10-09 · GBP Update · (from R11)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Society expansion joints before parking floods — podium joints open over time. Sealant life is 5–7 years, not fix-once-forever.
+
+GS Road commercial: flood test, joint sealant, podium coating, dry parking through monsoon.
+
+Free committee walk-through · 60038 79490
+
+Chars: 263 (limit 1500)
+Asset: Wed Reel thumbnail / still (R11)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-10-10 · Reels (IG + FB + YT Shorts) · R12
+On-screen: We found the leak path in 20 minutes
+Caption:
+Homeowners call after 2–3 failed contractor visits. Our first visit: walk terrace + affected ceiling + written map. Then quote — not before.
+
+Building Doctor Guwahati · free inspection
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch: team mapping on terrace
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-10-11 · WhatsApp Status · WA04
+Status text:
+🏢 Society MC members —
+Free common-area walk-through (terrace + podium joints)
+Reply SOCIETY + society name
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Parapet detail in your last quote?" → Yes / What's that?
+2. B-roll: parapet upturn membrane · detail painters skip this
+3. Countdown: "6 case studies live" · swipe portfolio
+4. CTA: Society walk-through offer · Reply SOCIETY
+5. Preview: "We found leak path in 20 min" · Fri Reel
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 5 · starts 2026-10-13
+========================================================================
+
+MON · 2026-10-13 · Reels (IG + FB + YT Shorts) · R13
+On-screen: Crack after tremor — cosmetic or structural?
+Caption:
+Not every crack needs CFRP. Hairline plaster ≠ through-column crack. We classify before quoting — UPV/rebound hammer when needed.
+
+Zone V Guwahati · engineers on site
+
+Book inspection
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: crack with ruler / map
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-10-14 · LinkedIn · LI05
+Post:
+Guwahati sits in Zone V. Tremor-related column cracks need classification — cosmetic plaster vs structural member distress.
+
+We combine crack mapping, UPV/rebound hammer screening, and repair design (epoxy, CFRP, jacketing) in one contract.
+
+NDT services: https://91skylineworks.com
+
+#StructuralEngineering #ZoneV #Guwahati
+
+----------------------------------------
+
+WED · 2026-10-15 · Reels (IG + FB + YT Shorts) · R14
+On-screen: Don't plaster over this
+Caption:
+Diagonal cracks on columns after tremors need mapping — not cosmetic putty. We separate monitor-only vs inject vs wrap.
+
+Dispur office case: structural clearance after repair.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: crack classification clip
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-10-16 · GBP Update · (from R14)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Column crack after tremor? Not every crack needs CFRP. Hairline plaster is not the same as a through-column crack.
+
+We classify before quoting — UPV and rebound hammer when structural doubt exists. Zone V Guwahati.
+
+Free classification visit · Call 60038 79490
+
+Chars: 260 (limit 1500)
+Asset: Wed Reel thumbnail / still (R14)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-10-17 · Reels (IG + FB + YT Shorts) · R15
+On-screen: Dispur govt block — structural clearance
+Caption:
+Multiple column cracks after tremors. NDT screening → epoxy injection → CFRP on critical members → audit clearance for continued occupancy.
+
+Full story: https://91skylineworks.com/portfolio/dispur-government-office
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: dispur
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-10-18 · WhatsApp Status · WA05
+Status text:
+Crack after tremor? Send photo — we'll say cosmetic vs structural (free first look)
+60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Crack after tremor?" → Yes / No
+2. B-roll: crack with ruler · cosmetic vs structural
+3. Quiz: "Hairline plaster crack = structural?" → Not always
+4. CTA: Send crack photo · free first look · 60038 79490
+5. Preview: Dispur structural clearance · Fri case study
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 6 · starts 2026-10-20
+========================================================================
+
+MON · 2026-10-20 · Reels (IG + FB + YT Shorts) · R16
+On-screen: UPV test — know strength before you renovate
+Caption:
+Buying or renovating? Rebound hammer + UPV screening shows honeycomb and weak concrete — before you rip tiles or add load.
+
+NDT report · Guwahati · 91Skylineworks
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: NDT hammer on column
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-10-21 · LinkedIn · LI06
+Post:
+CFRP column wrap strengthened a Noonmati walk-up without steel bulk or tenant eviction — post-repair UPV met agreed targets.
+
+Alternative steel jacket quotes were rejected for space and appearance. Engineering-led retrofit for homeowners, not just institutions.
+
+Full case: https://91skylineworks.com/portfolio/noonmati-housing-retrofit
+
+#Retrofitting #CFRP #Guwahati
+
+----------------------------------------
+
+WED · 2026-10-22 · Reels (IG + FB + YT Shorts) · R17
+On-screen: Noonmati — honeycomb columns strengthened
+Caption:
+1990s walk-up, low UPV on ground columns. Micro concreting + CFRP wrap — no bulky steel jackets, no eviction. Re-test after cure.
+
+Case study: https://91skylineworks.com/portfolio/noonmati-housing-retrofit
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: noonmati
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-10-23 · GBP Update · (from R17)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+NDT before you buy or renovate — rebound hammer and UPV screening flags honeycomb and weak concrete before you add load or rip tiles.
+
+Noonmati case: CFRP wrap strengthened columns without bulky steel jackets.
+
+Book screening · 60038 79490 · 91skylineworks.com
+
+Chars: 260 (limit 1500)
+Asset: Wed Reel thumbnail / still (R17)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-10-24 · Reels (IG + FB + YT Shorts) · R18
+On-screen: Not every crack needs CFRP
+Caption:
+Honest diagnosis saves budget. Epoxy for dry structural cracks. PU for active leaks. CFRP only when capacity demands it.
+
+We write it down before you spend.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: epoxy injection clip
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-10-25 · WhatsApp Status · WA06
+Status text:
+Voice note from happy client 🎧
+"[Short quote from testimonial]"
+Need similar work? WhatsApp us
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Renovating without strength test?" → Yes / No
+2. B-roll: UPV hammer on column · 60 sec explainer
+3. Myth: "New flat = safe concrete" → test first
+4. CTA: NDT screening · written report · book link
+5. Preview: Noonmati CFRP · no eviction needed
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 7 · starts 2026-10-27
+========================================================================
+
+MON · 2026-10-27 · Reels (IG + FB + YT Shorts) · R19
+On-screen: PU for active leaks · Epoxy for dry cracks
+Caption:
+PU expands with water — stops active ingress. Epoxy bonds concrete — restores strength in dry cracks. Many jobs need both, in order.
+
+Engineer-led · Guwahati
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: injection gun close-up
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-10-28 · LinkedIn · LI07
+Post:
+Fragmented vendors = test consultant + waterproof contractor + injection team. Handoff delays and blame gaps.
+
+91Skylineworks: diagnose, waterproof, inject, retrofit — one photo log, one warranty conversation.
+
+Guwahati · contact@91skylineworks.com · 60038 79490
+
+#Construction #Engineering #Guwahati
+
+----------------------------------------
+
+WED · 2026-10-29 · Reels (IG + FB + YT Shorts) · R20
+On-screen: Crack mapping before injection
+Caption:
+Injecting blind is guessing. We mark crack pattern, width, movement — then choose PU, epoxy, or monitor. Photo log for your records.
+
+Building Doctor Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: marked crack grid
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-10-30 · GBP Update · (from R20)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+We classify cracks before quoting — injecting blind is guessing. We mark crack pattern, width, and movement, then choose PU, epoxy, or monitor-only.
+
+Photo log included for your records. Building Doctor Guwahati.
+
+Book visit · 60038 79490
+
+Chars: 238 (limit 1500)
+Asset: Wed Reel thumbnail / still (R20)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-10-31 · Reels (IG + FB + YT Shorts) · R21
+On-screen: Six Mile school — retrofit during break
+Caption:
+1998 block, seismic screening + column jacketing scheduled in summer break. Minimal disruption, NDT before and after.
+
+Institutional · Guwahati · 91Skylineworks
+
+Portfolio: https://91skylineworks.com/portfolio/six-mile-school-campus
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: case study: six mile
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-11-01 · WhatsApp Status · WA07
+Status text:
+Before hiring waterproofing — ask:
+1) Flood test included?
+2) Written diagnosis?
+3) Photo log?
+We say yes to all three.
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "PU or epoxy for your crack?" → PU / Epoxy / Not sure
+2. B-roll: injection gun · crack mapping grid
+3. Checklist slide: 3 questions before hiring waterproofing
+4. CTA: One vendor · diagnose + waterproof + inject · 60038 79490
+5. Preview: Six Mile school retrofit · summer break schedule
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 8 · starts 2026-11-03
+========================================================================
+
+MON · 2026-11-03 · Reels (IG + FB + YT Shorts) · R22
+On-screen: 5 signs crack is structural
+Caption:
+1) Width > 3mm 2) Diagonal on column/beam 3) Growing after tremor 4) Rust stain 5) Hollow sound on tap. Send us a photo — we'll classify.
+
+Free first look · WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: talking head 30s
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-11-04 · LinkedIn · LI08
+Post:
+Monsoon planning for housing societies — our 3-year framework:
+
+Year 1: Diagnose & stop active leaks (terrace, podium joints)
+Year 2: System upgrade on worst wings (membrane, joints)
+Year 3: Preventive annual inspection before May
+
+Free committee walk-through. Reply for one-pager.
+
+#PropertyManagement #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2026-11-05 · Reels (IG + FB + YT Shorts) · R23
+On-screen: Treat expansion joints BEFORE monsoon
+Caption:
+Society parking floods when podium joints open. Sealant has 5–7 year life — not "fix once forever." Year 1 diagnose, Year 2 upgrade.
+
+RWA plan: ask us for society walk-through
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: batch: joint sealant work
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-11-06 · GBP Update · (from R23)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Society expansion joints before parking floods — treat podium joints before next monsoon, not after tenants complain.
+
+Our 3-year RWA framework: Year 1 diagnose, Year 2 upgrade, Year 3 prevent.
+
+Free committee inspection · 60038 79490
+
+Chars: 234 (limit 1500)
+Asset: Wed Reel thumbnail / still (R23)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-11-07 · Reels (IG + FB + YT Shorts) · R24
+On-screen: Podium waterproofing — dry parking
+Caption:
+Expansion joints + podium coating + ramp detail. Tenants stay open — we phase by weekend blocks.
+
+GS Road–style commercial · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch or gs road B-roll
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-11-08 · WhatsApp Status · WA08
+Status text:
+Nov society inspections open — expansion joints + terrace drains
+Attach: rwa-monsoon-plan summary
+Reply for PDF
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Society parking flooded last monsoon?" → Yes / No
+2. B-roll: expansion joint sealant work
+3. 3-year plan slide: Y1 diagnose · Y2 upgrade · Y3 prevent
+4. CTA: Free Nov society walk-through · Reply SOCIETY
+5. Preview: Podium waterproofing · dry parking Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 9 · starts 2026-11-10
+========================================================================
+
+MON · 2026-11-10 · Reels (IG + FB + YT Shorts) · R25
+On-screen: Buying resale in Guwahati? Test first
+Caption:
+"New" listing ≠ safe structure. Honeycomb, weak columns, hidden seepage — NDT + terrace check before token money.
+
+Written report · engineer-led
+
+Book inspection
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: talking head + checklist graphic
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-11-11 · LinkedIn · LI09
+Post:
+Pre-purchase due diligence for Guwahati resale flats: terrace risk, bathroom seepage indicators, column crack screening, spot NDT.
+
+A "new" listing tag does not prove earthquake-safe construction. Written report before token.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-q4
+
+#RealEstate #NDT #Guwahati
+
+----------------------------------------
+
+WED · 2026-11-12 · Reels (IG + FB + YT Shorts) · R26
+On-screen: Rebound hammer in 60 seconds
+Caption:
+Quick screening tool — not a full audit, but flags weak zones before you renovate. Part of our pre-purchase pack.
+
+NDT · Guwahati · 91Skylineworks
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: NDT on site
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-11-13 · GBP Update · (from R26)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Before you buy a Beltola resale flat — terrace flood risk, bathroom seepage signs, column cracks, spot NDT. A "new" listing tag does not prove safe structure.
+
+Written engineer report before token money.
+
+Book NDT screening · 60038 79490
+
+Chars: 237 (limit 1500)
+Asset: Wed Reel thumbnail / still (R26)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-11-14 · Reels (IG + FB + YT Shorts) · R27
+On-screen: Beltola resale — what we test
+Caption:
+Terrace flood risk, bathroom seepage signs, column cracks, UPV spot checks. One visit, written summary for buyers.
+
+Case ref: https://91skylineworks.com/portfolio/beltola-residential-tower
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers
+Asset: case study + checklist
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-11-15 · WhatsApp Status · WA09
+Status text:
+Buying resale flat? 3 tests before token:
+Terrace · seepage signs · column/NDT spot check
+Book: 60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Buying resale flat in Guwahati?" → Yes / No
+2. B-roll: rebound hammer · pre-purchase checklist
+3. Quiz: "New listing tag = earthquake safe?" → False
+4. CTA: 3 tests before token · terrace · seepage · NDT · 60038 79490
+5. Preview: Beltola resale · what we test Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 10 · starts 2026-11-17
+========================================================================
+
+MON · 2026-11-17 · Reels (IG + FB + YT Shorts) · R28
+On-screen: New building ≠ earthquake safe
+Caption:
+Codes exist — execution varies. 10-year flats can have honeycomb and rushed curing. Test before you trust the listing tag.
+
+Zone V · Guwahati · NIT engineers
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: talking head 30s
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-11-18 · LinkedIn · LI10
+Post:
+Handover includes photo log + written warranty — not verbal "all fixed."
+
+Committees and homeowners use our documentation for maintenance calendars and resale value.
+
+Building Doctor Guwahati — 91Skylineworks
+
+https://91skylineworks.com
+
+#Construction #Quality #Guwahati
+
+----------------------------------------
+
+WED · 2026-11-19 · Reels (IG + FB + YT Shorts) · R29
+On-screen: How our 48h inspection works
+Caption:
+1) You WhatsApp or form 2) We confirm slot 3) Engineer visits 4) Photos + map 5) Diagnosis summary — then quote if you want scope.
+
+Mon–Sat 9–6 · Guwahati city
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch: team arriving / measuring
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-11-20 · GBP Update · (from R29)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Book free inspection — 48h Guwahati. How it works: WhatsApp or form → confirm slot → engineer visit → photos and map → diagnosis summary → quote if you want scope.
+
+Mon–Sat 9–6 · Building Doctor Guwahati
+
+60038 79490 · 91skylineworks.com/contact
+
+Chars: 245 (limit 1500)
+Asset: Wed Reel thumbnail / still (R29)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-11-21 · Reels (IG + FB + YT Shorts) · R30
+On-screen: "Value for money with best quality"
+Caption:
+Real Google reviews from Guwahati homeowners. Mention your area + work type when you review — helps neighbours find us.
+
+Had work done? We'd appreciate a review.
+
+Thank you 🙏
+
+Hashtags: #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #91Skylineworks #Guwahati #CustomerReview #Trust
+Asset: review screenshot reel
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-11-22 · WhatsApp Status · WA10
+Status text:
+Happy with our work? Google review helps Guwahati neighbours find us 🙏
+[Insert GBP review link]
+Mention area + work type
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Got written warranty on last repair?" → Yes / No
+2. B-roll: team arriving · 48h visit walkthrough
+3. Social proof: review screenshot blur · thank you client
+4. CTA: Book inspection · Mon–Sat 9–6 · contact form link
+5. Preview: Google review Reel · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 11 · starts 2026-11-24
+========================================================================
+
+MON · 2026-11-24 · Reels (IG + FB + YT Shorts) · R31
+On-screen: Fix terrace BEFORE next monsoon
+Caption:
+Nov–Dec is the window — dry weather, easier access, beat the March rush. Drain check, joint inspect, membrane where failed.
+
+Free walk-through · societies welcome
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: checklist B-roll
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-11-25 · LinkedIn · LI11
+Post:
+Pursuing authorised applicator status with Fosroc and Sika — same chemical brands cited by leading Guwahati applicators, with our diagnosis-first homeowner process.
+
+Engineer-led execution · Guwahati · NE India
+
+#Construction #Waterproofing #Assam
+
+----------------------------------------
+
+WED · 2026-11-26 · Reels (IG + FB + YT Shorts) · R32
+On-screen: Dry home for guests — fix leaks now
+Caption:
+Don't wait for next stain. Terrace, bathroom, column cracks — inspect now, schedule work before holiday guests.
+
+48h visit · Guwahati
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: before/after montage
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-11-27 · GBP Update · (from R32)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Fix leaks before guests arrive — Nov–Dec is the window for terrace, bathroom, and crack work. Dry weather, easier access, beat the March rush.
+
+48h site visit · written diagnosis · Guwahati city.
+
+Book now · Call 60038 79490
+
+Chars: 224 (limit 1500)
+Asset: Wed Reel thumbnail / still (R32)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-11-28 · Reels (IG + FB + YT Shorts) · R33
+On-screen: Guwahati is Zone V — 60 sec
+Caption:
+Higher seismic design demand. Cracks after tremors deserve engineer classification — not painter putty. Retrofit options: epoxy, CFRP, jacketing.
+
+91Skylineworks · Building Doctor
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: map + talking head
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-11-29 · WhatsApp Status · WA11
+Status text:
+Nov–Dec inspection slots — fix leaks before guests & next monsoon
+Mon–Sat 9–6
+Reply with area
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Fixing terrace before next monsoon?" → Yes / Later
+2. B-roll: drain check · joint inspect · Nov–Dec window
+3. Countdown: "Beat the March rush"
+4. CTA: Nov–Dec slots open · Reply with area
+5. Preview: Zone V 60 sec explainer · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+========================================================================
+WEEK 12 · starts 2026-12-01
+========================================================================
+
+MON · 2026-12-01 · Reels (IG + FB + YT Shorts) · R34
+On-screen: Societies — book 2027 monsoon plan now
+Caption:
+Year 1: diagnose & stop active leaks. Year 2: upgrade worst wings. Year 3: annual joint inspection. Free committee walk-through.
+
+DM "SOCIETY" or WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers
+Asset: rwa-monsoon-plan graphic
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-12-02 · LinkedIn · LI12
+Post:
+2027 monsoon prep starts in committee meetings now — not April panic.
+
+Year 1 diagnose · Year 2 upgrade · Year 3 prevent. Free society terrace + podium walk-through.
+
+WhatsApp +91 60038 79490 | rwa-monsoon-plan available on request
+
+#PropertyManagement #Guwahati #MonsoonReady
+
+----------------------------------------
+
+WED · 2026-12-03 · Reels (IG + FB + YT Shorts) · R35
+On-screen: 6 case studies — Guwahati 2026
+Caption:
+Beltola terrace · Chandmari seepage · Dispur columns · GS Road parking · Zoo Road hotel · Noonmati retrofit. All with diagnosis-first process.
+
+Portfolio: https://91skylineworks.com/portfolio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #91Skylineworks #Guwahati #CustomerReview #Trust #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: montage of project heroes
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-12-04 · GBP Update · (from R35)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Building Doctor Guwahati — 6 case studies live: Beltola terrace, Chandmari seepage, Dispur columns, GS Road parking, Zoo Road hotel, Noonmati retrofit.
+
+Diagnosis-first process · NIT engineers · flood test on every terrace job.
+
+Portfolio at 91skylineworks.com/portfolio · Call 60038 79490
+
+Chars: 289 (limit 1500)
+Asset: Wed Reel thumbnail / still (R35)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-12-05 · Reels (IG + FB + YT Shorts) · R36
+On-screen: Building Doctor Guwahati — diagnose before you quote
+Caption:
+NIT engineers · flood test · written diagnosis · waterproof + inject + retrofit in one team. Not acrylic over ponding water.
+
+91Skylineworks · Guwahati · Since 2021
+
+WhatsApp 60038 79490 | Book inspection
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-q4
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-q4
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #NDT #EarthquakeSafety #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: brand montage + team
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-12-06 · WhatsApp Status · WA12
+Status text:
+2027 monsoon plan for societies — free Dec walk-through
+Year 1 diagnose · Year 2 upgrade · Year 3 prevent
+Reply SOCIETY
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Society booked 2027 monsoon plan?" → Yes / Not yet
+2. B-roll: 6 case study montage · 2026 recap
+3. Brand slide: Building Doctor · diagnose before you quote
+4. CTA: Dec committee walk-through free · Reply SOCIETY
+5. Preview: Brand montage Reel · Fri R36
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+
+
+########################################################################
+# EXTENSION — MONTHS 4–6 · Weeks 13–26 · 2026-12-08 → 2027-03-14
+# UTM campaign for this half: bdg-h1
+# Arc: Dec dry-season works + AGMs · Jan old-building NDT + retrofit · Feb–Mar beat the pre-monsoon rush
+########################################################################
+
+========================================================================
+WEEK 13 · starts 2026-12-08
+========================================================================
+
+MON · 2026-12-08 · Reels (IG + FB + YT Shorts) · R37
+On-screen: Dec–Feb: the repair window Guwahati forgets
+Caption:
+Membranes cure properly only on dry substrate. Dec–Feb gives 10+ dry weeks — work done now outlasts monsoon-panic jobs.
+
+Book terrace, basement or crack work for the dry window.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: dry terrace + membrane roll
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-12-09 · LinkedIn · LI13
+Post:
+Membrane adhesion and cure depend on substrate moisture. Dec–Feb in Guwahati gives the longest dry run of the year.
+
+Work specified now cures fully before pre-monsoon showers. Monsoon-panic jobs in June are applied on damp slab and fail early.
+
+Facility managers: schedule terrace and basement scopes for the dry window.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#FacilityManagement #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2026-12-10 · Reels (IG + FB + YT Shorts) · R38
+On-screen: Damp ground-floor walls in winter? Rising damp
+Caption:
+Salt bloom, paint bubbling 1 m up the wall, musty smell — capillary rise from wet soil, not rain. PU injection + damp-proof course, then coating.
+
+Free inspection Guwahati · 48h visit
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: salt bloom on ground-floor wall
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-12-11 · GBP Update · (from R38)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Dec–Feb is Guwahati's dry-season repair window. Membranes cure properly on dry slab — work done now outlasts monsoon-panic jobs.
+
+Terrace, basement and ground-floor damp: book for the dry window.
+
+Free inspection · 48h visit · Call 60038 79490
+
+Chars: 243 (limit 1500)
+Asset: Wed Reel thumbnail / still (R38)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-12-12 · Reels (IG + FB + YT Shorts) · R39
+On-screen: Bhangagarh hospital basement — dry, in service
+Caption:
+Basement under a working hospital: seepage through raft joints, no shutdown possible. Night-phased PU injection + crystalline coating. Zero downtime.
+
+Portfolio: https://91skylineworks.com/portfolio
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: bhangagarh basement
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-12-13 · WhatsApp Status · WA13
+Status text:
+Dec–Feb = dry-season repair window ☀️
+Terrace · basement · cracks cure properly now
+Book before Jan rush · 60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Planning repairs this winter?" → Yes / Waiting for monsoon
+2. B-roll: dry terrace + membrane roll · "Dry season = repair season"
+3. Myth: "Waterproofing is a monsoon job" → FALSE · cure needs dry days
+4. CTA: Dec–Feb slots · WhatsApp 60038 79490
+5. Preview: Bhangagarh basement · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 14 · starts 2026-12-15
+========================================================================
+
+MON · 2026-12-15 · Reels (IG + FB + YT Shorts) · R40
+On-screen: Society AGM this month? Put the terrace on the agenda
+Caption:
+Most societies vote waterproofing budgets after the parking floods. Vote in December, work in the dry window, dry monsoon.
+
+Free committee walk-through + written report before you vote.
+
+Reply SOCIETY · 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers
+Asset: graphic: AGM agenda card
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-12-16 · LinkedIn · LI14
+Post:
+Committees lose votes on waterproofing because the proposal is one number for one year.
+
+What passes: a 3-year phased plan — Year 1 stop active leaks, Year 2 upgrade worst wings, Year 3 inspect only — with per-wing scope and warranty terms.
+
+We provide the diagnosis pack and phased options for free before the AGM. Reply for a sample.
+
+
+#PropertyManagement #RWA #Guwahati
+
+----------------------------------------
+
+WED · 2026-12-17 · Reels (IG + FB + YT Shorts) · R41
+On-screen: Why your society's last waterproofing failed in 2 years
+Caption:
+No flood test. No slope fix. Sealant on joints past its life. Single coat over ponding. Same four causes, every society we inspect.
+
+Diagnosis pack before you spend again.
+
+Link in bio · 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: batch: failed sealant on podium joint
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-12-18 · GBP Update · (from R41)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Society AGM this month? Put waterproofing on the agenda with a plan, not a single number.
+
+Free committee walk-through + written report before you vote budget. Year 1 stop leaks, Year 2 upgrade, Year 3 inspect.
+
+Call 60038 79490 · 91skylineworks.com
+
+Chars: 249 (limit 1500)
+Asset: Wed Reel thumbnail / still (R41)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-12-19 · Reels (IG + FB + YT Shorts) · R42
+On-screen: Column jacketing — explained in 30 seconds
+Caption:
+Weak column → roughen, drill dowels, add rebar cage, micro-concrete jacket. Section grows 75–100 mm, capacity grows far more. Alternative when CFRP isn't enough.
+
+Zone V Guwahati · NIT engineers
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch or diagram: jacketed column
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-12-20 · WhatsApp Status · WA14
+Status text:
+🏢 Society AGM this month?
+Free walk-through + committee report before you vote budget
+Reply SOCIETY + name
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Society AGM this month?" → Yes / Already done
+2. B-roll: failed podium sealant · "Why it failed in 2 years"
+3. Slide: 3-year plan Y1 stop · Y2 upgrade · Y3 inspect
+4. CTA: Free committee report before you vote · Reply SOCIETY
+5. Preview: Column jacketing 30 sec · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 15 · starts 2026-12-22
+========================================================================
+
+MON · 2026-12-22 · Reels (IG + FB + YT Shorts) · R43
+On-screen: 2026 — what we learned on Guwahati terraces
+Caption:
+Top 3 failure causes we found this year: 1) ponding from bad slope 2) no parapet upturn 3) leak entering at pipe collars, not where the stain shows.
+
+All fixable. All missed by paint-only quotes.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: montage: 3 diagnosis stills
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-12-23 · LinkedIn · LI15
+Post:
+Six case studies published. One method on every job: written leak-path or crack map before quoting, flood test before handover, photo log at close.
+
+What we saw most on Guwahati terraces: ponding from slope error, missing parapet upturn, entry at pipe collars rather than at the visible stain.
+
+Thank you to the committees and homeowners who chose a diagnosis over a paint quote.
+
+
+#Construction #Guwahati #YearInReview
+
+----------------------------------------
+
+WED · 2026-12-24 · Reels (IG + FB + YT Shorts) · R44
+On-screen: Damp smell before guests? Fix the source, not the fragrance
+Caption:
+Musty smell = active moisture in slab or wall. Room spray hides it for an evening. We find the entry point and stop it.
+
+48h visit · Guwahati
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: moisture meter on wall
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2026-12-25 · GBP Update · (from R44)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Holiday guests and a damp smell? Fix the source, not the fragrance. We find the moisture entry point and stop it.
+
+Team available Mon–Sat 9–6 through the holidays. 48h site visit in Guwahati.
+
+Call 60038 79490
+
+Chars: 209 (limit 1500)
+Asset: Wed Reel thumbnail / still (R44)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2026-12-26 · Reels (IG + FB + YT Shorts) · R45
+On-screen: Thank you, Guwahati
+Caption:
+Every review this year mentioned the same thing: we explained the problem before quoting. That's the whole idea.
+
+Had work done? A Google review helps neighbours find us.
+
+Thank you 🙏
+
+Hashtags: #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #91Skylineworks #Guwahati #CustomerReview #Trust
+Asset: review screenshots montage
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2026-12-27 · WhatsApp Status · WA15
+Status text:
+Thank you Guwahati 🙏 six case studies, zero shortcuts
+Happy with our work? Google review helps neighbours find us
+[GBP review link]
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Damp smell at home?" → Yes / No
+2. B-roll: moisture meter on wall · "Fix the source"
+3. Slide: 2026 top 3 terrace failures
+4. CTA: Team on Mon–Sat 9–6 · 60038 79490
+5. Thank-you slide: review highlights
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 16 · starts 2026-12-29
+========================================================================
+
+MON · 2026-12-29 · Reels (IG + FB + YT Shorts) · R46
+On-screen: New year, same stain? Make 2027 the dry one
+Caption:
+That stain came back for the third January. It will come back in the fourth unless the leak path — not the paint — is fixed.
+
+Free inspection · written diagnosis · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: recurring ceiling stain
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2026-12-30 · LinkedIn · LI16
+Post:
+January — NDT and crack mapping (dry, cool, access easy)
+February — expansion joints and drain works
+March — terrace membrane and parapet upturn
+April — flood test and final checks
+May–Sep — monitor; institutions use the summer break for jacketing
+Oct–Nov — post-monsoon inspection, plan next year
+
+One page, free on request. Fits homeowners and societies.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#FacilityManagement #StructuralEngineering #Guwahati
+
+----------------------------------------
+
+WED · 2026-12-31 · Reels (IG + FB + YT Shorts) · R47
+On-screen: Building maintenance calendar — Jan to Apr
+Caption:
+Jan: NDT + crack mapping. Feb: expansion joints + drains. Mar: terrace membrane. Apr: flood test + parapet check. Then monsoon arrives and you sleep.
+
+Ask for the one-page calendar.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #NDT #EarthquakeSafety
+Asset: graphic: 4-month calendar
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-01-01 · GBP Update · (from R47)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+2027 building maintenance calendar: Jan NDT + crack mapping · Feb expansion joints + drains · Mar terrace membrane · Apr flood test.
+
+Ask for the one-page calendar at your free inspection.
+
+Call 60038 79490 · 91skylineworks.com/contact
+
+Chars: 235 (limit 1500)
+Asset: Wed Reel thumbnail / still (R47)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-01-02 · Reels (IG + FB + YT Shorts) · R48
+On-screen: Guwahati is Zone V — 1950 was 8.6
+Caption:
+The 1950 Assam–Tibet earthquake was one of the largest ever recorded on land. Zone V means design for the worst. Older buildings weren't.
+
+NDT screening for 15+ year buildings.
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: map + talking head
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-01-03 · WhatsApp Status · WA16
+Status text:
+2027 building maintenance calendar 📅
+Jan NDT · Feb joints · Mar terrace · Apr flood test
+Reply CALENDAR for the one-pager
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Same stain back in January?" → Yes / Fixed it
+2. B-roll: recurring stain · "Make 2027 the dry one"
+3. Slide: Jan–Apr maintenance calendar
+4. CTA: Reply CALENDAR for one-pager
+5. Preview: Zone V 1950 · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 17 · starts 2027-01-05
+========================================================================
+
+MON · 2027-01-05 · Reels (IG + FB + YT Shorts) · R49
+On-screen: Building 20+ years old? 3 checks before anything else
+Caption:
+1) Rust stains on beams or ceiling 2) Diagonal cracks at column–beam joints 3) Spalling concrete showing rebar. Any one = book NDT.
+
+Written report · engineer-led · Guwahati
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: talking head + 3 stills
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-01-06 · LinkedIn · LI17
+Post:
+Carbonation moves inward a few mm per decade; once it reaches rebar, corrosion begins. Chlorides, poor cover and honeycomb speed it up.
+
+A 20–30 year old building in Guwahati has often lost protective cover on exposed members. Rust staining and spalling are the visible stage — strength loss started earlier.
+
+Periodic NDT (UPV, rebound hammer, carbonation depth, cover meter) is inexpensive compared to a column repair after a tremor.
+
+
+#StructuralEngineering #NDT #Guwahati
+
+----------------------------------------
+
+WED · 2027-01-07 · Reels (IG + FB + YT Shorts) · R50
+On-screen: Rust stain on the ceiling = rebar corroding inside
+Caption:
+Brown streaks aren't dirt. Carbonation or chloride has reached the steel. Left alone: spalling, section loss, capacity loss. Caught now: treat + protect.
+
+Free first look · 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: rust streak on slab soffit
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-01-08 · GBP Update · (from R50)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Building 20+ years old? Rust stains, diagonal cracks at column–beam joints, or spalling concrete mean it's time for NDT.
+
+UPV, rebound hammer, carbonation test — written report, engineer-led. Guwahati Zone V.
+
+Book screening · 60038 79490
+
+Chars: 238 (limit 1500)
+Asset: Wed Reel thumbnail / still (R50)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-01-09 · Reels (IG + FB + YT Shorts) · R51
+On-screen: Noonmati 1990s walk-up — what NDT found
+Caption:
+Low UPV on ground-floor columns, honeycomb pockets, carbonation past the cover. Micro-concreting + CFRP wrap. Retest passed. No one moved out.
+
+Case study: https://91skylineworks.com/portfolio/noonmati-housing-retrofit
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: noonmati NDT stills
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-01-10 · WhatsApp Status · WA17
+Status text:
+Building 20+ years old?
+Rust stains · diagonal cracks · spalling = book NDT
+Written report · 60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Building older than 20 years?" → Yes / No
+2. B-roll: rust streak on ceiling · "Rebar corroding inside"
+3. Slide: 3 checks — rust · diagonal cracks · spalling
+4. CTA: NDT written report · 60038 79490
+5. Preview: Noonmati NDT findings · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 18 · starts 2027-01-12
+========================================================================
+
+MON · 2027-01-12 · Reels (IG + FB + YT Shorts) · R52
+On-screen: Carbonation test in 60 seconds
+Caption:
+Spray phenolphthalein on fresh-broken concrete. Pink = still alkaline, steel protected. Colourless = carbonated, steel at risk. Simple test, serious answer.
+
+NDT Guwahati · 91Skylineworks
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: phenolphthalein spray close-up
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-01-13 · LinkedIn · LI18
+Post:
+Mumbai requires a structural audit for buildings over 30 years old under municipal rules. Guwahati sits in a higher seismic zone with no equivalent mandate.
+
+Society committees and institutions can adopt the standard voluntarily: audit at 30 years, then every 5–10 years, with written NDT reports on file.
+
+We run screening audits for societies and government blocks — Dispur case in portfolio.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#StructuralAudit #ZoneV #Guwahati
+
+----------------------------------------
+
+WED · 2027-01-14 · Reels (IG + FB + YT Shorts) · R53
+On-screen: Mumbai mandates structural audits at 30 years. Guwahati?
+Caption:
+Under Mumbai's municipal rules, buildings 30+ years old must be structurally audited. Assam has no mandate — and higher seismic risk. Audit yourself.
+
+Society NDT screening · written report
+
+Reply SOCIETY · 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: graphic: 30-year audit card
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-01-15 · GBP Update · (from R53)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Mumbai mandates structural audits for buildings over 30 years old. Guwahati has no mandate and higher seismic risk.
+
+Society NDT screening with written report — audit yourself before a tremor does.
+
+Call 60038 79490 · 91skylineworks.com
+
+Chars: 236 (limit 1500)
+Asset: Wed Reel thumbnail / still (R53)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-01-16 · Reels (IG + FB + YT Shorts) · R54
+On-screen: Honeycomb concrete — what it looks like
+Caption:
+Voids where aggregate shows and cement paste didn't reach. Weak, porous, lets water to rebar. Common in rushed pours. UPV finds it under plaster.
+
+Book NDT before you renovate.
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: honeycomb column close-up
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-01-17 · WhatsApp Status · WA18
+Status text:
+Crack after tremor? 📸 Send photo
+Cosmetic vs structural — free first look
+60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Ever had a structural audit?" → Yes / Never
+2. B-roll: phenolphthalein spray · pink vs clear
+3. Slide: Mumbai 30-year audit rule vs Guwahati
+4. CTA: Society NDT screening · Reply SOCIETY
+5. Preview: Honeycomb concrete · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 19 · starts 2027-01-19
+========================================================================
+
+MON · 2027-01-19 · Reels (IG + FB + YT Shorts) · R55
+On-screen: 26 January 2001 — Bhuj. What changed after
+Caption:
+Codes were revised, ductile detailing enforced for new buildings. Buildings from before that day were not upgraded. Yours may be one.
+
+Zone V Guwahati · seismic screening
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: talking head + timeline graphic
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-01-20 · LinkedIn · LI19
+Post:
+Was the building designed to IS 1893 and detailed to IS 13920 (ductile detailing)? Is there a soft storey (open stilt parking under solid floors)? Column sizes at ground level? Any cracks at beam–column joints after past tremors?
+
+Most buyers get a legal check and no structural check. A half-day NDT screening with a written report closes that gap.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#RealEstate #StructuralEngineering #Guwahati
+
+----------------------------------------
+
+WED · 2027-01-21 · Reels (IG + FB + YT Shorts) · R56
+On-screen: Stilt parking = soft storey. Know the risk.
+Caption:
+Open ground floor with columns only, walls above — stiffness jumps at floor 1. In a tremor, ground columns take it all. Check: column size, cracks at top/bottom.
+
+Retrofit options exist. Ask.
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: stilt parking columns
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-01-22 · GBP Update · (from R56)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Stilt parking under a solid building = soft storey. Ground-floor columns take the tremor load.
+
+We check column size, joint cracks, and give retrofit options — CFRP, jacketing — without vacating.
+
+Free first assessment · 60038 79490
+
+Chars: 232 (limit 1500)
+Asset: Wed Reel thumbnail / still (R56)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-01-23 · Reels (IG + FB + YT Shorts) · R57
+On-screen: Dispur — from column cracks to structural clearance
+Caption:
+Government block, cracks after tremors, occupancy in question. NDT → epoxy injection → CFRP on critical members → audit clearance. Building stayed in use.
+
+Case study: https://91skylineworks.com/portfolio/dispur-government-office
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: dispur
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-01-24 · WhatsApp Status · WA19
+Status text:
+Stilt parking building? Soft-storey check available
+Column sizes · joint cracks · retrofit options
+Reply CHECK + area
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Stilt parking under your building?" → Yes / No
+2. B-roll: stilt columns · "Soft storey"
+3. Slide: 26 Jan 2001 Bhuj — codes changed after
+4. CTA: Soft-storey check · Reply CHECK + area
+5. Preview: Dispur clearance · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 20 · starts 2027-01-26
+========================================================================
+
+MON · 2027-01-26 · Reels (IG + FB + YT Shorts) · R58
+On-screen: Retrofit ≠ rebuild. Three options.
+Caption:
+Epoxy injection — cracks, restore bond. CFRP wrap — add capacity, no bulk. Jacketing — big capacity jump, some bulk. Chosen by NDT numbers, not by guess.
+
+Engineer-led · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: diagram: 3 retrofit options
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-01-27 · LinkedIn · LI20
+Post:
+Epoxy injection — restores bond in dry structural cracks; low cost, no capacity gain.
+CFRP wrapping — adds confinement and shear capacity, minimal bulk, residents stay; medium cost.
+RC jacketing — largest capacity gain, adds section, more disruption; higher cost.
+
+The choice comes from NDT numbers and design demand, not from the contractor's preferred method. Noonmati (CFRP) and Six Mile (jacketing) show both.
+
+
+#Retrofitting #CFRP #StructuralEngineering
+
+----------------------------------------
+
+WED · 2027-01-28 · Reels (IG + FB + YT Shorts) · R59
+On-screen: CFRP wrap — no eviction, no steel bulk
+Caption:
+Carbon fibre sheets bonded with epoxy around columns. Cures in a day. Residents stay. Used at Noonmati and Dispur.
+
+Zone V strengthening · 91Skylineworks
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety
+Asset: batch: CFRP wrap application
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-01-29 · GBP Update · (from R59)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Retrofit without moving out: CFRP wrap cures in a day, residents stay. Used at Noonmati and Dispur.
+
+Schools and institutions: plan summer-break jacketing now — Feb screening slots open.
+
+Call 60038 79490 · 91skylineworks.com/portfolio
+
+Chars: 235 (limit 1500)
+Asset: Wed Reel thumbnail / still (R59)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-01-30 · Reels (IG + FB + YT Shorts) · R60
+On-screen: Schools: summer-break retrofit planning starts now
+Caption:
+Six Mile campus: screening in Feb, jacketing scheduled for May–June break. No classes disturbed. Institutions that plan in Feb get the break slot.
+
+Portfolio: https://91skylineworks.com/portfolio/six-mile-school-campus
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #91Skylineworks #NDT #EarthquakeSafety #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: case study: six mile
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-01-31 · WhatsApp Status · WA20
+Status text:
+Schools & institutions 🏫
+Plan summer-break retrofit now — screening slots in Feb
+Reply INSTITUTION
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Retrofit or rebuild?" → Retrofit / Rebuild / Not sure
+2. B-roll: CFRP wrap application
+3. Slide: 3 options — epoxy · CFRP · jacketing
+4. CTA: Institutions plan summer break now · Reply INSTITUTION
+5. Preview: Six Mile planning · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 21 · starts 2027-02-02
+========================================================================
+
+MON · 2027-02-02 · Reels (IG + FB + YT Shorts) · R61
+On-screen: Pre-monsoon showers start in March. 6 weeks left.
+Caption:
+Guwahati's first showers arrive mid-March. Membrane needs dry days to cure. Book February, finish before the first storm.
+
+Free inspection · 48h · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: graphic: countdown + terrace still
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-02-03 · LinkedIn · LI21
+Post:
+1. Clear all drains and khurras; check gratings
+2. Bucket test — does water reach the drain in under a minute?
+3. Inspect parapet upturn and pipe collars
+4. Probe expansion joint sealant
+5. Note ponding zones; schedule slope correction
+6. Book membrane work for dry days in Feb–Mar
+
+We run this as a free inspection with a written summary. Book before March.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#FacilityManagement #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2027-02-04 · Reels (IG + FB + YT Shorts) · R62
+On-screen: Drain check — 5 minutes that saves a ceiling
+Caption:
+Walk the terrace after a bucket pour. Water moving to drain? Good. Sitting in a corner? That corner is your next stain. Clear khurras, check gratings, look at slope.
+
+We do it free during inspection.
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: bucket pour toward drain
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-02-05 · GBP Update · (from R62)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Pre-monsoon showers start mid-March in Guwahati. Terrace membrane needs dry days to cure.
+
+Book your free inspection in February, finish work before the first storm.
+
+48h visit · Call 60038 79490
+
+Chars: 195 (limit 1500)
+Asset: Wed Reel thumbnail / still (R62)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-02-06 · Reels (IG + FB + YT Shorts) · R63
+On-screen: Beltola — one year later, still dry
+Caption:
+We went back. No stains, no complaints, membrane intact, drains clear. Flood test at handover means fewer callbacks after.
+
+Case study: https://91skylineworks.com/portfolio/beltola-residential-tower
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: beltola revisit still
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-02-07 · WhatsApp Status · WA21
+Status text:
+🌧️ Pre-monsoon showers mid-March
+6 weeks to fix terrace before rain
+Book inspection · 60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Terrace ready for March showers?" → Yes / No
+2. B-roll: bucket pour toward drain
+3. Countdown: 6 weeks to pre-monsoon
+4. CTA: Book Feb, finish before rain · 60038 79490
+5. Preview: Beltola one year later · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 22 · starts 2027-02-09
+========================================================================
+
+MON · 2027-02-09 · Reels (IG + FB + YT Shorts) · R64
+On-screen: Expansion joint sealant — replace or reseal?
+Caption:
+Hardened, cracked, pulled off one face → replace. Soft, bonded, surface-dirty → clean and overseal. We decide joint by joint, then price.
+
+Society podium joints · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: batch: sealant probe close-up
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-02-10 · LinkedIn · LI22
+Post:
+Sealant life is 5–7 years in Guwahati exposure. Beyond that, adhesion fails on one face and water enters the slab — parking floods follow.
+
+Protocol for societies: annual visual + probe check in February, replace or overseal joint by joint, log with photos.
+
+GS Road commercial block is now in year 2 of exactly this cycle.
+
+
+#PropertyManagement #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2027-02-11 · Reels (IG + FB + YT Shorts) · R65
+On-screen: Podium joint → parking flood. The chain.
+Caption:
+Joint opens → water enters slab → drips onto cars → residents complain → someone paints the ceiling. Fix the joint, not the ceiling.
+
+Free committee walk-through
+
+Reply SOCIETY
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: drip under podium joint
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-02-12 · GBP Update · (from R65)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Society parking flooded last monsoon? Podium expansion joints are the usual cause. Sealant life is 5–7 years.
+
+Joint-by-joint inspection, replace or reseal, photo log for the committee. Feb–Mar window.
+
+Free walk-through · 60038 79490
+
+Chars: 234 (limit 1500)
+Asset: Wed Reel thumbnail / still (R65)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-02-13 · Reels (IG + FB + YT Shorts) · R66
+On-screen: GS Road — year 2 of the 3-year plan
+Caption:
+Year 1 stopped the floods. Year 2: podium coating on remaining bays + drain redesign. Year 3: inspection only. Predictable budget, dry parking.
+
+Case study: https://91skylineworks.com/portfolio/gs-road-commercial-block
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: gs road year 2
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-02-14 · WhatsApp Status · WA22
+Status text:
+Society podium joints — replace or reseal?
+Feb–Mar window · joint-by-joint pricing
+Reply SOCIETY
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Parking flooded last monsoon?" → Yes / No
+2. B-roll: sealant probe · "Replace or reseal?"
+3. Slide: joint → slab → drip → paint (the chain)
+4. CTA: Society joints Feb–Mar · Reply SOCIETY
+5. Preview: GS Road year 2 · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 23 · starts 2027-02-16
+========================================================================
+
+MON · 2027-02-16 · Reels (IG + FB + YT Shorts) · R67
+On-screen: Cool roof before April — heatproofing + waterproofing in one
+Caption:
+Reflective top coat over a proper membrane: terrace surface 8–10°C cooler, top-floor rooms noticeably better, and waterproof. One system, two problems.
+
+Book before the heat.
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: white reflective coat application
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-02-17 · LinkedIn · LI23
+Post:
+A reflective elastomeric top coat over a proper membrane cuts terrace surface temperature 8–10°C in Guwahati summer and protects the membrane from UV.
+
+Applied in Feb–Mar it serves both summer heat and monsoon rain. Specify reflectance, elongation and adhesion to substrate — not just colour.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#Heatproofing #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2027-02-18 · Reels (IG + FB + YT Shorts) · R68
+On-screen: Terrace 8°C cooler — how
+Caption:
+Solar reflectance. Dark concrete absorbs, white elastomeric reflects. Measured with an IR thermometer on the same afternoon: before/after.
+
+Heatproofing Guwahati · 91Skylineworks
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: IR thermometer before/after
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-02-19 · GBP Update · (from R68)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Cool roof before April: reflective coat over a proper membrane — terrace 8–10°C cooler and waterproof in one system.
+
+Heatproofing + waterproofing Guwahati. Book before the heat.
+
+Call 60038 79490 · 91skylineworks.com
+
+Chars: 217 (limit 1500)
+Asset: Wed Reel thumbnail / still (R68)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-02-20 · Reels (IG + FB + YT Shorts) · R69
+On-screen: Rainwater harvesting — terrace to tank
+Caption:
+A waterproofed terrace is also a catchment. Add first-flush filter, pipe to storage or recharge pit. Guwahati rain is free water; slope and drains are already fixed.
+
+Ask during your inspection.
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: diagram: terrace to tank
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-02-21 · WhatsApp Status · WA23
+Status text:
+Cool roof before April ☀️
+Heatproof + waterproof in one coat system
+8–10°C cooler terrace · Reply COOL
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Top floor too hot in April?" → Yes / No
+2. B-roll: white reflective coat application
+3. Slide: IR thermometer before/after 8°C
+4. CTA: Cool roof before April · Reply COOL
+5. Preview: Rainwater harvesting · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 24 · starts 2027-02-23
+========================================================================
+
+MON · 2027-02-23 · Reels (IG + FB + YT Shorts) · R70
+On-screen: Renovating a bathroom? Membrane first, tiles second
+Caption:
+The tile shop won't mention it. The plumber assumes someone else does it. Result: seepage to the flat below in year 2. Add the membrane step — it's a day.
+
+Free inspection · Guwahati
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: batch: bathroom membrane before tiles
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-02-24 · LinkedIn · LI24
+Post:
+Leak-path map · slope correction · drain works · parapet upturn · membrane type and coats · joint treatment · flood test · photo log · warranty terms · per-area scope.
+
+A quote missing three or more of these is a paint quote. Compare on scope, then on price.
+
+
+#Procurement #Waterproofing #Guwahati
+
+----------------------------------------
+
+WED · 2027-02-25 · Reels (IG + FB + YT Shorts) · R71
+On-screen: 10 things a waterproofing quote must include
+Caption:
+Leak-path map · slope fix · drain work · parapet upturn · membrane type + coats · joint treatment · flood test · photo log · warranty terms · per-area scope. Missing 3+? Ask why.
+
+We include all 10.
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: graphic: 10-item checklist
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-02-26 · GBP Update · (from R71)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Comparing waterproofing quotes? Ask for: leak-path map, slope fix, parapet upturn, flood test, photo log, written warranty.
+
+Missing three or more? It's a paint quote. We include all ten.
+
+Free inspection · 60038 79490
+
+Chars: 218 (limit 1500)
+Asset: Wed Reel thumbnail / still (R71)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-02-27 · Reels (IG + FB + YT Shorts) · R72
+On-screen: Chandmari — dry through the second monsoon
+Caption:
+12 flats, second monsoon after PU injection + joint reseal. Zero new complaints. Mapping first is why.
+
+Case study: https://91skylineworks.com/portfolio/chandmari-apartment-complex
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: chandmari revisit
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-02-28 · WhatsApp Status · WA24
+Status text:
+Comparing waterproofing quotes?
+10-point checklist — flood test, photo log, warranty…
+Reply CHECKLIST
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Comparing quotes right now?" → Yes / No
+2. B-roll: bathroom membrane before tiles
+3. Slide: 10 things a quote must include
+4. CTA: Reply CHECKLIST for the list
+5. Preview: Chandmari second monsoon · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 25 · starts 2027-03-02
+========================================================================
+
+MON · 2027-03-02 · Reels (IG + FB + YT Shorts) · R73
+On-screen: March: last dry window before the rain
+Caption:
+Showers are already forecast. Terrace membrane needs 3–5 dry days. Book this week, or you're fixing it in July with water coming in.
+
+48h inspection · Guwahati
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: graphic: calendar + rain icon
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-03-03 · LinkedIn · LI25
+Post:
+Written, per area, with a photo log attached. Covered: membrane and treated joints. Excluded: new penetrations, third-party damage, untreated areas.
+
+Committees use it for maintenance planning and resale documentation. Verbal "all fixed" is not a warranty.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#PropertyManagement #Quality #Guwahati
+
+----------------------------------------
+
+WED · 2027-03-04 · Reels (IG + FB + YT Shorts) · R74
+On-screen: Our warranty — in 30 seconds
+Caption:
+Written. Per area. States what's covered (membrane, joints) and what isn't (new penetrations, third-party damage). Photo log attached so there's no argument later.
+
+Building Doctor Guwahati
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch: warranty document + handover
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-03-05 · GBP Update · (from R74)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+March is the last dry window before monsoon. Membrane needs 3–5 dry days to cure.
+
+Book this week for terrace, bathroom or joint work. 48h visit in Guwahati.
+
+Call 60038 79490 · 91skylineworks.com/contact
+
+Chars: 204 (limit 1500)
+Asset: Wed Reel thumbnail / still (R74)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-03-06 · Reels (IG + FB + YT Shorts) · R75
+On-screen: Zoo Road hotel — second season, still zero leak tickets
+Caption:
+Occupied hotel, phased night work, drain redesign. Two monsoons later: no guest complaints, no lost bookings.
+
+Case study: https://91skylineworks.com/portfolio/zoo-road-hotel-terrace
+
+WhatsApp 60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #Beltola #Silpukhuri #AssamHomes #LocalBusiness #91Skylineworks #HomeInspection #Engineers #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: case study: zoo road
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-03-07 · WhatsApp Status · WA25
+Status text:
+March = last dry window before rain
+Membrane needs 3–5 dry days
+Book this week · 60038 79490
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Booked pre-monsoon work?" → Yes / Not yet
+2. B-roll: calendar + rain forecast
+3. Slide: what our warranty covers
+4. CTA: March = last dry window · 60038 79490
+5. Preview: Zoo Road second season · Fri
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+
+========================================================================
+WEEK 26 · starts 2027-03-09
+========================================================================
+
+MON · 2027-03-09 · Reels (IG + FB + YT Shorts) · R76
+On-screen: Monsoon-ready checklist — tick all 7
+Caption:
+Drains clear · slope to drain · parapet upturn intact · joints sealed · pipe collars sealed · no ponding after bucket test · last flood test < 2 years. Missing any? Call before June.
+
+60038 79490
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam
+Asset: graphic: 7-item checklist
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+TUE · 2027-03-10 · LinkedIn · LI26
+Post:
+Since September: six case studies, dry-season scopes delivered, NDT screenings for societies and institutions, pre-monsoon inspections booked through March.
+
+For committees still deciding: a free walk-through with a written summary is the fastest way to know what needs doing before June.
+
+Thank you for following along. Flood tests start now.
+https://91skylineworks.com/contact#inspection-form?utm_source=linkedin&utm_medium=social&utm_campaign=bdg-h1
+
+#Construction #Guwahati #MonsoonReady
+
+----------------------------------------
+
+WED · 2027-03-11 · Reels (IG + FB + YT Shorts) · R77
+On-screen: Where we'll be this monsoon: on terraces, flood testing
+Caption:
+Every job handed over with water standing on it for 24–48 hours first. If it leaks in test, we fix before you pay for finish. Six months of posts, one method.
+
+Book inspection · Guwahati
+
+Link in bio
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BeforeAndAfter #CaseStudy #FloodTest #QualityWork #CustomerReview #Trust
+Asset: batch: flood test pour
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+THU · 2027-03-12 · GBP Update · (from R77)
+Paste into: https://www.google.com/local/business/14867449152888852741/promote/updates
+Post:
+Monsoon-ready checklist: drains clear · slope to drain · parapet upturn · joints sealed · pipe collars sealed · no ponding · flood test done.
+
+Missing any? Final pre-monsoon inspections open now.
+
+Call 60038 79490 · Building Doctor Guwahati
+
+Chars: 240 (limit 1500)
+Asset: Wed Reel thumbnail / still (R77)
+Phone CTA: +91 60038 79490
+
+----------------------------------------
+
+FRI · 2027-03-13 · Reels (IG + FB + YT Shorts) · R78
+On-screen: Building Doctor Guwahati — six months, one promise
+Caption:
+Diagnose before you quote. Flood test before handover. Write it down. Waterproof · inject · retrofit · NDT — one team, NIT engineers, Guwahati.
+
+Thank you for six months. Monsoon next.
+
+WhatsApp 60038 79490 | Book inspection
+
+Link (IG): https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1
+Link (FB): https://91skylineworks.com/contact#inspection-form?utm_source=facebook&utm_medium=social&utm_campaign=bdg-h1
+Link (YT description): https://91skylineworks.com/contact#inspection-form?utm_source=youtube&utm_medium=social&utm_campaign=bdg-h1
+
+Hashtags: #Guwahati #WaterproofingGuwahati #TerraceLeak #MonsoonReady #91Skylineworks #BuildingDoctor #HomeRepair #Assam #BuildingCracks #StructuralRepair #ZoneV #Retrofitting #NDT #EarthquakeSafety #Beltola #Silpukhuri #AssamHomes #LocalBusiness #HomeInspection #Engineers
+Asset: brand montage + team
+WhatsApp: +91 60038 79490
+
+----------------------------------------
+
+SAT · 2027-03-14 · WhatsApp Status · WA26
+Status text:
+Monsoon-ready? Tick all 7 ✅
+Drains · slope · parapet · joints · collars · ponding · flood test
+Missing any? Reply READY
+
+Link (optional): https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-h1
+
+----------------------------------------
+
+STORIES · Mon–Sun · Instagram (5 slides)
+1. Poll: "Monsoon-ready? All 7 ticked?" → Yes / Missing some
+2. B-roll: flood test pour
+3. Slide: 7-item monsoon checklist
+4. CTA: Final pre-monsoon inspections · Reply READY
+5. Brand slide: Six months, one promise
+Link sticker: https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-h1

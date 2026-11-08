@@ -20,6 +20,9 @@ return [
     'smtp_user' => 'website@91skylineworks.com',
     'smtp_pass' => 'your_smtp_password_here',
 
+    // Preferred for outbound lead mail (works when MilesWeb SMTP is dead). From Resend dashboard.
+    'resend_api_key' => '',
+
     // One-time content import via /api/import-content.php?token=... (delete after use)
     'content_import_token' => '',
 ];

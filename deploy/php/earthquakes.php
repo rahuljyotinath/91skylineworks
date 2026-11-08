@@ -12,14 +12,37 @@ if (!in_array($scope, $allowed, true)) {
     json_response(['error' => 'Invalid scope'], 400);
 }
 
-$min = min(max((int) ($_GET['min'] ?? 0), 0), 20);
-
 $cacheDir = __DIR__ . '/cache';
 if (!is_dir($cacheDir)) {
     mkdir($cacheDir, 0755, true);
 }
 
 $ttl = 300;
+
+function ne_bbox(): array
+{
+    return [
+        'minLat' => 22.0,
+        'maxLat' => 29.8,
+        'minLon' => 88.0,
+        'maxLon' => 97.8,
+    ];
+}
+
+function is_in_ne_bbox(array $event): bool
+{
+    $lat = $event['lat'] ?? null;
+    $lon = $event['lon'] ?? null;
+    if ($lat === null || $lon === null) {
+        return false;
+    }
+
+    $bbox = ne_bbox();
+    return $lat >= $bbox['minLat']
+        && $lat <= $bbox['maxLat']
+        && $lon >= $bbox['minLon']
+        && $lon <= $bbox['maxLon'];
+}
 
 function usgs_url(string $scope): string
 {
@@ -32,16 +55,17 @@ function usgs_url(string $scope): string
         return $base . '/earthquakes/feed/v1.0/summary/significant_month.geojson';
     }
 
+    $bbox = ne_bbox();
     $end = gmdate('c');
-    $start = gmdate('c', time() - 30 * 24 * 3600);
+    $start = gmdate('c', time() - 90 * 24 * 3600);
     $params = http_build_query([
         'format' => 'geojson',
         'starttime' => $start,
         'endtime' => $end,
-        'minlatitude' => '22.0',
-        'maxlatitude' => '29.8',
-        'minlongitude' => '88.0',
-        'maxlongitude' => '97.8',
+        'minlatitude' => (string) $bbox['minLat'],
+        'maxlatitude' => (string) $bbox['maxLat'],
+        'minlongitude' => (string) $bbox['minLon'],
+        'maxlongitude' => (string) $bbox['maxLon'],
         'minmagnitude' => '2.5',
         'orderby' => 'time',
     ]);
@@ -78,28 +102,6 @@ function normalize_feature(array $feature): ?array
         'status' => $props['status'] ?? null,
         'type' => $props['type'] ?? 'earthquake',
     ];
-}
-
-function merge_events_to_minimum(array $primary, array $supplemental, int $minCount): array
-{
-    $seen = [];
-    foreach ($primary as $event) {
-        $seen[$event['id']] = true;
-    }
-
-    $merged = $primary;
-    foreach ($supplemental as $event) {
-        if (count($merged) >= $minCount) {
-            break;
-        }
-        if (!isset($seen[$event['id']])) {
-            $merged[] = $event;
-            $seen[$event['id']] = true;
-        }
-    }
-
-    usort($merged, fn ($a, $b) => ($b['time'] ?? 0) <=> ($a['time'] ?? 0));
-    return $merged;
 }
 
 function fetch_scope_events(string $scope, string $cacheDir, int $ttl): array
@@ -150,6 +152,10 @@ function fetch_scope_events(string $scope, string $cacheDir, int $ttl): array
         }
     }
 
+    if ($scope === 'ne') {
+        $events = array_values(array_filter($events, 'is_in_ne_bbox'));
+    }
+
     usort($events, fn ($a, $b) => ($b['time'] ?? 0) <=> ($a['time'] ?? 0));
 
     $response = [
@@ -157,6 +163,7 @@ function fetch_scope_events(string $scope, string $cacheDir, int $ttl): array
         'fetchedAt' => round(microtime(true) * 1000),
         'source' => 'USGS',
         'scope' => $scope,
+        'backfilled' => false,
     ];
 
     file_put_contents($cacheFile, json_encode($response, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES));
@@ -164,22 +171,5 @@ function fetch_scope_events(string $scope, string $cacheDir, int $ttl): array
     return $response;
 }
 
-function apply_min_backfill(array $payload, int $min, string $cacheDir, int $ttl): array
-{
-    if ($min <= 0 || ($payload['scope'] ?? '') !== 'ne' || count($payload['events'] ?? []) >= $min) {
-        $payload['backfilled'] = false;
-        return $payload;
-    }
-
-    $before = count($payload['events']);
-    $globalPayload = fetch_scope_events('global', $cacheDir, $ttl);
-    $payload['events'] = merge_events_to_minimum($payload['events'], $globalPayload['events'] ?? [], $min);
-    $payload['backfilled'] = count($payload['events']) > $before;
-
-    return $payload;
-}
-
 $payload = fetch_scope_events($scope, $cacheDir, $ttl);
-$response = apply_min_backfill($payload, $min, $cacheDir, $ttl);
-
-json_response($response);
+json_response($payload);

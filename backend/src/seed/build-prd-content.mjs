@@ -113,6 +113,8 @@ for (const page of merged.servicePages || []) {
   if (patch.awareness) page.awareness = { ...page.awareness, ...patch.awareness };
   if (patch.intro) page.intro = patch.intro;
   if (patch.headline) page.headline = patch.headline;
+  if (patch.offerings) page.offerings = patch.offerings;
+  if (patch.ctaMessage) page.ctaMessage = patch.ctaMessage;
   if (patch.seoTitle) page.seoTitle = patch.seoTitle;
   if (patch.seoHeadline) page.seoHeadline = patch.seoHeadline;
 }

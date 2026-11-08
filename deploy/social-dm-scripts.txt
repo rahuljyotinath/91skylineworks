@@ -1,0 +1,104 @@
+Social DM & WhatsApp scripts — inquiry to booking
+==================================================
+Phone: +91 60038 79490
+Inspection link: https://91skylineworks.com/contact#inspection-form?utm_source=whatsapp&utm_medium=social&utm_campaign=bdg-q4
+
+First reply (every new inquiry)
+-------------------------------
+Hi [Name], thanks for reaching out to 91SkylineWorks.
+
+Quick question — which platform did you see us on? (Instagram / Facebook / WhatsApp / Google / friend referral)
+
+And in one line: what's the issue — terrace leak, bathroom seepage, column crack, or something else? Which area in Guwahati?
+
+Qualify — homeowner
+-------------------
+Thanks. To help our engineer prepare:
+
+1. Flat or independent house? Floor level (top floor / middle / ground)?
+2. Active leak now or preventive before next monsoon?
+3. Any previous waterproofing done? When?
+4. Can we visit within 48 hours? Preferred day/time?
+
+→ If active leak: prioritise within 48h
+→ If cosmetic crack only: offer NDT screening slot
+
+Book inspection
+---------------
+We can do a free site inspection in Guwahati — written diagnosis before any quote.
+
+Please confirm:
+- Full address (society/building name + area)
+- Contact number for our engineer on visit day
+- Best time: Mon–Sat 9 AM–6 PM
+
+Or book directly: [inspection link]
+
+After booking confirmed
+-----------------------
+Confirmed — [Day], [Time], [Address].
+
+Our engineer will call 30 min before arrival. Please ensure terrace/access to affected area is open.
+
+What to expect: 30–45 min walk-through, photos, leak/crack mapping. You'll get a diagnosis summary — no pressure to quote same day.
+
+WhatsApp — price question
+-------------------------
+Every terrace and crack is different — slope, age, previous work. We quote after inspection and flood test, not over WhatsApp.
+
+Happy to visit within 48h and give a written diagnosis first. Should I schedule?
+
+WhatsApp — "how much per sq ft?"
+--------------------------------
+Typical Guwahati terrace membrane work is often quoted ₹80–150/sq ft depending on condition — but we don't quote blind.
+
+We inspect first (free in Guwahati), then fixed quote with scope. Book a visit?
+
+WhatsApp — competitor comparison
+--------------------------------
+We don't comment on other contractors. We do publish flood test proof and photo logs — you can compare process.
+
+Happy to inspect and show you our diagnosis pack before you decide anyone.
+
+Instagram / Facebook DM — short
+-------------------------------
+Thanks for the DM! Best to continue on WhatsApp for faster scheduling: 60038 79490
+
+Or book here: [inspection link]
+
+Send us: area + photo of the stain/crack if you have one.
+
+RWA / society committee pitch (group broadcast)
+-----------------------------------------------
+Subject: Free terrace walk-through for [Society Name] — before 2027 monsoon
+
+Dear Managing Committee,
+
+91SkylineWorks (NIT engineers, Guwahati) offers a free common-area walk-through for housing societies — terrace drains, expansion joints, podium leaks.
+
+We provide a written diagnosis pack for the committee (no obligation to award work).
+
+Many societies treat joints only after parking floods — we recommend Year 1 diagnose, Year 2 upgrade worst wings, Year 3 preventive cycle.
+
+Summary attached: deploy/rwa-monsoon-plan.txt (share as PDF or paste key bullets).
+
+Book: 60038 79490 or https://91skylineworks.com/contact#inspection-form
+
+— 91SkylineWorks
+
+RWA follow-up (no reply after 3 days)
+-------------------------------------
+Hi, following up on our free society walk-through offer for [Society Name]. We have 2 inspection slots left this month in [Area]. Reply YES with a contact person and we'll coordinate with the committee.
+
+Review ask (after closed job — also in gbp-action-pack.txt)
+-----------------------------------------------------------
+Hi [Name], thank you for choosing 91SkylineWorks for [terrace waterproofing / crack repair / etc.].
+
+If you're happy with our work, a short Google review helps other Guwahati homeowners find us: [GBP review link]
+
+Mention your area and what we fixed — that helps neighbours searching locally. Thank you!
+
+Lead log reminder
+-----------------
+Log every social inquiry in competitive-scoreboard.csv (social_inquiries row).
+Note: platform, area, issue type, booked Y/N.

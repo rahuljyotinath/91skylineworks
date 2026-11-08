@@ -1,0 +1,267 @@
+91SkylineWorks — GTM Master Plan
+=================================
+Last updated: 2026-09-13
+Site: https://91skylineworks.com
+GBP: https://maps.app.goo.gl/ogPYnKhJLep1R5hD9
+Phone: +91 60038 79490
+
+Start here. Detail playbooks linked below — do not duplicate NAP or category text elsewhere.
+
+Goal and positioning
+--------------------
+Tagline: Building Doctor Guwahati
+Hook: Diagnose before you quote
+Proof: NIT engineers · flood test · written diagnosis pack · 48h site visit
+Enemies: single-coat acrylic painters · verbal "all fixed" · plaster over cracks
+
+Search targets (Guwahati, 6–12 month horizon)
+- waterproofing guwahati
+- building cracks guwahati
+- retrofitting guwahati
+- terrace leak repair guwahati
+
+Business targets (Sep–Dec 2026)
+- Google reviews: 13 → 30
+- GBP photos: 20+ (match SCS pack density)
+- Social inspection bookings: 4+/month
+- Social inquiries: 8+/month
+- Reels: 12/month (3/week)
+- OEM: Fosroc applicator application submitted; Sika follow-up
+
+NAP (must match everywhere — GBP, site, citations)
+--------------------------------------------------
+91Skylineworks Pvt Ltd
+Senapati Road, Sahar Sarania 2nd part, Silpukhuri, Guwahati 781003
++91 60038 79490
+https://91skylineworks.com
+
+GBP categories (saved 2026-09-13 — pick from autocomplete, do not free-type)
+-------------------------------------------------------------------------------
+Primary: Waterproofing Company
+Secondary: Structural engineer, General Contractor
+
+Hours (saved)
+-------------
+Mon–Sat 9:00–18:00 · Sun closed
+
+Status board (2026-09-13)
+-------------------------
+
+DONE
+[✓] Site live — node deploy/verify-gtm.mjs 17/17 pass (2026-09-07)
+[✓] 6 case studies on /portfolio (beltola, chandmari, dispur, gs-road, zoo-road, noonmati)
+[✓] GBP categories, hours, 7 services saved
+[✓] First GBP post live (monsoon / free inspection)
+[✓] GBP photos uploaded (20+ — confirm count in dashboard)
+[✓] Citations created/updated (JustDial, Sulekha, IndiaMART — user confirmed)
+[✓] Social campaign playbooks (6 files) + social-posts-ready.txt (26 weeks)
+[✓] Social graphics: social-assets/week-01..26 (139 PNG — Reel covers, LinkedIn, GBP)
+
+ONGOING (weekly / per job)
+[~] GBP post every Thu — paste from social-posts-ready.txt Week N THU block
+[~] Review ask after every closed job — WhatsApp template in gbp-action-pack.txt
+[~] Social calendar Sep–Dec — Week 1 starts 2026-09-15
+[~] Monthly scoreboard — competitive-scoreboard.csv
+
+PENDING (one-time or not yet verified)
+[ ] GSC: submit sitemap + URL inspect 3 key pages — search-console-checklist.txt
+[ ] OEM email sent to Fosroc — oem-application-email.txt
+[ ] JustDial NAP verified manually (listing exists ~24 reviews; bot-blocked in automation)
+[ ] Bio links (IG/FB) → contact#inspection-form with Instagram UTM
+[ ] RWA WhatsApp group list — min 5 Guwahati society groups
+[ ] Add real project photos to site — workstream I below
+
+Workstreams
+-----------
+
+A. Google Business Profile
+   Action: Thu post from social-posts-ready.txt; review asks per job; refresh photos quarterly
+   Files: gbp-action-pack.txt · gbp-checklist.txt
+   Posts URL: https://www.google.com/local/business/14867449152888852741/promote/updates
+   Cadence: Thu 10 min · review ask every job
+   KPI: calls + direction requests (GBP Insights); reviews 13→30
+
+B. Site SEO + Search Console
+   Action: Submit sitemap; inspect /guwahati/waterproofing, /guwahati/building-crack-repair, /contact
+   Files: search-console-checklist.txt · verify-gtm.mjs · generate-seo.mjs
+   Cadence: submit once; Performance tab monthly
+   KPI: impressions/clicks on 4 target queries (scoreboard gsc_* rows)
+
+C. Citations (NAP consistency)
+   Action: Verify JustDial NAP matches action pack; refresh Sulekha/IndiaMART if phone changes
+   Files: gbp-action-pack.txt (citation targets)
+   Cadence: quarterly check
+   KPI: same NAP on all listings; JustDial reviews visible
+
+D. Reviews
+   Action: WhatsApp review link after every job; social proof Reel R30; WA10 status
+   Files: gbp-action-pack.txt · social-dm-scripts.txt · social-posts-ready.txt (R30, WA10)
+   Cadence: every closed job
+   KPI: +3 reviews/month; mention area + work type in review text
+
+E. Social campaign (organic)
+   Action: Open social-posts-ready.txt Week N; paste Mon/Wed/Fri Reels, Tue LinkedIn, Sat WhatsApp, daily Stories
+   Files: social-campaign-plan.txt · social-posts-ready.txt · social-content-calendar.csv · social-shoot-checklist.txt · social-dm-scripts.txt
+   Handles: instagram.com/91skylineworks · facebook.com/91skylineworks · linkedin.com/company/91skylineworks
+   Cadence: 2–3 hrs/week (see weekly rhythm)
+   KPI: reels_published, social_inquiries, social_inspection_bookings (scoreboard)
+
+F. RWA / housing societies
+   Action: Share rwa-monsoon-plan.txt in group broadcasts (WA04, WA08, WA12); offer free walk-through
+   Files: rwa-monsoon-plan.txt · social-dm-scripts.txt (RWA pitch)
+   Cadence: Sat broadcast + committee follow-up
+   KPI: 1+ society walk-through booked per month (Nov–Dec)
+
+G. OEM applicator (Fosroc / Sika)
+   Action: Send oem-application-email.txt to Fosroc; follow Sika after Fosroc reply
+   Files: oem-applicator-guide.txt · oem-application-email.txt
+   Cadence: submit once; chase at 4 weeks
+   KPI: application submitted; badge on site when approved (competitive.json)
+
+H. Analytics (GA4 + GTM + Clarity)
+   Action: Verify generate_lead, click_phone, click_whatsapp fire; weekly Clarity on /contact drop-offs
+   Files: docs/gtm-setup.md
+   IDs: GTM GTM-TZ8DR4CR · GA4 G-QXV35C4QCV · Clarity (project ID in GTM)
+   Cadence: 15–20 min/week behavior review
+   KPI: site_sessions_social; funnel Home → Contact → generate_lead
+
+I. Site content — projects and photos
+   Action: Add entries to backend/src/seed/content.json "projects" array
+   Images: frontend/public/images/projects/{slug}/hero.webp + gallery
+   Deploy: npm run release → FTP (deploy/upload-ftp.sh) → node deploy/trigger-content-import.mjs
+   Case study slugs (live): beltola-residential-tower · chandmari-apartment-complex · dispur-government-office · gs-road-commercial-block · zoo-road-hotel-terrace · noonmati-housing-retrofit
+   Cadence: add 1 project/month with real photos
+   KPI: case_studies_live row in scoreboard
+
+Weekly operating rhythm (2.5–3.5 hrs total)
+---------------------------------------------
+Sunday   30 min — open social-posts-ready.txt Week N; confirm shoot assets from calendar
+Monday   20 min site shoot + 15 min publish Mon Reel (IG + FB + YT Shorts) + 1–2 Stories
+Tuesday  10 min — paste LinkedIn from ready file
+Wednesday 15 min — publish Wed Reel + Stories
+Thursday 10 min — paste GBP THU block + Wed Reel thumbnail
+Friday   15 min — publish Fri Reel + Stories
+Saturday 10 min — WhatsApp Status + 1 RWA group message (if slot)
+Every job — review ask (gbp-action-pack.txt)
+Every inquiry — "Which platform did you see us on?" → log in scoreboard
+
+Monthly review (1 hr, first week of month)
+------------------------------------------
+1. Update deploy/competitive-scoreboard.csv (all rows for current month)
+2. GSC Performance — 4 target queries (waterproofing / cracks / retrofitting / terrace leak)
+3. GA4 — Traffic acquisition by source; social UTM sessions
+4. Clarity — 5 sessions ending on /contact without submit
+5. GBP Insights — discovery searches, calls, direction requests
+6. Meta — follower counts IG/FB; Reels published count
+
+90-day milestones
+-----------------
+September 2026
+- Week 1–2 social posts live (starts 2026-09-15)
+- GSC sitemap submitted + 3 URL inspections
+- OEM email sent to Fosroc
+- Bio links updated with UTM
+- JustDial NAP verified manually
+
+October 2026
+- 12 Reels published (cracks + tremors arc)
+- RWA group list: 5+ groups
+- +3 Google reviews
+- First OEM reply or follow-up sent
+
+November 2026
+- RWA walk-throughs booked (expansion joints + resale/NDT arc)
+- 12 Reels published
+- Social inquiries trending toward 8/month
+
+December 2026
+- Campaign recap posts (R35, R36, LI12, WA12)
+- 2027 monsoon plan pitched to 2+ societies
+- Scoreboard retrospective Sep–Dec
+- Decision: paid Meta/Google Ads for Q1 2027?
+- Weeks 13–16: dry-season works + AGM outreach (social-posts-ready.txt)
+
+January 2027
+- Weeks 17–20: old-building NDT + retrofit arc; 26 Jan Bhuj post (R55)
+- 2+ society NDT screenings booked; institutions pitched for summer-break jacketing
+- OEM: Fosroc follow-up / Sika application
+
+February 2027
+- Weeks 21–24: pre-monsoon countdown; joints, cool roof, quote checklist
+- Inquiries target 10/month, bookings 6/month (demand peak)
+- Sitemap + GSC re-check after 5 months of content
+
+March 2027
+- Weeks 25–26: last dry window, monsoon-ready checklist, six-month recap (R78)
+- Campaign close 2027-03-14; retrospective; plan monsoon-season content (Apr–Sep)
+
+KPI reference (update monthly)
+------------------------------
+File: deploy/competitive-scoreboard.csv
+
+| Metric                    | Sep target      | Notes                          |
+|---------------------------|-----------------|--------------------------------|
+| google_reviews            | 30 total        | baseline 13                    |
+| gbp_photos                | 20+             | count in GBP dashboard         |
+| gbp_category              | done            | Waterproofing Company          |
+| case_studies_live         | 6               | add 1/month with real photos   |
+| reels_published           | 12/month        | Mon/Wed/Fri                    |
+| social_inquiries          | 8/month         | ask platform on first reply    |
+| social_inspection_bookings| 4/month         | booked from social UTM         |
+| gsc_* queries             | monitor         | first data 2–4 weeks post-submit|
+| site_sessions_social      | monitor         | GA4 referral + UTM             |
+
+Competitor benchmarks (Maps)
+----------------------------
+SCS (Beharbari): ~32 reviews, 5.0 — Fosroc/Sika/Hilti applicator
+SS Water Proofing (Rehabari): ~19 reviews, 5.0 — terrace-focused
+Avicon (Jatia): institutional specs — weak homeowner funnel
+Target: match SCS review + photo density; beat on diagnosis-first homeowner funnel
+
+File index (deploy/)
+--------------------
+gtm-master-plan.txt          — this file; start here
+gbp-action-pack.txt          — NAP, services, review template, GBP Thu workflow
+gbp-checklist.txt            — GBP manual checklist + verification notes
+search-console-checklist.txt — GSC sitemap, URL inspect, query monitoring
+competitive-scoreboard.csv   — monthly KPI tracker (91Skylineworks vs competitors)
+social-campaign-plan.txt     — social positioning, channels, 26-week arc, KPIs
+social-posts-ready.txt       — copy/paste posts per week (all platforms, weeks 1–26)
+social-content-calendar.csv  — 26-week schedule with UTMs
+social-captions.txt          — source refs R01–R78 / LI01–LI26 / WA01–WA26
+social-assets/week-NN/       — ready PNGs: Reel covers 9:16, LinkedIn 1:1, GBP 4:3
+social-shoot-checklist.txt   — 20-min site shot list
+social-dm-scripts.txt        — inquiry → booking, RWA pitch
+rwa-monsoon-plan.txt         — 3-year society pitch one-pager
+oem-applicator-guide.txt     — Fosroc/Sika application steps
+oem-application-email.txt    — ready email to Fosroc
+gtm-setup-wizard.sh          — interactive GBP + GSC + OEM walkthrough
+verify-gtm.mjs               — automated live site checks (17 tests)
+generate-seo.mjs             — sitemap + prerender route list
+trigger-content-import.mjs   — push content.json to live DB after FTP
+build-release.sh             — npm run release wrapper
+upload-ftp.sh                — FTP deploy script
+
+Docs (repo root)
+----------------
+docs/gtm-setup.md            — GA4 G-QXV35C4QCV, GTM GTM-TZ8DR4CR, Clarity, events
+
+Open manual checklist
+---------------------
+[ ] Submit https://91skylineworks.com/sitemap.xml in Search Console
+[ ] URL inspect: /guwahati/waterproofing, /guwahati/building-crack-repair, /contact
+[ ] Send OEM email (oem-application-email.txt) to Fosroc India
+[ ] Verify JustDial NAP at vendor login — phone, address, website match action pack
+[ ] Update IG + FB bio link → https://91skylineworks.com/contact#inspection-form?utm_source=instagram&utm_medium=social&utm_campaign=bdg-q4
+[ ] Build RWA WhatsApp group list (min 5 Guwahati societies)
+[ ] Week 1 social posts (Mon 2026-09-15) — social-posts-ready.txt WEEK 1
+[ ] First batch shoot on active job — social-shoot-checklist.txt
+[ ] Log first social inquiry in competitive-scoreboard.csv when it arrives
+
+Quick links
+-----------
+Inspection form: https://91skylineworks.com/contact#inspection-form
+Portfolio: https://91skylineworks.com/portfolio
+GBP posts: https://www.google.com/local/business/14867449152888852741/promote/updates
+Search Console: https://search.google.com/search-console
+Meta Business Suite: https://business.facebook.com

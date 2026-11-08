@@ -9,22 +9,23 @@ export const GUWAHATI_CENTER = [26.1445, 91.7362];
 
 export const SCOPES = ['ne', 'global', 'significant'];
 
-export const MIN_EARTHQUAKE_LIST = 5;
-
 const USGS_BASE = 'https://earthquake.usgs.gov';
-const NE_DAYS = 30;
+const NE_DAYS = 90;
 
-export function mergeEventsToMinimum(primary, supplemental, minCount) {
-  const seen = new Set(primary.map((e) => e.id));
-  const merged = [...primary];
-  for (const event of supplemental) {
-    if (merged.length >= minCount) break;
-    if (!seen.has(event.id)) {
-      merged.push(event);
-      seen.add(event.id);
-    }
-  }
-  return merged.sort((a, b) => (b.time || 0) - (a.time || 0));
+export function isInNeBbox(event) {
+  const lat = event?.lat;
+  const lon = event?.lon;
+  if (lat == null || lon == null) return false;
+  return (
+    lat >= NE_BBOX.minLat &&
+    lat <= NE_BBOX.maxLat &&
+    lon >= NE_BBOX.minLon &&
+    lon <= NE_BBOX.maxLon
+  );
+}
+
+export function filterNeEvents(events) {
+  return (events || []).filter(isInNeBbox);
 }
 
 export function buildUsgsUrl(scope) {
@@ -124,16 +125,16 @@ export function normalizeGeoJson(data) {
     .sort((a, b) => (b.time || 0) - (a.time || 0));
 }
 
-export async function fetchEarthquakes(scope = 'ne', { minCount = 0 } = {}) {
+export async function fetchEarthquakes(scope = 'ne') {
   const params = new URLSearchParams({ scope });
-  if (minCount > 0) params.set('min', String(minCount));
   const res = await fetch(`/api/earthquakes?${params.toString()}`);
   if (!res.ok) throw new Error(`HTTP ${res.status}`);
   const data = await res.json();
+  const events = scope === 'ne' ? filterNeEvents(data.events || []) : data.events || [];
   return {
-    events: data.events || [],
+    events,
     fetchedAt: data.fetchedAt || Date.now(),
     source: data.source || 'USGS',
-    backfilled: Boolean(data.backfilled),
+    backfilled: false,
   };
 }

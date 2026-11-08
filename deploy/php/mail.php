@@ -160,8 +160,59 @@ function format_lead_email_body(array $lead): string
     return implode("\n", $lines);
 }
 
+function resend_is_configured(array $cfg): bool
+{
+    return isset($cfg['resend_api_key']) && $cfg['resend_api_key'] !== '';
+}
+
+function resend_send_lead(array $cfg, array $lead): bool
+{
+    $key = $cfg['resend_api_key'];
+    $mail = mail_settings($cfg);
+    $subject = 'New website lead: ' . ($lead['name'] ?? 'Unknown');
+    $body = format_lead_email_body($lead);
+
+    $payload = [
+        'from' => sprintf('%s <%s>', $mail['from_name'], $mail['from']),
+        'to' => [$mail['to']],
+        'subject' => $subject,
+        'text' => $body,
+    ];
+    $replyTo = $lead['email'] ?? null;
+    if ($replyTo && filter_var($replyTo, FILTER_VALIDATE_EMAIL)) {
+        $payload['reply_to'] = $replyTo;
+    }
+
+    $context = stream_context_create([
+        'http' => [
+            'method' => 'POST',
+            'header' => "Authorization: Bearer {$key}\r\nContent-Type: application/json\r\n",
+            'content' => json_encode($payload, JSON_UNESCAPED_UNICODE | JSON_UNESCAPED_SLASHES),
+            'timeout' => 20,
+            'ignore_errors' => true,
+        ],
+    ]);
+
+    $raw = @file_get_contents('https://api.resend.com/emails', false, $context);
+    if ($raw === false) {
+        return false;
+    }
+    $decoded = json_decode($raw, true);
+    return is_array($decoded) && isset($decoded['id']);
+}
+
 function send_lead_notification(array $cfg, array $lead): bool
 {
+    if (resend_is_configured($cfg)) {
+        try {
+            if (resend_send_lead($cfg, $lead)) {
+                return true;
+            }
+        } catch (Throwable $e) {
+            error_log('[leads] Resend failed: ' . $e->getMessage());
+        }
+    }
+
     if (!mail_is_configured($cfg)) {
         return false;
     }

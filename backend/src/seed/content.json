@@ -13,7 +13,7 @@
   "hero": {
     "eyebrow": "Building doctor · Guwahati",
     "headline": "Your building has a problem. We find out why.",
-    "subheadline": "Water leaking? Cracks spreading? Damp walls every monsoon? Don't guess — get a proper diagnosis from Guwahati's building rehabilitation specialists.",
+    "subheadline": "Water leaking through a concrete terrace? Cracks in a column? Damp walls every monsoon? Don't guess — get a proper diagnosis. We work on RCC homes and flats in Guwahati, not tin sheet roofs.",
     "primaryCta": {
       "label": "Book free inspection",
       "href": "/contact#inspection-form"
@@ -160,17 +160,17 @@
     {
       "step": 1,
       "title": "We visit your home",
-      "description": "Our engineer walks through your flat or house — checking columns, roof, bathroom, basement, and any cracks you've noticed. No charge for the first consultation in Guwahati."
+      "description": "Our engineer walks through your flat or house — checking columns, concrete terrace, bathroom, basement, and any cracks you've noticed. No charge for the first consultation in Guwahati."
     },
     {
       "step": 2,
       "title": "We test what's hidden",
-      "description": "If needed, we run a building strength test (NDT) — like an X-ray for your concrete. You'll know if the structure is actually strong or just looks fine from outside."
+      "description": "If needed, we run a building strength test — like an X-ray for your concrete, without breaking it open (NDT). You'll know if the structure is actually strong or just looks fine from outside."
     },
     {
       "step": 3,
       "title": "We strengthen & repair",
-      "description": "We fix the root cause — wrapping weak columns, stopping water ingress, filling hollow concrete — using methods suited to your building and budget."
+      "description": "We fix the root cause — wrapping weak columns, stopping water through concrete, filling hollow pockets — using methods suited to your building and budget."
     },
     {
       "step": 4,
@@ -536,21 +536,21 @@
       "code": "01",
       "slug": "retrofitting",
       "title": "Retrofitting",
-      "description": "Crack in a column? Don't paint over it. We strengthen weak columns and beams so your flat survives the next tremor — carbon fibre wrapping, concrete repair, and foundation work.",
+      "description": "Crack in a column? Don't paint over it. We strengthen the columns and beams you already have so the next tremor doesn't bring the floor down (retrofitting).",
       "category": "retrofitting"
     },
     {
       "code": "02",
       "slug": "waterproofing",
       "title": "Waterproofing",
-      "description": "Monsoon roof leaks, bathroom seepage, basement damp — common in Guwahati. We stop water before it rusts your steel and weakens your walls from inside.",
+      "description": "Monsoon leaks through RCC terraces, bathrooms, and basements — not tin sheet roofs. We stop water before it rusts the steel inside your concrete.",
       "category": "waterproofing"
     },
     {
       "code": "03",
       "slug": "ndt",
       "title": "Building Strength Test",
-      "description": "Buying a resale flat in Beltola or Chandmari? Get an X-ray for your building first. Non-destructive tests reveal hidden weakness before you sign.",
+      "description": "Buying a resale flat in Beltola or Chandmari? Get an X-ray for your concrete first (NDT) — without breaking anything. Hidden weakness shows up before you sign.",
       "category": "ndt"
     },
     {
@@ -628,79 +628,93 @@
     {
       "slug": "retrofitting",
       "title": "Retrofitting",
-      "headline": "Make your Guwahati home earthquake-ready",
-      "intro": "If you live in Guwahati, your home is in Seismic Zone V — the highest earthquake risk in India. Retrofitting means strengthening what you already have: columns, beams, foundations, and slabs — so the next tremor doesn't turn a small crack into a collapsed floor.",
+      "headline": "Make the home you already have stronger",
+      "intro": "Guwahati sits in India's highest earthquake zone (Zone V). Retrofitting means strengthening the columns, beams, and foundations you already have — so the next tremor doesn't turn a small crack into a collapsed floor.",
       "awareness": {
-        "headline": "That crack in your column is NOT normal settling",
-        "body": "Most Guwahati homeowners ignore cracks because the builder said 'it's settling' or because a fresh coat of paint hides the problem. A crack in a partition wall between rooms is usually harmless. A crack running through a column, beam, or where the wall meets the ceiling is not. In an earthquake, that weak point can fail suddenly — and everything above it comes down. Don't wait until you feel the next tremor to find out."
+        "headline": "That crack in your column is not 'settling'",
+        "body": "Most Guwahati homeowners ignore cracks because the builder said it's settling, or because paint hides it. A crack in a partition wall between rooms is usually harmless. A crack running through a column, a beam, or where the wall meets the ceiling is not. In a tremor, that weak point can fail — and everything above it comes down. Don't wait until you feel the next one to find out."
       },
       "offerings": [
         {
-          "name": "Carbon fibre (CFRP) wrapping",
-          "description": "Thin, high-strength carbon fibre sheets are wrapped around weakened columns and beams — like a cast for your building's skeleton. It adds strength without making columns bulky.",
-          "whenUsed": "When columns or beams have cracks or have lost strength but the structure is still saveable — common in 15–30 year old RCC flats in Guwahati.",
-          "whyItMatters": "A weakened column can buckle in a moderate earthquake. Floors above can pancake. Repair after collapse costs 10× more than strengthening now — if the building is even salvageable."
+          "name": "Carbon fibre wrapping (CFRP)",
+          "description": "Thin, high-strength carbon fibre sheets wrapped around a weak column or beam — like a cast for the building's skeleton. Adds strength without making columns bulky. Useful in occupied flats.",
+          "whenUsed": "Cracks or lost strength in columns/beams, but the building is still saveable — common in 15–30 year RCC flats in Guwahati.",
+          "whyItMatters": "A weak column can buckle in a moderate earthquake. Floors above can pancake. Repair after collapse costs far more than strengthening now — if the building is even salvageable."
         },
         {
-          "name": "Micro concreting",
-          "description": "Special high-strength grout is injected into hollow or honeycombed areas inside concrete — filling voids left by poor construction or age.",
-          "whenUsed": "When building strength tests show empty pockets inside columns or slabs, or when you hear hollow sounds when tapping walls.",
-          "whyItMatters": "Hollow concrete means steel reinforcement is unprotected. Moisture reaches the steel, rust expands, and concrete bursts from inside — often with no warning sign on the surface."
+          "name": "Filling hollow concrete (micro concreting)",
+          "description": "High-strength grout injected into empty or honeycombed pockets inside concrete — voids left by poor pouring or age.",
+          "whenUsed": "A building strength test shows empty pockets, or tapping a column sounds hollow.",
+          "whyItMatters": "Hollow concrete leaves steel unprotected. Water reaches the steel, rust expands, and concrete bursts from inside — often with no warning on the surface."
         },
         {
           "name": "Repair mortar",
-          "description": "Structural repair mortar seals cracks in concrete and restores the surface — stopping monsoon water from reaching the steel inside.",
-          "whenUsed": "When you see visible cracks in structural members, spalling (concrete flaking off), or damp patches on columns and beams.",
-          "whyItMatters": "Rust expands steel up to 6 times its size. The concrete splits from within. What looks like a hairline crack today can become a crumbling column after one wet monsoon."
+          "description": "Structural mortar seals cracks in concrete and restores the surface — stopping monsoon water from reaching the steel inside.",
+          "whenUsed": "Visible cracks in columns or beams, concrete flaking off, or damp patches on structural members.",
+          "whyItMatters": "Rusted steel expands up to six times. What looks like a hairline crack today can become a crumbling column after one wet monsoon."
         },
         {
           "name": "Grouting",
-          "description": "Cement or epoxy grout fills gaps in masonry, between columns and brickwork, and in uneven foundations — spreading load evenly again.",
-          "whenUsed": "When floors feel uneven, doors don't close properly, or gaps appear between structural members after settling or tremors.",
-          "whyItMatters": "Uneven load distribution puts extra stress on fewer columns. One column takes the weight of three — and fails first in an earthquake."
+          "description": "Cement or epoxy grout fills gaps in masonry, between columns and brickwork, and in uneven foundations — so load spreads evenly again.",
+          "whenUsed": "Uneven floors, doors that don't close, or gaps after settling or tremors.",
+          "whyItMatters": "Uneven load puts extra stress on fewer columns. One column takes the weight of three — and fails first in an earthquake."
         },
         {
-          "name": "Rebarring (steel replacement)",
-          "description": "Corroded steel bars inside concrete are exposed, cleaned, and replaced or supplemented with new reinforcement — then re-sealed.",
-          "whenUsed": "When concrete has fallen off exposing rusted steel, or when tests show reinforcement has lost capacity.",
-          "whyItMatters": "Corroded steel can lose 50% of its strength silently. The building looks fine until sudden failure under earthquake load."
+          "name": "Replacing rusted steel (rebarring)",
+          "description": "Corroded steel bars inside concrete are exposed, cleaned, and replaced or supplemented — then sealed again.",
+          "whenUsed": "Concrete has fallen off and rusted steel is visible, or tests show the bars have lost strength.",
+          "whyItMatters": "Rusted steel can lose half its strength silently. The building looks fine until a tremor."
         },
         {
           "name": "Foundation strengthening",
-          "description": "Underpinning and soil treatment to stabilise foundations that have settled, tilted, or sit on soft Guwahati soil.",
-          "whenUsed": "Older homes in low-lying areas (Bharalumukh, Pandu, parts of Noonmati) with visible tilting, floor slope, or cracks at plinth level.",
-          "whyItMatters": "Foundation failure affects the entire building. In liquefiable soil during a strong quake, an untreated foundation can shift — tearing pipes and splitting the structure."
+          "description": "Stabilising foundations that have settled, tilted, or sit on soft Guwahati soil.",
+          "whenUsed": "Older homes in low-lying areas (Bharalumukh, Pandu, parts of Noonmati) with tilting, sloping floors, or cracks at plinth level.",
+          "whyItMatters": "Foundation failure affects the whole building. In a strong quake, an untreated foundation can shift — tearing pipes and splitting the structure."
         }
       ],
       "sections": [
         {
-          "title": "Column crack vs paint crack — know the difference",
-          "body": "A fine crack in plaster between two rooms is usually cosmetic — the brick partition carries no load. A crack that follows a column line, runs diagonally across a wall-ceiling joint, or widens after each tremor is structural. If you can fit a coin into the crack and it goes deep, or if the crack reappears after repainting, call us."
-        },
-        {
-          "title": "Even new flats in Guwahati aren't automatically safe",
-          "body": "Building codes exist — but enforcement and construction quality vary. Many flats built in the last 10 years have the same hidden problems: honeycombed concrete, insufficient steel, and rushed curing. A 'new' tag on a property listing doesn't mean earthquake-safe. A building strength test takes a few hours and tells you the truth."
-        },
-        {
-          "title": "Retrofitting process — how we work",
+          "title": "When to call us",
           "bullets": [
-            "Site visit and crack mapping",
-            "NDT on suspect columns and beams",
-            "Structural assessment and repair design",
-            "CFRP wrap, jacketing, or injection as specified",
-            "Final test and handover report"
+            "A crack runs through a column or beam — not just plaster between rooms",
+            "A crack comes back after you paint it",
+            "You felt a tremor and new cracks appeared",
+            "The building is 15+ years of RCC and has never been checked",
+            "You are adding a floor, a water tank, or extra load"
           ]
         },
         {
-          "title": "What happens in the next tremor — treated vs untreated",
-          "body": "An untreated home with a cracked column: the tremor shakes the building, stress concentrates at the crack, the column shears, upper floors lose support. A retrofitted home: the same tremor is absorbed by strengthened columns — cracks may not grow, floors stay supported."
+          "title": "Column crack vs paint crack",
+          "body": "A fine crack in plaster between two rooms is usually cosmetic — that brick wall carries no load. A crack that follows a column, runs diagonally at a wall-ceiling joint, or widens after each tremor is structural. If you can fit a coin into it, or it reappears after paint, call us."
         },
         {
-          "title": "How RCC strength drops over time",
-          "body": "Concrete does not stay at day-one strength forever. Carbonation front moves inward and reduces alkalinity that protects steel. Cover spalls, chlorides from poor mix or leaks reach rebar, and corrosion expands. IS 456 expects durability planning — not build-and-forget. A 25-year column in Guwahati monsoon can test 30–40% below original design assumptions if never maintained."
+          "title": "What we don't do",
+          "bullets": [
+            "We don't build new houses or take on general contracting",
+            "We don't 'just plaster it' and call a column crack fixed — paint hides risk, it doesn't restore strength",
+            "We don't skip a strength test (NDT) when columns look doubtful — strengthening without diagnosis is guessing"
+          ]
+        },
+        {
+          "title": "How we work",
+          "bullets": [
+            "Site visit and crack mapping",
+            "Building strength test (NDT) on suspect columns and beams",
+            "Repair design in plain language — what must be done now, what can wait",
+            "Carbon fibre wrap, jacketing, or injection as specified",
+            "Final test and a handover report you can actually read"
+          ]
+        },
+        {
+          "title": "What happens in the next tremor",
+          "body": "Untreated cracked column: the tremor concentrates stress at the crack, the column shears, upper floors lose support. Strengthened home: the same tremor is absorbed by treated columns — cracks may not grow, floors stay supported."
+        },
+        {
+          "title": "Concrete does not stay strong forever",
+          "body": "A 25-year column in Guwahati monsoon can test well below what it was designed for if nobody ever maintained it. Water and rust eat the steel inside. A building strength test (NDT) shows that before a tremor does."
         }
       ],
-      "ctaMessage": "Seen a crack? Don't wait for the next tremor. Call us for a free consultation — we'll tell you honestly if it's serious.",
+      "ctaMessage": "Seen a crack? Don't wait for the next tremor. Free consultation — we'll tell you honestly if it's serious.",
       "seoTitle": "Building retrofitting in Guwahati",
       "seoHeadline": "Building retrofitting in Guwahati",
       "warranty": {
@@ -719,81 +733,91 @@
     {
       "slug": "waterproofing",
       "title": "Waterproofing",
-      "headline": "Stop monsoon damage before it reaches your steel",
-      "intro": "Guwahati's monsoon is brutal on buildings. A small roof leak today becomes a rusted column tomorrow. Waterproofing isn't cosmetic — it's how you stop water from eating your home from inside.",
+      "headline": "Stop monsoon water before it rusts your steel",
+      "intro": "We waterproof concrete — RCC terrace slabs, bathrooms, basements, and podiums. Not tin or GI sheet roofs. A small leak on a concrete terrace today becomes a rusted column tomorrow. Waterproofing isn't paint. It's how you stop water eating the home from inside.",
       "awareness": {
-        "headline": "That damp patch on your ceiling isn't 'just humidity'",
-        "body": "Water follows gravity and capillary action. A leak on the terrace travels down through concrete, reaches steel reinforcement, and starts rust. By the time you see a yellow stain on your bedroom ceiling, the damage inside the slab may already be serious. Painting over it makes it invisible — not fixed."
+        "headline": "That yellow ceiling stain isn't 'just humidity'",
+        "body": "Water travels down through concrete, reaches the steel inside the slab, and starts rust. By the time you see a stain on the bedroom ceiling, damage inside may already be serious. Painting over it makes it invisible — not fixed. This is for concrete terraces and bathrooms, not tin sheet roofs."
       },
       "offerings": [
         {
-          "name": "Rooftop waterproofing (double coat)",
-          "description": "Two layers of waterproof coating over your terrace — the first line of defence against Guwahati's monsoon.",
-          "whenUsed": "When you see pooling water on the terrace, leaks after rain, or your top-floor ceiling has damp patches.",
-          "whyItMatters": "Standing water on a flat roof adds weight and finds every crack. One season of unchecked leakage can halve your slab's remaining life."
+          "name": "RCC terrace / concrete slab (not tin sheet)",
+          "description": "Two layers of waterproof coating on your concrete terrace — the first line of defence against Guwahati monsoon. This is a flat RCC slab, the kind on apartment buildings and pucca houses — not a tin or GI sheet roof.",
+          "whenUsed": "Water pools on the terrace after rain, or the top-floor ceiling has damp patches. Before monsoon if the terrace is already cracked.",
+          "whyItMatters": "Standing water finds every crack. One season of unchecked leakage can cut a slab's remaining life in half."
         },
         {
           "name": "Screed slope correction",
           "description": "We rebuild the terrace slope so water flows to drains instead of sitting in puddles.",
-          "whenUsed": "When water pools in corners after rain — common in older Guwahati buildings with flat or reversed slopes.",
-          "whyItMatters": "Pooled water finds the weakest point. Every monsoon the same spot gets worse until water breaks through."
+          "whenUsed": "Water pools in corners after rain — common on older Guwahati buildings with flat or reversed slopes.",
+          "whyItMatters": "Pooled water finds the weakest point. Every monsoon that spot gets worse until water breaks through."
         },
         {
           "name": "Bathroom waterproofing (before tiles)",
-          "description": "Waterproof membrane applied on raw bathroom floor and walls before tiling — the correct way to build.",
-          "whenUsed": "During new construction or renovation, before tiles go on. Also when redoing a bathroom that leaks to the floor below.",
-          "whyItMatters": "Fixing a leaking tiled bathroom means breaking all tiles and starting over — 5× the cost of doing it right the first time."
+          "description": "Waterproof layer on the raw bathroom floor and walls before tiling — the correct sequence.",
+          "whenUsed": "During renovation, before tiles go on. Also when redoing a bathroom that leaks to the flat below.",
+          "whyItMatters": "Fixing a leaking tiled bathroom means breaking all the tiles — many times the cost of doing it right the first time."
         },
         {
-          "name": "Basement & plinth waterproofing",
-          "description": "PU injection and coating for ground floors and basements — especially where municipal road height has risen above your plinth.",
-          "whenUsed": "When ground-floor walls are damp year-round, white salt deposits appear, or water enters during heavy rain.",
-          "whyItMatters": "Guwahati's water table is shallow. Hydrostatic pressure pushes water through walls like a hydraulic press. Paint and damp-proof courses fail within months."
+          "name": "Basement & plinth",
+          "description": "Injection (PU) and coating for ground floors and basements — especially where the road has risen above your plinth.",
+          "whenUsed": "Ground-floor walls damp year-round, white salt on walls, or water entering in heavy rain.",
+          "whyItMatters": "Guwahati's water table is shallow. Water pushes through walls. Paint fails within months."
         },
         {
-          "name": "Polyurethane (PU) coating",
-          "description": "Flexible, durable coating that handles foot traffic on terraces and movement in walls.",
-          "whenUsed": "Terraces, balconies, and areas that expand and contract with heat.",
-          "whyItMatters": "Rigid coatings crack in Guwahati's heat-cold cycle. Flexible PU stays sealed."
+          "name": "Flexible coating (PU)",
+          "description": "A flexible, durable coat that handles foot traffic on terraces and movement in walls (polyurethane).",
+          "whenUsed": "Concrete terraces, balconies, and surfaces that expand and contract with heat.",
+          "whyItMatters": "Rigid coatings crack in Guwahati heat. Flexible PU stays sealed."
         },
         {
-          "name": "Acrylic & elastomeric coating",
-          "description": "UV-resistant coatings that reflect heat and block water — good for exterior walls and sun-facing surfaces.",
-          "whenUsed": "Sun-facing walls with fine cracks, terraces with light foot traffic, and exterior surfaces.",
-          "whyItMatters": "Cracks in exterior walls let monsoon water in. One wet season can rust every steel tie in the wall."
+          "name": "Exterior wall coating",
+          "description": "UV-resistant coats that block water on sun-facing walls — not a substitute for a proper terrace membrane.",
+          "whenUsed": "Sun-facing walls with fine cracks, or light-traffic terrace surfaces after the slab is prepared.",
+          "whyItMatters": "Wall cracks let monsoon water in. One wet season can rust the steel ties inside."
         }
       ],
       "sections": [
         {
-          "title": "The Guwahati monsoon trap",
-          "body": "From May to September, Guwahati gets heavy rain almost daily. Flat terraces, shared apartment roofs, and old drainage systems can't cope. If your upstairs neighbour's terrace isn't waterproofed, your ceiling pays the price. If your own terrace has cracks, your columns absorb the water."
-        },
-        {
-          "title": "Signs you need waterproofing now",
+          "title": "When to call us",
           "bullets": [
             "Yellow-brown stains on ceiling or walls after rain",
-            "Peeling paint or bubbling plaster in bathroom or terrace-adjacent rooms",
-            "Musty smell that returns every monsoon",
-            "White powder (efflorescence) on ground-floor walls",
-            "Water dripping from terrace drain areas"
+            "Bathroom leak into the flat below",
+            "Before monsoon — if the terrace already ponds or is cracked",
+            "Before tiling a bathroom (the membrane goes on the raw floor)",
+            "White powder on ground-floor walls, or a musty smell that returns every monsoon"
           ]
+        },
+        {
+          "title": "What we don't do",
+          "bullets": [
+            "Tin, GI, or CGI sheet roofs — we do not coat metal sheets. That is a different trade.",
+            "Asbestos sheet roofs",
+            "Interior painting sold as 'waterproofing' — paint hides a stain, it does not stop water in the slab",
+            "Plumbing-only jobs (leaking tap, burst pipe, WC trap) with no seepage through concrete. Call a plumber first.",
+            "New-build contracting — we diagnose and repair existing concrete homes and flats"
+          ]
+        },
+        {
+          "title": "The Guwahati monsoon trap",
+          "body": "From May to September, rain is almost daily. Flat concrete terraces and old drains can't cope. If the upstairs terrace isn't waterproofed, your ceiling pays. If your own terrace has cracks, your columns absorb the water."
         },
         {
           "title": "Diagnosis before coating",
-          "body": "We flood-test terraces, map moisture on ceilings, and check parapet and drain details before specifying membrane type. Coating over active cracks or ponding water fails within one season — diagnosis first saves repeat cost."
+          "body": "We flood-test terraces, map moisture on ceilings, and check parapet and drain details before choosing a system. Coating over active cracks or ponding water fails within one season."
         },
         {
-          "title": "Systems we specify",
+          "title": "Systems we specify (on concrete)",
           "bullets": [
-            "PU liquid membrane for trafficked terraces",
-            "Bituminous multilayer with protection course",
-            "Crystalline systems for basements",
-            "Bathroom membranes before tiling",
-            "Parapet upturn and penetration detailing"
+            "Flexible liquid membrane (PU) for terraces people walk on",
+            "Bitumen layers with a protection screed where needed",
+            "Basement systems that work from the inside when you can't dig outside",
+            "Bathroom membrane before tiles",
+            "Parapet upturn and pipe collars — the details cheap jobs skip"
           ]
         }
       ],
-      "ctaMessage": "Monsoon is coming. Fix the leak now — not after your ceiling collapses.",
+      "ctaMessage": "Monsoon is coming. If the leak is on concrete — terrace, bathroom, basement — call us. Tin roofs are not our work.",
       "seoTitle": "Waterproofing in Guwahati",
       "seoHeadline": "Waterproofing in Guwahati",
       "warranty": {
@@ -813,66 +837,70 @@
       "slug": "ndt",
       "title": "Building Strength Test",
       "headline": "Know if your building is actually strong",
-      "intro": "A fresh paint job hides a lot. A building strength test (called NDT — Non-Destructive Testing) tells you what's really inside your columns and slabs — without breaking anything open.",
+      "intro": "A fresh paint job hides a lot. A building strength test is an X-ray for your concrete without breaking anything open (NDT — non-destructive testing). It tells you what's inside columns and slabs before you buy, retrofit, or ignore a crack.",
       "awareness": {
-        "headline": "Don't buy a Guwahati flat based on looks alone",
-        "body": "Every week, families in Guwahati buy resale flats in Beltola, Six Mile, and Zoo Road based on location and paint. They don't know the column in the master bedroom has hollow concrete. They find out after the first monsoon leak — or worse, after a tremor widens a hidden crack. A half-day test costs a fraction of your down payment and can save everything."
+        "headline": "Don't buy a Guwahati flat on looks alone",
+        "body": "Families buy resale flats in Beltola, Six Mile, and Zoo Road based on location and paint. They don't know the bedroom column is hollow inside. They find out after the first monsoon leak — or after a tremor. A half-day test costs a fraction of the down payment."
       },
       "offerings": [
         {
-          "name": "Ultrasonic Pulse Velocity (UPV) test",
-          "description": "Sound waves are sent through concrete — like an ultrasound. Weak, hollow, or cracked areas show up clearly on the reading.",
-          "whenUsed": "When you need to know internal concrete quality — especially in columns, slabs, and load-bearing walls.",
-          "whyItMatters": "Hollow concrete can look perfect from outside. UPV finds the voids before they become collapse points."
+          "name": "Ultrasound of concrete (UPV)",
+          "description": "Sound waves through concrete — like an ultrasound. Weak, hollow, or cracked zones show up on the reading (ultrasonic pulse velocity).",
+          "whenUsed": "You need to know what's inside columns, slabs, and load-bearing walls — before buying or before strengthening.",
+          "whyItMatters": "Hollow concrete can look perfect from outside. This test finds the voids before they become collapse points."
         },
         {
-          "name": "Rebound Hammer test",
-          "description": "A spring-loaded device measures surface hardness of concrete — indicating compressive strength.",
-          "whenUsed": "Quick screening of multiple columns and slabs — common in pre-purchase inspections.",
-          "whyItMatters": "Soft concrete means the building was poorly mixed or has aged badly. It won't carry earthquake load as designed."
+          "name": "Surface hardness test (rebound hammer)",
+          "description": "A spring-loaded device measures how hard the concrete surface is — a quick clue to compressive strength.",
+          "whenUsed": "Screening many columns and slabs on a pre-purchase visit.",
+          "whyItMatters": "Soft concrete means poor mix or age. It will not carry earthquake load as designed."
         },
         {
           "name": "Crack mapping & risk report",
-          "description": "We measure, photograph, and classify every crack — structural vs cosmetic — with a plain-language report.",
-          "whenUsed": "After tremors, when buying a property, or when multiple cracks appear across the flat.",
-          "whyItMatters": "Not all cracks are equal. Without mapping, you either panic unnecessarily or ignore something fatal."
+          "description": "We measure, photograph, and classify every crack — structural vs cosmetic — in a report you can read.",
+          "whenUsed": "After tremors, when buying, or when several cracks appear across the flat.",
+          "whyItMatters": "Not all cracks are equal. Without mapping you either panic or ignore something dangerous."
         },
         {
           "name": "Pre-purchase building report",
-          "description": "Full strength assessment before you pay a deposit — with clear pass/fail guidance on each structural element.",
-          "whenUsed": "Before signing any resale flat or independent house purchase in Guwahati.",
-          "whyItMatters": "Banks check paperwork, not concrete quality. You're the one living there when something fails."
+          "description": "Full strength assessment before you pay a deposit — clear pass/fail on each structural element.",
+          "whenUsed": "Before signing any resale flat or independent house in Guwahati.",
+          "whyItMatters": "Banks check paperwork, not concrete. You're the one living there when something fails."
         }
       ],
       "sections": [
         {
-          "title": "Who should get tested?",
+          "title": "When to get a strength test",
           "bullets": [
-            "Anyone buying a resale flat or house in Guwahati",
-            "Owners of buildings 10+ years old — especially pre-2010 construction",
-            "Flats where cracks appeared after recent tremors",
-            "Housing societies planning major renovation or additional floors",
-            "Landlords who want to protect tenants and avoid liability"
+            "Before you buy a resale flat or old house",
+            "Before you spend on strengthening (retrofitting) — so the repair matches the actual weakness",
+            "After a tremor, or when new cracks appear",
+            "Buildings 10+ years old, especially pre-2010 RCC",
+            "Every 3–5 years on older occupied buildings — not a one-time stamp"
+          ]
+        },
+        {
+          "title": "What this is not",
+          "bullets": [
+            "Not a substitute for repair — a test finds the problem; strengthening or waterproofing fixes it",
+            "Not a paperwork stamp for a builder or a new construction project",
+            "Not something you do instead of calling us about a leaking tin roof — we don't coat sheet roofs"
           ]
         },
         {
           "title": "What you'll receive",
-          "body": "A clear report in plain language — not a 50-page engineering document. We mark which columns passed, which need attention, and what it will cost to fix. You decide whether to proceed with purchase, negotiate price, or walk away."
+          "body": "A clear report in plain language — not a 50-page engineering document. Which columns passed, which need attention, and what it will cost to fix. You decide: buy, negotiate, walk away, or repair."
         },
         {
-          "title": "How RCC strength decreases with age",
-          "body": "Carbonation, chloride ingress, and cover loss reduce effective strength over decades — often with no visible warning until spalling or a tremor widens cracks. Rebound hammer and UPV show what paint hides. A building that 'looks fine' at 20 years may have columns below design capacity."
+          "title": "Concrete weakens with age",
+          "body": "Water, rust, and thinning cover reduce strength over decades — often with no warning until concrete flakes or a tremor widens a crack. The hammer and ultrasound tests show what paint hides. A building that 'looks fine' at 20 years may have columns below design strength."
         },
         {
-          "title": "When to retest — every 3 to 5 years",
-          "body": "IS 456 and good international practice treat structural health as ongoing. After major tremors, visible new cracks, or completed retrofit work, retest sooner. For older occupied buildings, a 3–5 year NDT cycle catches corrosion and strength loss before emergency repair."
-        },
-        {
-          "title": "Other states already mandate audits",
-          "body": "Maharashtra requires structural audits for certain ageing and dilapidated buildings. Delhi authorities have pushed periodic safety inspections on old structures. Kerala intensified assessments after flood damage. Assam has not yet mandated the same — but owners who wait for law often pay emergency prices after failure."
+          "title": "Other states already require audits",
+          "body": "Maharashtra requires structural audits on certain old buildings. Delhi has pushed periodic safety checks. Assam has not mandated the same yet — owners who wait for the law often pay emergency prices after failure."
         }
       ],
-      "ctaMessage": "Buying or living in an older flat? Know the truth before it's too late."
+      "ctaMessage": "Buying, or worried after a tremor? Book a building strength test — we'll explain the readings in plain language."
     },
     {
       "slug": "heatproofing",
@@ -1298,16 +1326,16 @@
         "body": "Every project starts with a site visit and diagnosis — not an instant quote over WhatsApp."
       },
       {
-        "title": "Evidence-based repair",
-        "body": "NDT, moisture mapping, and crack mapping before we recommend PU injection, waterproofing, or retrofitting."
+        "title": "Test, then repair",
+        "body": "We map cracks and moisture, and if needed run a building strength test (NDT), before we recommend stopping water or strengthening columns."
       },
       {
-        "title": "Ageing RCC needs monitoring",
-        "body": "Concrete strength and steel protection degrade over decades — especially in Guwahati monsoon. Periodic NDT catches hidden loss before emergency repair."
+        "title": "Old concrete needs checking",
+        "body": "Concrete and the steel inside it weaken over decades — especially in Guwahati monsoon. A strength test every few years catches hidden loss before an emergency."
       },
       {
         "title": "Long-term fix",
-        "body": "We fix the cause, not the symptom. No paint-over-leak patches that fail next monsoon."
+        "body": "We fix the cause, not the stain. No paint-over-leak patches that fail next monsoon. We work on concrete homes and flats — not tin sheet roofs."
       }
     ],
     "ctaLabel": "Book free inspection",
@@ -2275,8 +2303,32 @@
     "headline": "Common questions before you call",
     "items": [
       {
+        "q": "Do you waterproof tin or GI sheet roofs?",
+        "a": "No. We waterproof concrete — RCC terrace slabs, bathrooms, basements, and podiums. Tin, GI, CGI, and asbestos sheet roofs are a different trade. If your leak is on a pucca concrete terrace or through a bathroom slab, we can help.",
+        "link": {
+          "href": "/services/waterproofing",
+          "label": "What we waterproof →"
+        }
+      },
+      {
+        "q": "What is retrofitting — and do I need it?",
+        "a": "Retrofitting means making the columns and beams you already have stronger so they survive the next tremor. Guwahati is Zone V. Call us if a crack runs through a column, comes back after paint, or appeared after a tremor — not for a hairline crack in plaster between rooms.",
+        "link": {
+          "href": "/services/retrofitting",
+          "label": "When to strengthen →"
+        }
+      },
+      {
+        "q": "Why test a building before buying or repairing?",
+        "a": "Paint hides hollow or weak concrete. A building strength test is an X-ray for columns without breaking them open (NDT). Get it before you sign a resale deal, and before you spend on strengthening — so the repair matches the actual weakness. It is not a substitute for repair.",
+        "link": {
+          "href": "/services/ndt",
+          "label": "Building strength test →"
+        }
+      },
+      {
         "q": "How much does waterproofing cost?",
-        "a": "Depends on area size, leak severity, and whether terrace, bathroom, or basement. A typical Guwahati flat terrace starts around ₹80–150 per sq ft for proper membrane work — but we quote after inspection, not over the phone. Free site visit first.",
+        "a": "Depends on area, leak severity, and whether it is a concrete terrace, bathroom, or basement. A typical Guwahati RCC terrace starts around ₹80–150 per sq ft for proper membrane work — we quote after inspection, not over the phone. Free site visit first. Not for tin roofs.",
         "link": {
           "href": "/services/waterproofing",
           "label": "Waterproofing services →"
@@ -2292,7 +2344,7 @@
       },
       {
         "q": "Do you work during monsoon season?",
-        "a": "Yes — monsoon is when most Guwahati homeowners notice leaks. Emergency leak-stopping (PU injection, temporary sealing) can be done during rain. Full terrace waterproofing is usually scheduled between showers or in dry windows so the membrane bonds properly.",
+        "a": "Yes — monsoon is when most Guwahati homeowners notice leaks. Emergency leak-stopping (PU injection) can be done during rain. Full concrete-terrace waterproofing is usually scheduled between showers so the membrane bonds properly.",
         "link": {
           "href": "/problems/terrace-roof-leakage",
           "label": "Terrace leak guide →"
