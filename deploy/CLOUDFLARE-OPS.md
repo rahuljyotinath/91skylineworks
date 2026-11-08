@@ -62,8 +62,8 @@ Response headers (CSP, HSTS, etc.) are applied in the Worker — see `worker/src
 ## Turnstile (forms)
 
 1. Dashboard → **Turnstile** → Add widget → hostname `91skylineworks.com` (+ `www` if needed).
-2. **Site key** → `VITE_TURNSTILE_SITE_KEY` (GitHub + frontend `.env`).
-3. **Secret key** → `wrangler secret put TURNSTILE_SECRET_KEY`.
+2. **Site key** → `VITE_TURNSTILE_SITE_KEY` (GitHub + frontend `.env`). Production: `0x4AAAAAAF5CPJ9XC44_wh_0`.
+3. **Secret key** → `wrangler turnstile widget get <SITEKEY> --json` piped to `wrangler secret put TURNSTILE_SECRET_KEY` (bound on Worker `skylineworks`).
 4. Redeploy frontend + worker.
 
 If site key is unset, widgets hidden and API skips verification.

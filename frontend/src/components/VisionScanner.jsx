@@ -40,7 +40,7 @@ function EscalationForm({ onSubmit, error }) {
   const [form, setForm] = useState({ name: '', phone: '', loc: '' });
   const [files, setFiles] = useState([]);
   const [localError, setLocalError] = useState(null);
-  const { token: turnstileToken, assertReady, widget: turnstileWidget } = useFormTurnstile();
+  const { token: turnstileToken, assertReady, widget: turnstileWidget } = useFormTurnstile('escalation');
 
   return (
     <div className="escalation-form-wrap">
@@ -103,6 +103,14 @@ export default function VisionScanner({ contact }) {
   const [successOpen, setSuccessOpen] = useState(false);
   const [successMessageText, setSuccessMessageText] = useState('');
   const hudRef = useRef(null);
+  const {
+    token: scanTurnstileToken,
+    required: scanTurnstileRequired,
+    assertReady: assertScanTurnstile,
+    reset: resetScanTurnstile,
+    widget: scanTurnstileWidget,
+  } = useFormTurnstile('diagnose');
+  const [scanGateError, setScanGateError] = useState(null);
 
   useEffect(() => {
     SkylineVisionEngine.bind({
@@ -126,6 +134,13 @@ export default function VisionScanner({ contact }) {
   };
 
   const capture = useCallback(async () => {
+    setScanGateError(null);
+    try {
+      assertScanTurnstile();
+    } catch (err) {
+      setScanGateError(err.message);
+      return;
+    }
     setPhase('processing');
     setLogs('');
     const frame = await SkylineVisionEngine.freezeAndCapture();
@@ -139,10 +154,11 @@ export default function VisionScanner({ contact }) {
       setLogs((prev) => `${prev}\n> ${line}`);
     });
 
-    const result = await SkylineVisionEngine.transmitTelemetry(frame);
+    const result = await SkylineVisionEngine.transmitTelemetry(frame, scanTurnstileToken);
+    if (scanTurnstileRequired) resetScanTurnstile();
     setOutput(result);
     setPhase('done');
-  }, []);
+  }, [assertScanTurnstile, scanTurnstileToken, scanTurnstileRequired, resetScanTurnstile]);
 
   const handleEscalation = async (form, files, turnstileToken) => {
     setEscError(null);
@@ -205,6 +221,8 @@ export default function VisionScanner({ contact }) {
               </button>
             )}
           </div>
+          {(phase === 'live' || phase === 'idle') && scanTurnstileWidget}
+          {scanGateError && <p className="form-error">{scanGateError}</p>}
 
           {phase === 'processing' && (
             <pre id="terminal-logger-console" className="terminal-logger mono">

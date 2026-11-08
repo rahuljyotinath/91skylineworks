@@ -33,7 +33,7 @@ export default function DiagnosticQuiz({ contact }) {
   const [successOpen, setSuccessOpen] = useState(false);
   const [successMessageText, setSuccessMessageText] = useState('');
   const { token: turnstileToken, assertReady, reset: resetTurnstile, widget: turnstileWidget } =
-    useFormTurnstile();
+    useFormTurnstile('quiz');
 
   const isCritical =
     answers.age === 'pre-2002' &&

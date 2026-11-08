@@ -2,7 +2,12 @@ import type { Context } from 'hono';
 import { Hono } from 'hono';
 import { fetchEarthquakes } from './lib/earthquakes';
 import { sendLeadEmail } from './lib/mail';
-import { verifyTurnstile } from './lib/turnstile';
+import {
+  allowedHostnamesFromEnv,
+  expectedTurnstileActionForLeadSource,
+  TURNSTILE_ACTION_DIAGNOSE,
+  verifyTurnstile,
+} from './lib/turnstile';
 import { analyzeImage, clientIp, json, sanitizeString } from './lib/util';
 
 export type Env = {
@@ -10,6 +15,7 @@ export type Env = {
   UPLOADS?: R2Bucket;
   RESEND_API_KEY: string;
   TURNSTILE_SECRET_KEY?: string;
+  TURNSTILE_HOSTNAMES?: string;
   MAIL_TO: string;
   MAIL_FROM: string;
   MAIL_FROM_NAME: string;
@@ -75,8 +81,34 @@ api.post('/diagnose', async (c) => {
   let imageKey: string | null = null;
 
   const contentType = c.req.header('content-type') ?? '';
-  if (contentType.includes('multipart/form-data')) {
-    const form = await c.req.formData();
+  const isMultipart = contentType.includes('multipart/form-data');
+  let form: FormData | null = null;
+  let body: Record<string, unknown> = {};
+
+  if (isMultipart) {
+    form = await c.req.formData();
+    body = Object.fromEntries(
+      [...form.entries()].filter(([, v]) => typeof v === 'string').map(([k, v]) => [k, v as string]),
+    );
+  } else {
+    body = (await c.req.json().catch(() => ({}))) as Record<string, unknown>;
+  }
+
+  const diagnoseToken = extractTurnstileToken(isMultipart, form, body);
+  const diagnoseOk = await verifyTurnstile(
+    c.env.TURNSTILE_SECRET_KEY ?? '',
+    diagnoseToken,
+    clientIp(c.req.raw),
+    {
+      expectedAction: TURNSTILE_ACTION_DIAGNOSE,
+      allowedHostnames: allowedHostnamesFromEnv(c.env.TURNSTILE_HOSTNAMES),
+    },
+  );
+  if (!diagnoseOk) {
+    return json({ error: 'Please complete the security check and try again', isAmbiguous: true }, 403);
+  }
+
+  if (isMultipart && form) {
     const file = form.get('image');
     if (file instanceof File && file.size > 0) {
       if (file.size > maxBytes) return json({ error: 'File too large', isAmbiguous: true }, 400);
@@ -95,7 +127,6 @@ api.post('/diagnose', async (c) => {
       });
     }
   } else {
-    const body = (await c.req.json().catch(() => ({}))) as { image?: string };
     if (body.image && typeof body.image === 'string') {
       const base64 = body.image.replace(/^data:image\/\w+;base64,/, '');
       const binary = Uint8Array.from(atob(base64), (ch) => ch.charCodeAt(0));
@@ -216,11 +247,17 @@ async function handleLeadPost(c: Context<{ Bindings: Env }>) {
     metadata = parseMetadata(body.metadata);
   }
 
+  const source = sanitizeString(body.source, 64) || 'contact';
+  const expectedAction = expectedTurnstileActionForLeadSource(source);
   const turnstileToken = extractTurnstileToken(isMultipart, form, body);
   const turnstileOk = await verifyTurnstile(
     c.env.TURNSTILE_SECRET_KEY ?? '',
     turnstileToken,
     clientIp(c.req.raw),
+    {
+      ...(expectedAction ? { expectedAction } : {}),
+      allowedHostnames: allowedHostnamesFromEnv(c.env.TURNSTILE_HOSTNAMES),
+    },
   );
   if (!turnstileOk) {
     return json({ error: 'Please complete the security check and try again' }, 403);
@@ -230,7 +267,6 @@ async function handleLeadPost(c: Context<{ Bindings: Env }>) {
   const phone = sanitizeString(body.phone, 64);
   const email = sanitizeString(body.email, 255);
   const locality = sanitizeString(body.locality, 255);
-  const source = sanitizeString(body.source, 64) || 'contact';
 
   if (email && !/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email)) {
     return json({ error: 'Invalid email address' }, 400);

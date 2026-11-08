@@ -86,7 +86,7 @@ const SkylineVisionEngine = {
     }
   },
 
-  async transmitTelemetry(base64Payload) {
+  async transmitTelemetry(base64Payload, turnstileToken = '') {
     try {
       const blob = await (async () => {
         const res = await fetch(base64Payload);
@@ -95,6 +95,7 @@ const SkylineVisionEngine = {
 
       const formData = new FormData();
       formData.append('image', blob, 'scan.jpg');
+      if (turnstileToken) formData.append('cf-turnstile-response', turnstileToken);
 
       let serverResponse = await fetch('/api/diagnose', {
         method: 'POST',
@@ -105,7 +106,10 @@ const SkylineVisionEngine = {
         serverResponse = await fetch('/api/diagnose', {
           method: 'POST',
           headers: { 'Content-Type': 'application/json' },
-          body: JSON.stringify({ image: base64Payload }),
+          body: JSON.stringify({
+            image: base64Payload,
+            ...(turnstileToken ? { 'cf-turnstile-response': turnstileToken } : {}),
+          }),
         });
       }
 

@@ -24,7 +24,7 @@ export default function ContactArray({ contact, serviceCategories, navServices }
   const [files, setFiles] = useState([]);
   const [form, setForm] = useState({ name: '', phone: '', email: '', scope: '', msg: '' });
   const { token: turnstileToken, assertReady, reset: resetTurnstile, widget: turnstileWidget } =
-    useFormTurnstile();
+    useFormTurnstile('contact');
 
   const categoryOptions = useMemo(
     () => buildCategoryOptions(serviceCategories, navServices),

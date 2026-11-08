@@ -24,7 +24,7 @@ function loadTurnstileScript() {
   });
 }
 
-export default function FormTurnstile({ onToken }) {
+export default function FormTurnstile({ onToken, action = 'contact' }) {
   const hostRef = useRef(null);
   const widgetRef = useRef(null);
 
@@ -38,6 +38,7 @@ export default function FormTurnstile({ onToken }) {
         if (cancelled || !hostRef.current || !window.turnstile) return;
         widgetRef.current = window.turnstile.render(hostRef.current, {
           sitekey: SITE_KEY,
+          action,
           callback: (token) => onToken?.(token),
           'expired-callback': () => onToken?.(''),
           'error-callback': () => onToken?.(''),
@@ -52,7 +53,7 @@ export default function FormTurnstile({ onToken }) {
         widgetRef.current = null;
       }
     };
-  }, [onToken]);
+  }, [onToken, action]);
 
   if (!SITE_KEY) return null;
 

@@ -1,7 +1,7 @@
 import { useCallback, useState } from 'react';
 import FormTurnstile, { turnstileRequired } from '../components/FormTurnstile';
 
-export function useFormTurnstile() {
+export function useFormTurnstile(action = 'contact') {
   const [token, setToken] = useState('');
   const required = turnstileRequired();
 
@@ -13,7 +13,7 @@ export function useFormTurnstile() {
 
   const reset = useCallback(() => setToken(''), []);
 
-  const widget = <FormTurnstile onToken={setToken} />;
+  const widget = <FormTurnstile onToken={setToken} action={action} />;
 
   return { token, required, assertReady, reset, widget };
 }

@@ -10,7 +10,7 @@ export default function InspectionRequestForm({ id = 'inspection-form', compact 
   const [successOpen, setSuccessOpen] = useState(false);
   const [successMessageText, setSuccessMessageText] = useState('');
   const { token: turnstileToken, assertReady, reset: resetTurnstile, widget: turnstileWidget } =
-    useFormTurnstile();
+    useFormTurnstile('inspection');
 
   const handleSubmit = async (e) => {
     e.preventDefault();
