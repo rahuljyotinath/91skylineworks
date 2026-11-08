@@ -4,6 +4,13 @@ set -euo pipefail
 ROOT="$(cd "$(dirname "$0")/.." && pwd)"
 cd "$ROOT"
 
+if [[ "${CI:-}" == "true" ]]; then
+  if [[ -z "${CLOUDFLARE_API_TOKEN:-}" || -z "${CLOUDFLARE_ACCOUNT_ID:-}" ]]; then
+    echo "[ci] ERROR: set CLOUDFLARE_API_TOKEN and CLOUDFLARE_ACCOUNT_ID in repository secrets (Settings → Secrets → Actions)."
+    exit 1
+  fi
+fi
+
 echo "[ci] frontend build..."
 export VITE_GTM_ID="${VITE_GTM_ID:-}"
 export VITE_CF_BEACON_TOKEN="${VITE_CF_BEACON_TOKEN:-}"

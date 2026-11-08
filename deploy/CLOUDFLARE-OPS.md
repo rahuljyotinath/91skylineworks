@@ -25,6 +25,21 @@ Manual run: Actions → Deploy Cloudflare Worker → optionally **sync R2 conten
 
 Local equivalent: `bash deploy/cloudflare-ci-build.sh`
 
+### Troubleshooting CI
+
+GitHub → **Actions** → **Deploy Cloudflare Worker** → failed run → **Build and deploy** log.
+
+| Symptom / log | Cause | Fix |
+|---------------|-------|-----|
+| `set a CLOUDFLARE_API_TOKEN environment variable` | Repo secrets missing or empty | Settings → Secrets → set `CLOUDFLARE_API_TOKEN` and `CLOUDFLARE_ACCOUNT_ID` (see table above) |
+| `Hostname 'www.…' already has externally managed DNS records` (**code 100117**) | `www` has A/CNAME in DNS while `worker/wrangler.toml` adds Worker **custom_domain** for the same host | DNS → remove conflicting `www` record; let Worker custom domain own `www` (apex unchanged). Do **not** remove `www` from `wrangler.toml` without a redirect plan |
+| Run ends `cancelled`, not `failure` | `concurrency: cancel-in-progress` — newer push on `main` aborted this deploy | Check the **newer** run; usually the latest push is the one that matters |
+| Build succeeds, `wrangler deploy` fails on R2/D1 | API token missing **D1 Edit** or **R2** permissions | Recreate token with Workers Scripts Edit + D1 Edit + R2; update GitHub secret |
+
+**DNS rule:** each `[[routes]]` with `custom_domain = true` in `wrangler.toml` must not compete with manual A/CNAME on that hostname. This repo’s CI token typically has **no Zone DNS Edit** — DNS fixes are manual in the dashboard.
+
+**Verify green:** latest run log ends with `[ci] done`; spot-check `https://91skylineworks.com/` and `https://www.91skylineworks.com/`.
+
 ---
 
 ## Web Analytics
