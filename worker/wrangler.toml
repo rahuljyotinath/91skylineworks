@@ -16,7 +16,9 @@ run_worker_first = true
 pattern = "91skylineworks.com"
 custom_domain = true
 
-# www → apex via DNS CNAME (proxied); no second Worker custom domain (avoids 100117).
+[[routes]]
+pattern = "www.91skylineworks.com"
+custom_domain = true
 
 [[d1_databases]]
 binding = "DB"
