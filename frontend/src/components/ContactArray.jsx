@@ -3,6 +3,7 @@ import SectionReveal from './SectionReveal';
 import FormSuccessModal from './FormSuccessModal';
 import MediaUploadField from './MediaUploadField';
 import FieldSelect from './FieldSelect';
+import { useFormTurnstile } from '../hooks/useFormTurnstile';
 import { submitLead, successMessage } from '../lib/submitLead';
 import { trackLead } from '../utils/analytics';
 import './ContactArray.css';
@@ -22,6 +23,8 @@ export default function ContactArray({ contact, serviceCategories, navServices }
   const [successMessageText, setSuccessMessageText] = useState('');
   const [files, setFiles] = useState([]);
   const [form, setForm] = useState({ name: '', phone: '', email: '', scope: '', msg: '' });
+  const { token: turnstileToken, assertReady, reset: resetTurnstile, widget: turnstileWidget } =
+    useFormTurnstile();
 
   const categoryOptions = useMemo(
     () => buildCategoryOptions(serviceCategories, navServices),
@@ -42,6 +45,7 @@ export default function ContactArray({ contact, serviceCategories, navServices }
       return;
     }
     try {
+      assertReady();
       const data = await submitLead({
         name: form.name.trim(),
         phone: form.phone.trim(),
@@ -50,6 +54,7 @@ export default function ContactArray({ contact, serviceCategories, navServices }
         source: 'contact',
         metadata: { message: form.msg.trim() },
         files,
+        turnstileToken,
       });
       const firstName = form.name.trim().split(' ')[0];
       setSuccessMessageText(successMessage(data, firstName));
@@ -57,6 +62,7 @@ export default function ContactArray({ contact, serviceCategories, navServices }
       trackLead('contact');
       setForm({ name: '', phone: '', email: '', scope: '', msg: '' });
       setFiles([]);
+      resetTurnstile();
     } catch (err) {
       setError(err.message === 'Submission failed' ? 'Something went wrong — please call us directly' : err.message);
     }
@@ -151,6 +157,7 @@ export default function ContactArray({ contact, serviceCategories, navServices }
               />
             </div>
             <MediaUploadField files={files} onChange={setFiles} />
+            {turnstileWidget}
             <button type="submit" className="btn btn--primary" style={{ width: '100%', justifyContent: 'center' }}>
               Send message <span className="arrow">→</span>
             </button>

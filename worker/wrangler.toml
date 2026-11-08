@@ -1,0 +1,36 @@
+name = "skylineworks"
+main = "src/index.ts"
+compatibility_date = "2026-03-26"
+
+[observability]
+enabled = true
+
+[assets]
+directory = "../frontend/dist"
+binding = "ASSETS"
+not_found_handling = "single-page-application"
+html_handling = "drop-trailing-slash"
+run_worker_first = true
+
+[[routes]]
+pattern = "91skylineworks.com"
+custom_domain = true
+
+# www → apex via DNS CNAME (proxied); no second Worker custom domain (avoids 100117).
+
+[[d1_databases]]
+binding = "DB"
+database_name = "skylineworks"
+# After: wrangler d1 create skylineworks — paste database_id below (or npm run cf:init)
+database_id = "4942c1bb-7c9c-4545-b33f-13288d64bd68"
+
+[[r2_buckets]]
+binding = "UPLOADS"
+bucket_name = "skylineworks-uploads"
+
+[vars]
+MAIL_TO = "contact@91skylineworks.com"
+MAIL_FROM = "website@91skylineworks.com"
+MAIL_FROM_NAME = "91SkylineWorks Website"
+
+# wrangler secret put RESEND_API_KEY

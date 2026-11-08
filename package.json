@@ -6,7 +6,16 @@
     "dev:backend": "npm run dev --prefix backend",
     "build": "npm run build --prefix frontend",
     "start:backend": "npm start --prefix backend",
+    "test:earthquakes": "node frontend/src/lib/earthquakes.test.mjs",
     "release": "bash deploy/build-release.sh",
-    "upload": "bash deploy/upload-ftp.sh"
+    "upload": "bash deploy/upload-ftp.sh",
+    "cf:verify": "node deploy/cloudflare-verify.mjs",
+    "cf:www-dns": "node deploy/cloudflare-dns-www.mjs",
+    "cf:cutover": "bash deploy/cloudflare-cutover.sh",
+    "cf:seed": "node deploy/cloudflare-import-d1.mjs --remote",
+    "cf:resend-php": "bash deploy/sync-resend-to-php-config.sh",
+    "cf:go-live": "bash deploy/cloudflare-go-live.sh",
+    "cf:dns-origin-off": "node deploy/cloudflare-dns-remove-origin.mjs",
+    "cf:deploy-ci": "bash deploy/cloudflare-ci-build.sh"
   }
 }

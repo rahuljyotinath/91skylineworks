@@ -1,0 +1,48 @@
+name: Deploy Cloudflare Worker
+
+on:
+  push:
+    branches: [main, master]
+    paths:
+      - 'frontend/**'
+      - 'worker/**'
+      - 'backend/src/seed/**'
+      - 'deploy/generate-seo.mjs'
+      - 'deploy/cloudflare-import-d1.mjs'
+      - 'deploy/cloudflare-ci-build.sh'
+      - '.github/workflows/deploy-cloudflare.yml'
+  workflow_dispatch:
+    inputs:
+      sync_r2_content:
+        description: 'Upload content JSON to R2 (seed/*.json)'
+        type: boolean
+        default: false
+
+concurrency:
+  group: deploy-cloudflare
+  cancel-in-progress: true
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '22'
+          cache: npm
+          cache-dependency-path: |
+            frontend/package-lock.json
+            worker/package-lock.json
+
+      - name: Build and deploy
+        working-directory: .
+        run: bash deploy/cloudflare-ci-build.sh
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          VITE_GTM_ID: ${{ secrets.VITE_GTM_ID }}
+          VITE_CF_BEACON_TOKEN: ${{ secrets.VITE_CF_BEACON_TOKEN }}
+          VITE_TURNSTILE_SITE_KEY: ${{ secrets.VITE_TURNSTILE_SITE_KEY }}
+          CF_SYNC_R2_CONTENT: ${{ github.event.inputs.sync_r2_content == 'true' && '1' || '' }}

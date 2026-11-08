@@ -3,6 +3,7 @@ import SectionReveal from './SectionReveal';
 import FormSuccessModal from './FormSuccessModal';
 import MediaUploadField from './MediaUploadField';
 import SkylineVisionEngine from '../lib/SkylineVisionEngine';
+import { useFormTurnstile } from '../hooks/useFormTurnstile';
 import { submitLead, successMessage } from '../lib/submitLead';
 import { trackLead } from '../utils/analytics';
 import './VisionScanner.css';
@@ -38,6 +39,8 @@ function DiagnosticResult({ evaluation, phone }) {
 function EscalationForm({ onSubmit, error }) {
   const [form, setForm] = useState({ name: '', phone: '', loc: '' });
   const [files, setFiles] = useState([]);
+  const [localError, setLocalError] = useState(null);
+  const { token: turnstileToken, assertReady, widget: turnstileWidget } = useFormTurnstile();
 
   return (
     <div className="escalation-form-wrap">
@@ -50,7 +53,13 @@ function EscalationForm({ onSubmit, error }) {
         className="esc-form"
         onSubmit={(e) => {
           e.preventDefault();
-          onSubmit(form, files);
+          setLocalError(null);
+          try {
+            assertReady();
+            onSubmit(form, files, turnstileToken);
+          } catch (err) {
+            setLocalError(err.message);
+          }
         }}
       >
         <input
@@ -75,10 +84,11 @@ function EscalationForm({ onSubmit, error }) {
           onChange={(e) => setForm({ ...form, loc: e.target.value })}
         />
         <MediaUploadField files={files} onChange={setFiles} label="Attach scan photos or video (optional)" />
+        {turnstileWidget}
         <button type="submit" className="btn btn--threat" style={{ width: '100%', justifyContent: 'center' }}>
           Transmit Structural Packets to Chief Diagnostics Officer
         </button>
-        {error && <p className="form-note">{error}</p>}
+        {(localError || error) && <p className="form-note">{localError || error}</p>}
       </form>
     </div>
   );
@@ -134,7 +144,7 @@ export default function VisionScanner({ contact }) {
     setPhase('done');
   }, []);
 
-  const handleEscalation = async (form, files) => {
+  const handleEscalation = async (form, files, turnstileToken) => {
     setEscError(null);
     try {
       const data = await submitLead({
@@ -143,6 +153,7 @@ export default function VisionScanner({ contact }) {
         locality: form.loc,
         source: 'escalation',
         files,
+        turnstileToken,
       });
       const firstName = form.name.trim().split(' ')[0];
       setSuccessMessageText(successMessage(data, firstName));

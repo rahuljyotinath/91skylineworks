@@ -2,6 +2,7 @@ import { useState } from 'react';
 import SectionReveal from './SectionReveal';
 import FormSuccessModal from './FormSuccessModal';
 import MediaUploadField from './MediaUploadField';
+import { useFormTurnstile } from '../hooks/useFormTurnstile';
 import { submitLead, successMessage } from '../lib/submitLead';
 import { trackLead } from '../utils/analytics';
 import './DiagnosticQuiz.css';
@@ -31,6 +32,8 @@ export default function DiagnosticQuiz({ contact }) {
   const [error, setError] = useState(null);
   const [successOpen, setSuccessOpen] = useState(false);
   const [successMessageText, setSuccessMessageText] = useState('');
+  const { token: turnstileToken, assertReady, reset: resetTurnstile, widget: turnstileWidget } =
+    useFormTurnstile();
 
   const isCritical =
     answers.age === 'pre-2002' &&
@@ -45,6 +48,7 @@ export default function DiagnosticQuiz({ contact }) {
     e.preventDefault();
     setError(null);
     try {
+      assertReady();
       const data = await submitLead({
         name: leadForm.name,
         phone: leadForm.phone,
@@ -52,6 +56,7 @@ export default function DiagnosticQuiz({ contact }) {
         source: 'quiz',
         metadata: answers,
         files,
+        turnstileToken,
       });
       const firstName = leadForm.name.trim().split(' ')[0];
       setSuccessMessageText(successMessage(data, firstName));
@@ -59,6 +64,7 @@ export default function DiagnosticQuiz({ contact }) {
       trackLead('assessment');
       setLeadForm({ name: '', phone: '', loc: '' });
       setFiles([]);
+      resetTurnstile();
     } catch (err) {
       setError(err.message);
     }
@@ -172,6 +178,7 @@ URGENCY THREAT LEVEL: MAXIMUM EXTREME METRIC.`}
                 onChange={(e) => setLeadForm({ ...leadForm, loc: e.target.value })}
               />
               <MediaUploadField files={files} onChange={setFiles} label="Upload crack or leak photos (optional)" />
+              {turnstileWidget}
               <button type="submit" className="btn btn--primary" style={{ width: '100%', justifyContent: 'center' }}>
                 Transmit for field review
               </button>

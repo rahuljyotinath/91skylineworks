@@ -4,6 +4,7 @@ import SiteFooter from '../components/SiteFooter';
 import WhatsAppCTA from '../components/WhatsAppCTA';
 import FloatingContactFab from '../components/FloatingContactFab';
 import ConsentBanner from '../components/ConsentBanner';
+import CfWebAnalytics from '../components/CfWebAnalytics';
 import GtmLoader from '../components/GtmLoader';
 import useContent from '../hooks/useContent';
 import { LocaleProvider } from '../context/LocaleContext';
@@ -29,6 +30,7 @@ export default function AppLayout({ locale = 'en' }) {
   return (
     <LocaleProvider locale={locale}>
       <GtmLoader />
+      <CfWebAnalytics />
       <Header content={content} locale={locale} />
       <main>
         <Outlet context={{ content, locale }} />

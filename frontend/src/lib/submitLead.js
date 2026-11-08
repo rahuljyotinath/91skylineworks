@@ -1,4 +1,4 @@
-const LEADS_URL = '/api/leads.php';
+const LEADS_URL = '/api/leads';
 const MAX_FILES = 5;
 const MAX_BYTES = 25 * 1024 * 1024;
 
@@ -16,7 +16,16 @@ function validateFiles(files) {
   }
 }
 
-export async function submitLead({ name, phone, email, locality, source, metadata, files = [] }) {
+export async function submitLead({
+  name,
+  phone,
+  email,
+  locality,
+  source,
+  metadata,
+  files = [],
+  turnstileToken = '',
+}) {
   validateFiles(files);
 
   let response;
@@ -29,6 +38,7 @@ export async function submitLead({ name, phone, email, locality, source, metadat
     if (locality) formData.append('locality', locality);
     formData.append('source', source);
     if (metadata) formData.append('metadata', JSON.stringify(metadata));
+    if (turnstileToken) formData.append('cf-turnstile-response', turnstileToken);
     files.forEach((file) => formData.append('attachments', file));
 
     response = await fetch(LEADS_URL, {
@@ -46,6 +56,7 @@ export async function submitLead({ name, phone, email, locality, source, metadat
         locality,
         source,
         metadata,
+        ...(turnstileToken ? { 'cf-turnstile-response': turnstileToken } : {}),
       }),
     });
   }
