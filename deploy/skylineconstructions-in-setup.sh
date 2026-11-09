@@ -30,7 +30,8 @@ fi
 
 say "━━━ 1. DNS (dashboard) — stop proxying to old host ━━━"
 step "Cloudflare → $ZONE_NAME → DNS"
-step "Delete A/CNAME records pointing to MilesWeb / herosite / LiteSpeed (any record showing origin IP)."
+step "DELETE proxied A/CNAME to old hosting (HeroSite / LiteSpeed — traffic still shows x-turbo-charged-by: LiteSpeed until removed)."
+step "Worker custom domain needs apex free of conflicting records (error 100117). Delete @ and www origin records first, then re-run: cd worker && npx wrangler deploy"
 step "Leave Email Routing MX/TXT that Cloudflare adds for routing (do not delete those)."
 step "After Worker deploy below, custom domains may add apex/www records automatically."
 step "If www CNAME to apex causes Worker error 100117, delete www CNAME (same fix as 91skylineworks.com)."
