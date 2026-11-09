@@ -7,7 +7,7 @@ export default defineConfig({
   build: {
     modulePreload: {
       resolveDependencies: (_filename, deps) =>
-        deps.filter((dep) => !dep.includes('leaflet')),
+        deps.filter((dep) => !dep.includes('leaflet') && !dep.includes('home-below-fold')),
     },
     rollupOptions: {
       output: {
