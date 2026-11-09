@@ -23,6 +23,7 @@ export default function ConsentBanner() {
       ad_personalization: granted ? 'granted' : 'denied',
     });
     trackEvent('consent_choice', { consent: granted ? 'accept' : 'reject' });
+    window.dispatchEvent(new Event('91sw_consent_change'));
     setVisible(false);
   };
 

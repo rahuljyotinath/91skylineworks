@@ -9,7 +9,7 @@ const EarthquakeMap = lazy(() => import('./EarthquakeMap'));
 
 export default function EarthquakeHomeSection({ copy = {}, limit = 5 }) {
   const [selectedId, setSelectedId] = useState(null);
-  const [sectionRef, inView] = useInView();
+  const [sectionRef, inView] = useInView({ rootMargin: '120px 0px' });
   const { events, loading, error } = useEarthquakes('ne', {
     enabled: inView,
   });

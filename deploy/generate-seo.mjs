@@ -767,18 +767,11 @@ function applySeoToHtml(html, route) {
 
   const seoBlock = buildSeoHead(route, safeTitle, safeDescription);
   const hideStyle = buildStaticContentHideStyle();
-  const gtmId = loadGtmId();
-  const gtmHead = buildGtmHead(gtmId);
   const perfBlock = `${buildHeroPreload()}\n    ${buildContentBootstrap()}`;
   if (out.includes('<!-- seo:injected -->')) {
-    out = out.replace('<!-- seo:injected -->', `${seoBlock}\n    ${hideStyle}\n    ${gtmHead}\n    ${perfBlock}`);
+    out = out.replace('<!-- seo:injected -->', `${seoBlock}\n    ${hideStyle}\n    ${perfBlock}`);
   } else {
-    out = out.replace('</head>', `    ${seoBlock}\n    ${hideStyle}\n    ${gtmHead}\n    ${perfBlock}\n  </head>`);
-  }
-
-  const gtmBody = buildGtmBody(gtmId);
-  if (gtmBody && out.includes('<body>')) {
-    out = out.replace('<body>', `<body>\n    ${gtmBody}`);
+    out = out.replace('</head>', `    ${seoBlock}\n    ${hideStyle}\n    ${perfBlock}\n  </head>`);
   }
 
   const article = buildStaticArticle(route);

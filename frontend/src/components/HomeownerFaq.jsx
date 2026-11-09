@@ -8,21 +8,21 @@ export default function HomeownerFaq({ data }) {
     <section className="homeowner-faq">
       <div className="wrap">
         <SectionHead eyebrow={data.eyebrow} headline={data.headline} />
-        <dl className="faq-list">
+        <div className="faq-list" role="list">
           {data.items.map((item) => (
-            <details key={item.q} className="faq-item panel">
+            <details key={item.q} className="faq-item panel" role="listitem">
               <summary>{item.q}</summary>
-              <dd>
+              <div className="faq-answer">
                 <p>{item.a}</p>
                 {item.link && (
                   <p className="faq-link">
                     <LocalizedLink to={item.link.href}>{item.link.label}</LocalizedLink>
                   </p>
                 )}
-              </dd>
+              </div>
             </details>
           ))}
-        </dl>
+        </div>
       </div>
     </section>
   );
