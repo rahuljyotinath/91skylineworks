@@ -134,7 +134,7 @@ Check Gmail (and Spam). Resend dashboard → **Emails** if the key can list logs
 
 ## skylineconstructions.in (legacy domain)
 
-**Redirect:** Worker returns **301** to `https://91skylineworks.com` with the same path and query (`worker/src/index.ts`, custom domains in `worker/wrangler.toml`).
+**Redirect:** Worker returns **301** to `https://91skylineworks.com` with the same path and query (`worker/src/index.ts`). **`.in` is not in `wrangler.toml`** — the CI token only has Workers/DNS on **91skylineworks.com**. Attach **zone routes** on `skylineconstructions.in` manually or run `node deploy/skyline-in-attach-routes.mjs` with a token that has **Zone → Workers Routes → Edit** on `.in`.
 
 **Setup:** `bash deploy/skylineconstructions-in-setup.sh` — DNS cleanup + Email Routing checklist.
 

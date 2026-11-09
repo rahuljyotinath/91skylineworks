@@ -20,10 +20,17 @@ async function main() {
   const hosts = (domJson.result ?? []).map((d) => `${d.hostname} (${d.enabled ? 'Active' : 'off'})`);
   console.log('[worker] skylineworks custom domains:', hosts.length ? hosts.join(', ') : '(none)');
 
-  const need = ['skylineconstructions.in', 'www.skylineconstructions.in'];
-  const attached = new Set((domJson.result ?? []).map((d) => d.hostname));
-  for (const h of need) {
-    console.log(h, attached.has(h) ? 'OK attached' : 'MISSING — fix DNS (error 100117) then wrangler deploy');
+  const zoneId = process.env.CF_ZONE_ID_SKYLINEIN || 'e34566879e328e16bb770510fe2affdf';
+  const routeRes = await fetch(
+    `https://api.cloudflare.com/client/v4/zones/${zoneId}/workers/routes`,
+    { headers: { Authorization: `Bearer ${TOKEN}` } },
+  );
+  const routeJson = await routeRes.json();
+  const patterns = (routeJson.result ?? []).map((r) => r.pattern);
+  console.log('[worker] .in zone routes:', patterns.length ? patterns.join(', ') : routeJson.success === false ? '(API denied — check curl below)' : '(none)');
+  for (const p of ['skylineconstructions.in/*', 'www.skylineconstructions.in/*']) {
+    const ok = patterns.some((x) => x === p);
+    console.log(p, ok ? 'OK route' : 'MISSING — dashboard routes or npm run cf:skyline-in-routes');
   }
 
   for (const url of ['https://skylineconstructions.in/', 'https://www.skylineconstructions.in/']) {

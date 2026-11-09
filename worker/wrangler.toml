@@ -20,13 +20,8 @@ custom_domain = true
 pattern = "www.91skylineworks.com"
 custom_domain = true
 
-[[routes]]
-pattern = "skylineconstructions.in"
-custom_domain = true
-
-[[routes]]
-pattern = "www.skylineconstructions.in"
-custom_domain = true
+# skylineconstructions.in: NOT in wrangler (CI token is 91skylineworks.com-only).
+# Attach via dashboard route or: node deploy/skyline-in-attach-routes.mjs (token with .in Workers Routes Edit).
 
 [[d1_databases]]
 binding = "DB"

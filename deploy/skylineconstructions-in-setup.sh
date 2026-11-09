@@ -39,11 +39,15 @@ step "Leave Email Routing MX/TXT that Cloudflare adds for routing (do not delete
 step "After Worker deploy below, custom domains may add apex/www records automatically."
 step "If www CNAME to apex causes Worker error 100117, delete www CNAME (same fix as 91skylineworks.com)."
 
-say "━━━ 2. Deploy Worker (301 on .in hostnames) ━━━"
-step "From repo: bash deploy/cloudflare-ci-build.sh"
-step "Or push to main — GitHub Actions deploys Worker with custom domains:"
-step "  skylineconstructions.in, www.skylineconstructions.in → 301 → $TARGET (path preserved)"
+say "━━━ 2. Attach Worker routes (301 on .in) ━━━"
+step "CI token cannot edit .in zone — routes are NOT in worker/wrangler.toml (avoids deploy failure)."
+step "Option A — dashboard: Workers & Pages → skylineworks → Settings → Triggers → Add route"
+step "  skylineconstructions.in/*  and  www.skylineconstructions.in/*  (zone $ZONE_NAME)"
+step "Option B — API token with Zone Workers Routes Edit on $ZONE_NAME:"
+step "  node deploy/skyline-in-attach-routes.mjs"
+step "Option C — custom domains: delete proxied @/www A/CNAME, then add custom domains in wrangler (needs DNS Edit token)."
 step "Worker logic: worker/src/index.ts LEGACY_REDIRECT_HOSTS"
+step "Deploy script/host: bash deploy/cloudflare-ci-build.sh (only .com custom domains)."
 
 say "━━━ 3. Verify redirect ━━━"
 step 'curl -sI "https://skylineconstructions.in/contact" | grep -i "^HTTP\\|^location"'
