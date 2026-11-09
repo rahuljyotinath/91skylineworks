@@ -1354,7 +1354,8 @@ body.app-ready #hero-prerender {
   padding: 1rem 1.25rem;
 }
 
-.homeowner-faq .faq-item dd {
+.homeowner-faq .faq-item dd,
+.homeowner-faq .faq-item .faq-answer {
   margin: 0;
   padding: 0 1.25rem 1rem;
 }
