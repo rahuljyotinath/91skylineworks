@@ -14,11 +14,14 @@ Workflow: [.github/workflows/deploy-cloudflare.yml](../.github/workflows/deploy-
 | `VITE_CF_BEACON_TOKEN` | Cloudflare Web Analytics beacon token |
 | `VITE_TURNSTILE_SITE_KEY` | Turnstile site key (public) |
 
-**Worker secret** (not in GitHub unless you add a CI step):
+**Worker secrets** (required for production forms; not stored in GitHub):
 
 ```bash
+cd worker && npx wrangler secret put RESEND_API_KEY
 cd worker && npx wrangler secret put TURNSTILE_SECRET_KEY
 ```
+
+Resend key lives in `deploy/.cloudflare.env` locally — pipe into wrangler after cutover, or run `npm run cf:cutover` (see `deploy/cloudflare-cutover.sh`).
 
 Deploy on push to `main` / `master` when frontend, worker, or seed changes.  
 Manual run: Actions → Deploy Cloudflare Worker → optionally **sync R2 content**.
@@ -82,6 +85,32 @@ Response headers (CSP, HSTS, etc.) are applied in the Worker — see `worker/src
 4. Redeploy frontend + worker.
 
 If site key is unset, widgets hidden and API skips verification.
+
+---
+
+## Contact forms → Gmail
+
+Flow: browser → Worker `/api/leads` → **D1** `leads` row → **Resend** → `contact@91skylineworks.com` → **Cloudflare Email Routing** → your Gmail.
+
+| Check | Where |
+|-------|--------|
+| `RESEND_API_KEY` bound | `cd worker && npx wrangler secret list` — must include `RESEND_API_KEY` |
+| Send domain | Resend → domain `91skylineworks.com` verified; From `website@91skylineworks.com` (`wrangler.toml` `MAIL_FROM`) |
+| Inbox | Email Routing: `contact@` → destination Gmail (`MAIL_TO` in `wrangler.toml`) |
+| Did mail send? | DevTools → form POST response JSON: `"emailSent": true` |
+
+If the form succeeds but `emailSent` is **false**, the lead is still in D1 — fix Resend secret or domain, then resubmit.
+
+Test Resend (local, from `deploy/.cloudflare.env`):
+
+```bash
+curl -sS -X POST https://api.resend.com/emails \
+  -H "Authorization: Bearer $RESEND_API_KEY" \
+  -H "Content-Type: application/json" \
+  -d '{"from":"91SkylineWorks Website <website@91skylineworks.com>","to":["contact@91skylineworks.com"],"subject":"Resend test","text":"ping"}'
+```
+
+Check Gmail (and Spam). Resend dashboard → **Emails** if the key can list logs.
 
 ---
 
