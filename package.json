@@ -15,6 +15,7 @@
     "cf:seed": "node deploy/cloudflare-import-d1.mjs --remote",
     "cf:resend-php": "bash deploy/sync-resend-to-php-config.sh",
     "cf:go-live": "bash deploy/cloudflare-go-live.sh",
+    "cf:skyline-in": "bash deploy/skylineconstructions-in-setup.sh",
     "cf:dns-origin-off": "node deploy/cloudflare-dns-remove-origin.mjs",
     "cf:deploy-ci": "bash deploy/cloudflare-ci-build.sh"
   }

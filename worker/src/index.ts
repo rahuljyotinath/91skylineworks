@@ -17,11 +17,22 @@ app.use('*', async (c, next) => {
   c.res = new Response(res.body, { status: res.status, statusText: res.statusText, headers });
 });
 
+const PRIMARY_HOST = '91skylineworks.com';
+
+const LEGACY_REDIRECT_HOSTS = new Set(['skylineconstructions.in', 'www.skylineconstructions.in']);
+
 app.use('*', async (c, next) => {
-  const host = new URL(c.req.url).hostname.toLowerCase();
+  const url = new URL(c.req.url);
+  const host = url.hostname.toLowerCase();
+
+  if (LEGACY_REDIRECT_HOSTS.has(host)) {
+    url.protocol = 'https:';
+    url.hostname = PRIMARY_HOST;
+    return c.redirect(url.toString(), 301);
+  }
+
   if (host === 'www.91skylineworks.com') {
-    const url = new URL(c.req.url);
-    url.hostname = '91skylineworks.com';
+    url.hostname = PRIMARY_HOST;
     return c.redirect(url.toString(), 301);
   }
   await next();

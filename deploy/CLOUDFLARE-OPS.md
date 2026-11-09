@@ -132,6 +132,25 @@ Check Gmail (and Spam). Resend dashboard → **Emails** if the key can list logs
 
 ---
 
+## skylineconstructions.in (legacy domain)
+
+**Redirect:** Worker returns **301** to `https://91skylineworks.com` with the same path and query (`worker/src/index.ts`, custom domains in `worker/wrangler.toml`).
+
+**Setup:** `bash deploy/skylineconstructions-in-setup.sh` — DNS cleanup + Email Routing checklist.
+
+| Item | Value |
+|------|--------|
+| Zone ID | `e34566879e328e16bb770510fe2affdf` (optional `CF_ZONE_ID_SKYLINEIN` in `.cloudflare.env`) |
+| Redirect verify | `curl -sI 'https://skylineconstructions.in/contact' \| grep -i '^HTTP\\|^location'` |
+| Inbound mail | Email Routing on **skylineconstructions.in** zone |
+| Addresses | `contact@`, `website@`, `rahul@` → `rahuljyotinath@gmail.com` |
+
+Remove old **A/CNAME to MilesWeb/herosite** in DNS so traffic hits the Worker, not LiteSpeed (`x-turbo-charged-by: LiteSpeed` means origin is wrong).
+
+Forms and Resend stay on **91skylineworks.com** addresses unless you add a second Resend domain later.
+
+---
+
 ## SEO
 
 CI runs `deploy/generate-seo.mjs` after each build:
